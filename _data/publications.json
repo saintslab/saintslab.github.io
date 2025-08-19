@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Sustainable Foundations: Energy\u2013Accuracy Tradeoffs in Scientific ML",
+    "authors": [
+      "Firstname Lastname",
+      "Coauthor A",
+      "Coauthor B"
+    ],
+    "venue": "NeurIPS",
+    "year": "2024",
+    "link": "https://example.org/paper1",
+    "resources": [
+      {
+        "label": "PDF",
+        "url": "https://example.org/paper1.pdf"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/example/paper1"
+      }
+    ]
+  },
+  {
+    "title": "Data-Efficient Learning for Environmental Monitoring",
+    "authors": [
+      "Firstname Lastname",
+      "Coauthor C"
+    ],
+    "venue": "ICLR",
+    "year": "2023",
+    "link": "https://example.org/paper2",
+    "resources": [
+      {
+        "label": "PDF",
+        "url": "https://example.org/paper2.pdf"
+      }
+    ]
+  }
+]

@@ -1,377 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SAINTS Lab — Sustainable Artificial Intelligence for Sciences</title>
-  <meta name="description" content="SAINTS Lab — Sustainable Artificial Intelligence for Sciences" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg-1: #0d2030;
-      --bg-2: #0f2e3a;
-      --bg-3: #0b3c49;
-      --blue: #3aa9ff;
-      --green: #2ed1a2;
-      --text: #e9f3fb;
-      --muted: #b8c9d6;
-      --card: rgba(255,255,255,0.06);
-      --card-border: rgba(255,255,255,0.12);
-      --shadow: 0 10px 30px rgba(0,0,0,0.25);
-      --radius: 18px;
-      --radius-sm: 12px;
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;height:100%;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background: radial-gradient(1200px 800px at 10% -10%, #0a2a38 0%, transparent 70%), radial-gradient(900px 600px at 110% 10%, #053142 0%, transparent 65%), linear-gradient(180deg, var(--bg-1), var(--bg-3));}
-    a{color:inherit;text-decoration:none}
-    .container{max-width:1100px;margin:0 auto;padding:22px}
-    header{position:sticky;top:0;backdrop-filter:saturate(1.5) blur(8px);background:linear-gradient(180deg, rgba(9,28,40,0.85), rgba(9,28,40,0.6));border-bottom:1px solid var(--card-border);z-index:50}
-    .nav{display:flex;align-items:center;gap:18px;justify-content:space-between}
-    .brand{display:flex;align-items:center;gap:14px}
-    .logo{width:40px;height:40px;border-radius:12px;background: conic-gradient(from 210deg, var(--green), var(--blue));box-shadow: inset 0 0 12px rgba(255,255,255,0.2), var(--shadow)}
-    .title{font-weight:800;letter-spacing:0.4px}
-    .subtitle{font-weight:400;color:var(--muted);font-size:12px;margin-top:2px}
-    nav a{padding:10px 12px;border-radius:12px;color:var(--muted)}
-    nav a.active, nav a:hover{color:white;background:linear-gradient(135deg, rgba(46,209,162,0.16), rgba(58,169,255,0.16));border:1px solid var(--card-border)}
-    .hero{padding:64px 0}
-    .hero-card{display:grid;grid-template-columns:1.2fr 0.8fr;gap:24px;align-items:stretch;background:linear-gradient(160deg, rgba(46,209,162,0.12), rgba(58,169,255,0.12));border:1px solid var(--card-border);border-radius:24px;padding:28px;box-shadow:var(--shadow)}
-    .hero h1{font-size:38px;margin:0 0 8px 0}
-    .hero p{color:var(--muted);margin:0}
-    .badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid var(--card-border);background:rgba(255,255,255,0.05);font-size:13px;color:var(--muted)}
-    .gradient-pill{height:100%;border-radius:18px;background: radial-gradient(600px 300px at 80% 20%, rgba(58,169,255,0.25), transparent 60%), radial-gradient(500px 300px at 20% 80%, rgba(46,209,162,0.25), transparent 60%), linear-gradient(160deg, rgba(58,169,255,0.18), rgba(46,209,162,0.18));border:1px dashed rgba(255,255,255,0.18)}
-
-    .grid{display:grid;gap:18px}
-    .grid.cards{grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
-    .card{background:var(--card);border:1px solid var(--card-border);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
-    .card h3{margin:0 0 6px 0}
-    .muted{color:var(--muted)}
-
-    .footer{margin-top:40px;padding:30px 0;border-top:1px solid var(--card-border);color:var(--muted);font-size:14px}
-
-    /* People cards */
-    .avatar{width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg, var(--blue), var(--green));display:grid;place-items:center;font-weight:700;color:#0b2230}
-    .person-card{display:flex;gap:14px}
-    .pill{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--card-border);background:rgba(255,255,255,0.04);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
-
-    /* Publication list */
-    .pub{padding:14px;border:1px solid var(--card-border);border-radius:12px;background:rgba(255,255,255,0.04)}
-    .pub .title{font-weight:600}
-
-    /* Responsive */
-    @media (max-width: 880px){
-      .hero-card{grid-template-columns:1fr}
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="container nav">
-      <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
-        <div>
-          <div class="title">SAINTS Lab</div>
-          <div class="subtitle">Sustainable Artificial Intelligence for Sciences</div>
-        </div>
+---
+layout: default
+title: Home
+---
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <h1 class="gradient-text">SAINTS Lab</h1>
+      <p class="lead">Sustainable Artificial Intelligence for Sciences. We build data-efficient, robust, and responsible machine learning that accelerates discovery while respecting constraints of energy, compute, and interpretability.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="/publications/">Browse Publications</a>
+        <a class="btn ghost" href="/projects/">Explore Projects</a>
       </div>
-      <nav>
-        <a href="#/" data-route-link>Home</a>
-        <a href="#/people" data-route-link>People</a>
-        <a href="#/publications" data-route-link>Publications</a>
-        <a href="#/projects" data-route-link>Projects</a>
-      </nav>
     </div>
-  </header>
+    <div class="hero-art" aria-hidden="true">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="orb orb-c"></div>
+    </div>
+  </div>
+</section>
 
-  <main class="container" id="app" aria-live="polite"></main>
-
-  <footer class="container footer">
-    © <span id="year"></span> SAINTS Lab. Built for GitHub Pages. Contact: <a href="mailto:">raghav@di.ku.dk</a>
-  </footer>
-
-  <script>
-    // ------- Data you can edit -------
-    const Lab = {
-      name: "SAINTS Lab",
-      tagline: "Sustainable Artificial Intelligence for Sciences",
-      about:
-        "We develop AI methods rooted in sustainability (environmental, economic, and social) that accelerate discovery across the natural and physical sciences.",
-      contacts: [{label:"Email", href:"mailto:raghav@di.ku.dk"}, {label:"GitHub", href:"https://github.com/saintslab"}],
-      heroCTA: {label: "Explore our work", href: "#/projects"}
-    };
-
-    // People. Add one object per person. id becomes the URL path.
-    const People = [
-      {
-        id: "raghav",
-        name: "Raghav",
-        role: "Principal Investigator",
-        avatar: "images/raghav.jpg",
-        interests: ["Sustainable ML", "Resource Efficient ML", "AI for Sciences"],
-        links: [{label:"Scholar", href:"https://scholar.google.com/citations?user=R9VBQ54AAAAJ&hl=en"}, {label:"GitHub", href:"https://github.com/raghavian"}],
-        bio:
-          "Tenure-track Assistant Professor at Machine Learning Section, Department of Computer Science, University of Copenhagen. Leads the SAINTS Lab.",
-        publications: ["wright2025efficiency"],
-        projects: ["Glean", "DataPACT", "SustainML"]
-      },
-      // Example member page
-      {
-        id: "pedram",
-        name: "Pedram Bakhtiarifard",
-        role: "PhD Student",
-        avatar: "images/pedram.jpg",
-        interests: ["NAS", "Representation Learning", "Algorithmic Complexity"],
-        links: [{label:"Scholar", href:"https://scholar.google.com/citations?user=wnOiOHoAAAAJ&hl=en&oi=ao"}],
-        bio:
-          "PhD candidate working on pareto-sustainable AI.",
-        publications: [],
-        projects: ["DataPACT","SustainML"]
-      }
-    ];
-
-    // Publications. Keys referenced by People.publications
-    const Publications = [
-      {
-        key: "wright2025efficiency",
-        title: "Efficiency Is Not Enough: A Critical Perspective on Environmentally Sustainable AI",
-        authors: ["D. Wright", "C. Igel", "G. Samuel", "R. Selvan"],
-        venue: "Communications of ACM",
-        year: 2025,
-        links: [{label:"PDF", href:"https://dl.acm.org/doi/pdf/10.1145/3724500"}, {label:"DOI",href:"https://dl.acm.org/doi/10.1145/3724500"],
-        tags: ["sustainable AI", "efficiency"]
-      }
-    ];
-
-    // Projects
-    const Projects = [
-      {
-        key: "carbontracker",
-        title: "Carbontracker",
-        summary: "Seamlessly measure the carbon footprint of your machine learning models.",
-        links: [{label:"Website", href:"https://carbontracker.info/"}],
-        tags: ["tool", "model"]
-      }
-    ];
-
-    // ------- Tiny router and views -------
-    const $ = (sel, root=document) => root.querySelector(sel);
-    const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
-
-    function setActiveNav(){
-      const hash = location.hash || "#/";
-      $$('nav a').forEach(a=>{
-        if(a.getAttribute('href')===hash || (hash.startsWith('#/people/') && a.getAttribute('href')==='#/people')) a.classList.add('active'); else a.classList.remove('active');
-      })
-    }
-
-    function viewHome(){
-      return `
-      <section class="hero">
-        <div class="hero-card">
-          <div>
-            <span class="badge">${Lab.tagline}</span>
-            <h1>${Lab.name}</h1>
-            <p>${Lab.about}</p>
-            <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;">
-              ${Lab.contacts.map(c=>`<a class="pill" href="${c.href}">${c.label}</a>`).join("")}
-              <a class="pill" href="${Lab.heroCTA.href}">▶ ${Lab.heroCTA.label}</a>
-            </div>
-          </div>
-          <div class="gradient-pill"></div>
+<section id="people" class="section container">
+  <h2 class="section-title">People</h2>
+  <div class="grid people-grid">
+    {% assign sorted = site.people | sort: 'name' %}
+    {% for person in sorted %}
+      <a class="card person-teaser" href="{{ person.url }}">
+        <div class="avatar">
+          {% if person.photo %}
+            <img src="{{ person.photo }}" alt="{{ person.name }}">
+          {% else %}
+            <div class="placeholder">Photo</div>
+          {% endif %}
         </div>
-      </section>
-
-      <section>
-        <h2>Highlights</h2>
-        <div class="grid cards" style="margin-top:12px;">
-          ${Projects.slice(0,3).map(p=>CardProject(p)).join("")}
+        <div class="card-body">
+          <h3>{{ person.name }}</h3>
+          {% if person.role %}<p class="muted">{{ person.role }}</p>{% endif %}
         </div>
-      </section>
-      `;
-    }
+      </a>
+    {% endfor %}
+  </div>
+</section>
 
-    function CardProject(p){
-      return `
-        <article class="card">
-          <h3>${p.title}</h3>
-          <p class="muted">${p.summary}</p>
-          <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap;">
-            ${p.tags.map(t=>`<span class="pill">${t}</span>`).join("")}
-            ${p.links.map(l=>`<a class="pill" href="${l.href}">${l.label}</a>`).join("")}
-          </div>
-        </article>
-      `;
-    }
-
-    function viewPeople(){
-      return `
-        <section>
-          <h2>People</h2>
-          <div class="grid cards" style="margin-top:12px;">
-            ${People.map(PersonCard).join("")}
-          </div>
-        </section>
-      `;
-    }
-
-    function PersonCard(p){
-      const initials = p.name.split(' ').map(x=>x[0]).join('').slice(0,2).toUpperCase();
-      return `
-        <article class="card person-card">
-          <div class="avatar" aria-hidden="true">${initials}</div>
-          <div style="flex:1">
-            <h3 style="margin:0"><a href="#/people/${p.id}">${p.name}</a></h3>
-            <div class="muted">${p.role}</div>
-            <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;">
-              ${p.interests.slice(0,3).map(i=>`<span class='pill'>${i}</span>`).join("")}
-            </div>
-          </div>
-        </article>
-      `;
-    }
-
-    function viewPerson(id){
-      const p = People.find(x=>x.id===id);
-      if(!p){ return NotFound(); }
-      const initials = p.name.split(' ').map(x=>x[0]).join('').slice(0,2).toUpperCase();
-      return `
-        <section class="grid" style="gap:22px;">
-          <div class="card">
-            <div style="display:flex;gap:16px;align-items:center;">
-              <div class="avatar" aria-hidden="true" style="width:72px;height:72px">${initials}</div>
-              <div>
-                <h2 style="margin:0">${p.name}</h2>
-                <div class="muted">${p.role}</div>
-                <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;">
-                  ${p.links.map(l=>`<a class='pill' href='${l.href}'>${l.label}</a>`).join("")}
-                </div>
-              </div>
-            </div>
-            <p style="margin-top:14px" class="muted">${p.bio}</p>
-            <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap;">
-              ${p.interests.map(i=>`<span class='pill'>${i}</span>`).join("")}
-            </div>
-          </div>
-
-          <div class="grid" style="grid-template-columns:1fr 1fr; gap:18px;">
-            <div class="card">
-              <h3>Publications</h3>
-              <div class="grid" style="margin-top:10px;">
-                ${p.publications.length ? p.publications.map(k=>PubItem(k)).join("") : `<div class='muted'>No publications listed yet.</div>`}
-              </div>
-            </div>
-            <div class="card">
-              <h3>Projects</h3>
-              <div class="grid" style="margin-top:10px;">
-                ${p.projects.length ? p.projects.map(k=>ProjItem(k)).join("") : `<div class='muted'>No projects listed yet.</div>`}
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <a class="pill" href="#/people">← Back to People</a>
-          </div>
-        </section>
-      `;
-    }
-
-    function PubItem(key){
-      const pub = Publications.find(p=>p.key===key);
-      if(!pub) return `<div class='muted'>Unknown publication: ${key}</div>`;
-      return `
-        <div class="pub">
-          <div class="title">${pub.title}</div>
-          <div class="muted" style="margin-top:4px">${pub.authors.join(', ')}. <em>${pub.venue}</em>, ${pub.year}.</div>
-          <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;">
-            ${pub.tags.map(t=>`<span class='pill'>${t}</span>`).join("")}
-            ${pub.links.map(l=>`<a class='pill' href='${l.href}'>${l.label}</a>`).join("")}
-          </div>
-        </div>`;
-    }
-
-    function ProjItem(key){
-      const pr = Projects.find(p=>p.key===key);
-      if(!pr) return `<div class='muted'>Unknown project: ${key}</div>`;
-      return `
-        <div class="pub">
-          <div class="title">${pr.title}</div>
-          <div class="muted" style="margin-top:4px">${pr.summary}</div>
-          <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;">
-            ${pr.tags.map(t=>`<span class='pill'>${t}</span>`).join("")}
-            ${pr.links.map(l=>`<a class='pill' href='${l.href}'>${l.label}</a>`).join("")}
-          </div>
-        </div>`;
-    }
-
-    function viewPublications(){
-      const sorted = [...Publications].sort((a,b)=>b.year-a.year);
-      return `
-        <section>
-          <h2>Publications</h2>
-          <div class="grid" style="margin-top:12px;">
-            ${sorted.map(p=>PubItem(p.key)).join("")}
-          </div>
-        </section>
-      `;
-    }
-
-    function viewProjects(){
-      return `
-        <section>
-          <h2>Projects</h2>
-          <div class="grid cards" style="margin-top:12px;">
-            ${Projects.map(p=>CardProject(p)).join("")}
-          </div>
-        </section>
-      `;
-    }
-
-    function NotFound(){
-      return `<section class="card"><h3>Page not found</h3><p class="muted">The page you requested does not exist.</p></section>`
-    }
-
-    function render(){
-    try{
-      setActiveNav();
-      const app = document.getElementById('app');
-      const hash = location.hash && location.hash.startsWith('#/') ? location.hash : '#/';
-      const [_, route, id] = hash.split('/');
-      let html = '';
-      if(route==='') html = viewHome();
-      else if(route==='people' && !id) html = viewPeople();
-      else if(route==='people' && id) html = viewPerson(id);
-      else if(route==='publications') html = viewPublications();
-      else if(route==='projects') html = viewProjects();
-      else html = NotFound();
-      app.innerHTML = html;
-      app.scrollIntoView({behavior:'smooth',block:'start'});
-    }catch(err){
-      const app = document.getElementById('app');
-      app.innerHTML = `<section class="card"><h3>Render error</h3><p class="muted">${err && err.message ? err.message : 'Unknown error'}</p><p class="muted">Open the browser console for details.</p></section>`;
-      console.error('SAINTS render error:', err);
-    }
-  }
-
-  
-  // Start the app and keep it in sync with the URL
-  window.addEventListener('hashchange', render);
-  window.addEventListener('DOMContentLoaded', function () {
-    var y = document.getElementById('year');
-    if (y) y.textContent = new Date().getFullYear();
-    render();
-  });
-
-  </script>
-
-  <!--
-  Deployment notes:
-  1. Create a public repository named saintslab.github.io
-  2. Add this file as index.html at the repo root and push to main
-  3. Edit the People, Publications, and Projects arrays above to populate content
-  4. To add headshots, set avatar to a relative path like images/raghav.jpg and place files under /images
-  5. You can create a CNAME file if using a custom domain later
-  -->
-</body>
-</html>
-
+<section class="section container">
+  <h2 class="section-title">Featured Projects</h2>
+  <div class="grid project-grid">
+    {% for proj in site.data.projects limit:6 %}
+      <a class="card project" href="{{ proj.link | default: '/projects/' }}">
+        <div class="card-body">
+          <h3>{{ proj.title }}</h3>
+          <p class="muted">{{ proj.summary }}</p>
+        </div>
+        {% if proj.tags %}
+        <div class="tags">
+          {% for t in proj.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+        </div>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+</section>

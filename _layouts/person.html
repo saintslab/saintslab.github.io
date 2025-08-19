@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<section class="page-hero">
+  <div class="container">
+    <h1 class="gradient-text">{{ page.name }}</h1>
+    {% if page.role %}<p class="subtitle">{{ page.role }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="section container person">
+  <div class="person-card">
+    <div class="person-photo">
+      {% if page.photo %}
+        <img src="{{ page.photo }}" alt="{{ page.name }}">
+      {% else %}
+        <div class="placeholder">Photo</div>
+      {% endif %}
+    </div>
+    <div class="person-meta">
+      {% if page.email %}<p><strong>Email:</strong> <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>{% endif %}
+      <div class="links">
+        {% if page.website %}<a href="{{ page.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+        {% if page.scholar %}<a href="{{ page.scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+        {% if page.github %}<a href="{{ page.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+        {% if page.twitter %}<a href="{{ page.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
+      </div>
+    </div>
+  </div>
+  <article class="prose">
+    {{ content }}
+  </article>
+</section>

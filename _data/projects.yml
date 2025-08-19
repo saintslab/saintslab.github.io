@@ -1,0 +1,14 @@
+- title: Energy-aware ML for Scientific Workflows
+  summary: Methods to cut training and inference energy while preserving accuracy in HPC-enabled science.
+  link: https://example.org/energy-aware-ml
+  tags: [efficiency, hpc, optimization]
+
+- title: Robust Models for Earth Observation
+  summary: Learning from limited labeled data to monitor environmental change at scale.
+  link: https://example.org/earth-observation
+  tags: [remote sensing, robustness, semi-supervised]
+
+- title: AI for Materials Discovery
+  summary: Accelerating simulation and experiment with uncertainty-aware surrogates.
+  link: https://example.org/materials
+  tags: [materials, uncertainty, bayesian]

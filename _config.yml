@@ -1,0 +1,24 @@
+title: "SAINTS Lab"
+description: "Sustainable Artificial Intelligence for Sciences"
+url: "https://saintslab.github.io"
+baseurl: ""
+permalink: pretty
+
+collections:
+  people:
+    output: true
+    permalink: /people/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: person
+      nav_exclude: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# GitHub Pages will build this without extra plugins.
