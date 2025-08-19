@@ -29,3 +29,18 @@ document.addEventListener('DOMContentLoaded', () => {
   if (q) q.addEventListener('input', applyFilter);
   if (yearSel) yearSel.addEventListener('change', applyFilter);
 });
+
+
+// Theme handling
+(function(){
+  const key = 'theme';
+  const saved = localStorage.getItem(key);
+  const root = document.documentElement;
+  const set = (m)=>{ root.setAttribute('data-theme', m); localStorage.setItem(key, m); };
+  if(saved){ root.setAttribute('data-theme', saved); } else { root.setAttribute('data-theme','light'); }
+  const btn = document.querySelector('.theme-toggle');
+  if(btn){ btn.addEventListener('click', ()=>{
+    const cur = root.getAttribute('data-theme') || 'light';
+    set(cur === 'light' ? 'dark' : 'light');
+  }); }
+})();

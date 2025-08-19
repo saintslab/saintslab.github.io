@@ -16,7 +16,6 @@ defaults:
     values:
       layout: person
       nav_exclude: true
-      order: 999
 
 markdown: kramdown
 kramdown:
