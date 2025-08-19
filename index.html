@@ -332,9 +332,10 @@
     }
 
     function render(){
+    try{
       setActiveNav();
       const app = document.getElementById('app');
-      const hash = location.hash || '#/';
+      const hash = location.hash && location.hash.startsWith('#/') ? location.hash : '#/';
       const [_, route, id] = hash.split('/');
       let html = '';
       if(route==='') html = viewHome();
@@ -345,13 +346,13 @@
       else html = NotFound();
       app.innerHTML = html;
       app.scrollIntoView({behavior:'smooth',block:'start'});
+    }catch(err){
+      const app = document.getElementById('app');
+      app.innerHTML = `<section class="card"><h3>Render error</h3><p class="muted">${err && err.message ? err.message : 'Unknown error'}</p><p class="muted">Open the browser console for details.</p></section>`;
+      console.error('SAINTS render error:', err);
     }
+  }
 
-    window.addEventListener('hashchange', render);
-    window.addEventListener('DOMContentLoaded', ()=>{
-      document.getElementById('year').textContent = new Date().getFullYear();
-      render();
-    });
   </script>
 
   <!--
