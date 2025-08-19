@@ -23,7 +23,7 @@ title: Home
 <section id="people" class="section container">
   <h2 class="section-title">People</h2>
   <div class="grid people-grid">
-    {% assign sorted = site.people | sort: 'name' %}
+    {% assign sorted = site.people | sort: 'order' | sort: 'name'  %}
     {% for person in sorted %}
       <a class="card person-teaser" href="{{ person.url }}">
         <div class="avatar">
