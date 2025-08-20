@@ -36,7 +36,7 @@ def parse_li(li, section_label):
     # We take authors as text up to first period, title as between first period and the period before venue,
     # and venue as the segment ending with the year.
     authors, title, venue = "", "", ""
-    first_dot = txt.find(". ")
+    first_dot = txt.find('"')
     if first_dot != -1:
         authors = txt[:first_dot].strip()
         rest = txt[first_dot+2:].strip()
