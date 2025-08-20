@@ -1,0 +1,33 @@
+# .github/workflows/pubs-sync.yml
+name: Sync publications from raghavian.github.io
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * 1'   # Mondays 05:00 UTC
+  push:
+    paths:
+      - .github/workflows/pubs-sync.yml
+      - scripts/parse_publications.py
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install requests beautifulsoup4 lxml
+      - run: python scripts/parse_publications.py
+      - name: Commit updates
+        run: |
+          if [[ -n "$(git status --porcelain _data/publications.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add _data/publications.json
+            git commit -m "chore: sync publications from raghavian.github.io"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
