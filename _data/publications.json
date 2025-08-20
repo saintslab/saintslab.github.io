@@ -1,14 +1,15 @@
 [
   {
-    "title": "Extraction of airway trees using multiple hypothesis tracking and template matching \". Sixth International Workshop on Pulmonary Image Analysis. MICCAI",
+    "title": "Extraction of airway trees using multiple hypothesis tracking and template matching",
     "authors": [
       "Raghavendra Selvan",
       "Jens Petersen",
       "Jesper H. Pedersen",
-      "Marleen de Bruijne."
+      "Marleen de Bruijne"
     ],
-    "venue": "",
+    "venue": "Sixth International Workshop on Pulmonary Image Analysis. MICCAI",
     "year": "2016",
+    "date": "2016-03-01",
     "link": "https://arxiv.org/abs/1611.08131",
     "resources": [
       {
@@ -19,15 +20,16 @@
     "type": "conference"
   },
   {
-    "title": "Extraction of airways with probabilistic state-space models and Bayesian smoothing \". Graphs in Biomedical Image Analysis, Computational Anatomy and Imaging Genetics",
+    "title": "Extraction of airways with probabilistic state-space models and Bayesian smoothing",
     "authors": [
       "Raghavendra Selvan",
       "Jens Petersen",
       "Jesper H. Pedersen",
-      "Marleen de Bruijne."
+      "Marleen de Bruijne"
     ],
-    "venue": "",
+    "venue": "Graphs in Biomedical Image Analysis, Computational Anatomy and Imaging Genetics",
     "year": "2017",
+    "date": "2017-03-01",
     "link": "https://arxiv.org/abs/1708.02096",
     "resources": [
       {
@@ -38,17 +40,18 @@
     "type": "conference"
   },
   {
-    "title": "Extraction of Airways using Graph Neural Networks \". 1st Conference on Medical Imaging with Deep Learning (MIDL 2018), Amsterdam",
+    "title": "Extraction of Airways using Graph Neural Networks",
     "authors": [
       "Raghavendra Selvan",
       "Thomas Kipf",
       "Max Welling",
       "Jesper H. Pedersen",
       "Jens Petersen",
-      "Marleen de Bruijne."
+      "Marleen de Bruijne"
     ],
-    "venue": "",
+    "venue": "1st Conference on Medical Imaging with Deep Learning (MIDL 2018), Amsterdam",
     "year": "2018",
+    "date": "2018-03-01",
     "link": "https://arxiv.org/abs/1804.04436",
     "resources": [
       {
@@ -59,16 +62,17 @@
     "type": "conference"
   },
   {
-    "title": "Mean field network based graph refinement with application to airway tree extraction \". 21st Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2018), Grenada, Spain",
+    "title": "Mean field network based graph refinement with application to airway tree extraction",
     "authors": [
       "Raghavendra Selvan",
       "Max Welling",
       "Jesper H. Pedersen",
       "Jens Petersen",
-      "Marleen de Bruijne."
+      "Marleen de Bruijne"
     ],
-    "venue": "",
+    "venue": "21st Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2018), Grenada, Spain",
     "year": "2018",
+    "date": "2018-03-01",
     "link": "https://arxiv.org/abs/1804.03348",
     "resources": [
       {
@@ -79,15 +83,16 @@
     "type": "conference"
   },
   {
-    "title": "A joint 3D UNet-Graph Neural Network-based method for Airway Segmentation from chest CTs \". the proceedings of International Workshop on Machine Learning in Medical Imaging",
+    "title": "A joint 3D UNet-Graph Neural Network-based method for Airway Segmentation from chest CTs",
     "authors": [
       "Antonio Juarez",
       "Raghavendra Selvan",
       "Zaigham Saghir",
-      "Marleen de Bruijne."
+      "Marleen de Bruijne"
     ],
-    "venue": "",
+    "venue": "the proceedings of International Workshop on Machine Learning in Medical Imaging",
     "year": "2019",
+    "date": "2019-03-01",
     "link": "https://arxiv.org/abs/1908.08588",
     "resources": [
       {
@@ -98,14 +103,15 @@
     "type": "conference"
   },
   {
-    "title": "Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models \". ICML Workshop on Challenges in Deploying and monitoring Machine Learning Systems",
+    "title": "Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models",
     "authors": [
       "Lasse F Wolff Anthony",
       "Benjamin Kanding",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "ICML Workshop on Challenges in Deploying and monitoring Machine Learning Systems",
     "year": "2020",
+    "date": "2020-01-01",
     "link": "https://arxiv.org/pdf/2007.03051",
     "resources": [
       {
@@ -120,17 +126,18 @@
     "type": "conference"
   },
   {
-    "title": "Characterising the Atomic Structure of Mono-Metallic Nanoparticles from X-Ray Scattering Data Using Conditional Generative Models \". 16th International Workshop on Mining and Learning with Graphs",
+    "title": "Characterising the Atomic Structure of Mono-Metallic Nanoparticles from X-Ray Scattering Data Using Conditional Generative Models",
     "authors": [
       "Andy Sode Anker",
       "Emil TS Kjær",
       "Erik B Dam",
       "Simon JL Billinge",
       "Kirsten MØ Jensen",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "16th International Workshop on Mining and Learning with Graphs",
     "year": "2020",
+    "date": "2020-01-01",
     "link": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c74dd1842e6514f2db3527/original/characterising-the-atomic-structure-of-mono-metallic-nanoparticles-from-x-ray-scattering-data-using-conditional-generative-models.pdf",
     "resources": [
       {
@@ -145,7 +152,7 @@
     "type": "conference"
   },
   {
-    "title": "Lung Segmentation from Chest X-rays using Variational Data Imputation \". ICML Workshop on The Art of Learning with Missing Values (Artemiss-2020)",
+    "title": "Lung Segmentation from Chest X-rays using Variational Data Imputation",
     "authors": [
       "Raghavendra Selvan",
       "Erik B Dam",
@@ -153,10 +160,11 @@
       "Sofus Rischel",
       "Kaining Sheng",
       "Mads Nielsen",
-      "Akshay Pai."
+      "Akshay Pai"
     ],
-    "venue": "",
+    "venue": "ICML Workshop on The Art of Learning with Missing Values (Artemiss-2020)",
     "year": "2020",
+    "date": "2020-01-01",
     "link": "https://arxiv.org/pdf/2005.10052",
     "resources": [
       {
@@ -171,35 +179,14 @@
     "type": "conference"
   },
   {
-    "title": "Multi-layered tensor networks for image classification \". First Workshop on Quantum Tensor Networks in Machine Learning. In conjunction with 34th NeurIPS",
+    "title": "Tensor Networks for Medical Image Classification",
     "authors": [
       "Raghavendra Selvan",
-      "Silas Ørting",
-      "Erik B Dam."
+      "Erik B Dam"
     ],
-    "venue": "",
+    "venue": "Proceedings of International Conference on Medical Imaging with Deep Learning (MIDL). Winner of Runner-up Best Paper Award",
     "year": "2020",
-    "link": "https://arxiv.org/pdf/2011.06982",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/abs/2011.06982"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2011.06982"
-      }
-    ],
-    "type": "conference"
-  },
-  {
-    "title": "Tensor Networks for Medical Image Classification \". Proceedings of International Conference on Medical Imaging with Deep Learning (MIDL). Winner of Runner-up Best Paper Award",
-    "authors": [
-      "Raghavendra Selvan",
-      "Erik B Dam."
-    ],
-    "venue": "",
-    "year": "2020",
+    "date": "2020-01-01",
     "link": "https://openreview.net/pdf?id=jjk6bxk07G",
     "resources": [
       {
@@ -214,15 +201,16 @@
     "type": "conference"
   },
   {
-    "title": "Uncertainty quantification in medical image segmentation with Normalizing Flows \". 11th International Workshop on Machine Learning in Medical Imaging",
+    "title": "Uncertainty quantification in medical image segmentation with Normalizing Flows",
     "authors": [
       "Raghavendra Selvan",
       "Frederik Faye",
       "Jon Middleton",
-      "Akshay Pai."
+      "Akshay Pai"
     ],
-    "venue": "",
+    "venue": "11th International Workshop on Machine Learning in Medical Imaging",
     "year": "2020",
+    "date": "2020-01-01",
     "link": "https://arxiv.org/pdf/2006.02683",
     "resources": [
       {
@@ -237,12 +225,36 @@
     "type": "conference"
   },
   {
-    "title": "Carbon footprint driven deep learning model selection for medical imaging \". 4th Conference on Medical Imaging with Deep Learning (MIDL)",
+    "title": "Multi-layered tensor networks for image classification",
     "authors": [
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan",
+      "Silas Ørting",
+      "Erik B Dam"
     ],
-    "venue": "",
+    "venue": "First Workshop on Quantum Tensor Networks in Machine Learning. In conjunction with 34th NeurIPS",
+    "year": "2020",
+    "date": "2020-06-01",
+    "link": "https://arxiv.org/pdf/2011.06982",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2011.06982"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2011.06982"
+      }
+    ],
+    "type": "conference"
+  },
+  {
+    "title": "Carbon footprint driven deep learning model selection for medical imaging",
+    "authors": [
+      "Raghavendra Selvan"
+    ],
+    "venue": "4th Conference on Medical Imaging with Deep Learning (MIDL)",
     "year": "2021",
+    "date": "2021-01-01",
     "link": "https://openreview.net/forum?id=1TPRpNyyj2L",
     "resources": [
       {
@@ -257,16 +269,17 @@
     "type": "conference"
   },
   {
-    "title": "Deep ensemble model for segmenting microscopy images in the presence of limited labeled data \". 4th Conference on Medical Imaging with Deep Learning (MIDL)",
+    "title": "Deep ensemble model for segmenting microscopy images in the presence of limited labeled data",
     "authors": [
       "Jan Mikolaj Kaminski",
       "Ilary Allodi",
       "Roser Montañana-Rosell",
       "Raghavendra Selvan",
-      "Ole Kiehn."
+      "Ole Kiehn"
     ],
-    "venue": "",
+    "venue": "4th Conference on Medical Imaging with Deep Learning (MIDL)",
     "year": "2021",
+    "date": "2021-01-01",
     "link": "https://openreview.net/forum?id=PLSdnHPx-W6",
     "resources": [
       {
@@ -281,14 +294,15 @@
     "type": "conference"
   },
   {
-    "title": "Segmenting two-dimensional structures with strided tensor networks \". 27th international conference on Information Processing in Medical Imaging (IPMI)",
+    "title": "Segmenting two-dimensional structures with strided tensor networks",
     "authors": [
       "Raghavendra Selvan",
       "Erik B Dam",
-      "Jens Petersen."
+      "Jens Petersen"
     ],
-    "venue": "",
+    "venue": "27th international conference on Information Processing in Medical Imaging (IPMI)",
     "year": "2021",
+    "date": "2021-01-01",
     "link": "https://arxiv.org/pdf/2102.06900",
     "resources": [
       {
@@ -303,16 +317,17 @@
     "type": "conference"
   },
   {
-    "title": "Carbon Footprint of Selecting and Training Deep Learning Models for Medical Image Analysis \". 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)",
+    "title": "Carbon Footprint of Selecting and Training Deep Learning Models for Medical Image Analysis",
     "authors": [
       "Raghavendra Selvan",
       "Nikhil Bhagwat",
       "Lasse F. Wolff Anthony",
       "Benjamin Kanding",
-      "Erik B. Dam."
+      "Erik B. Dam"
     ],
-    "venue": "",
+    "venue": "25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)",
     "year": "2022",
+    "date": "2022-01-01",
     "link": "https://arxiv.org/pdf/2203.02202",
     "resources": [
       {
@@ -327,14 +342,15 @@
     "type": "conference"
   },
   {
-    "title": "Hybrid Ladder Transformers with Efficient Parallel-Cross Attention for Medical Image Segmentation \". 5th International Conference on Medical Imaging with Deep Learning (MIDL)",
+    "title": "Hybrid Ladder Transformers with Efficient Parallel-Cross Attention for Medical Image Segmentation",
     "authors": [
       "Haozhe Luo",
       "Yu Changdong",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "5th International Conference on Medical Imaging with Deep Learning (MIDL)",
     "year": "2022",
+    "date": "2022-01-01",
     "link": "https://openreview.net/pdf?id=swvVpnzro9q",
     "resources": [
       {
@@ -349,14 +365,15 @@
     "type": "conference"
   },
   {
-    "title": "Identifying partial mouse brain microscopy images from Allen reference atlas using a contrastively learned semantic space \". International Workshop on Biomedical Image Registration",
+    "title": "Identifying partial mouse brain microscopy images from Allen reference atlas using a contrastively learned semantic space",
     "authors": [
       "Justinas Antanavicius",
       "Roberto Leiras Gonzalez",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "International Workshop on Biomedical Image Registration",
     "year": "2022",
+    "date": "2022-01-01",
     "link": "https://openreview.net/forum?id=rRGzrXChq0F",
     "resources": [
       {
@@ -371,14 +388,15 @@
     "type": "conference"
   },
   {
-    "title": "Interpreting Latent Spaces of Generative Models for Medical Images using Unsupervised Methods \". Deep Generative Models Workshop, MICCAI",
+    "title": "Interpreting Latent Spaces of Generative Models for Medical Images using Unsupervised Methods",
     "authors": [
       "Julian Schön",
       "Raghavendra Selvan",
-      "Jens Petersen."
+      "Jens Petersen"
     ],
-    "venue": "",
+    "venue": "Deep Generative Models Workshop, MICCAI",
     "year": "2022",
+    "date": "2022-07-01",
     "link": "https://arxiv.org/pdf/2207.09740",
     "resources": [
       {
@@ -393,13 +411,14 @@
     "type": "conference"
   },
   {
-    "title": "Efficient Self-Supervision using Patch-based Contrastive Learning for Histopathology Image Segmentation \". Northern Lights Deep Learning Conference",
+    "title": "Efficient Self-Supervision using Patch-based Contrastive Learning for Histopathology Image Segmentation",
     "authors": [
       "Nicklas Boserup",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Northern Lights Deep Learning Conference",
     "year": "2023",
+    "date": "2023-01-01",
     "link": "https://septentrio.uit.no/index.php/nldl/article/view/6798/7020",
     "resources": [
       {
@@ -414,14 +433,15 @@
     "type": "conference"
   },
   {
-    "title": "Operating critical machine learning models in resource constrained regimes \". Resource Efficient Medical Image Analysis Workshop at MICCAI2023",
+    "title": "Operating critical machine learning models in resource constrained regimes",
     "authors": [
       "Raghavendra Selvan",
       "Julian Schön",
-      "Erik B Dam."
+      "Erik B Dam"
     ],
-    "venue": "",
+    "venue": "Resource Efficient Medical Image Analysis Workshop at MICCAI2023",
     "year": "2023",
+    "date": "2023-07-01",
     "link": "https://arxiv.org/pdf/2303.10181",
     "resources": [
       {
@@ -436,13 +456,14 @@
     "type": "conference"
   },
   {
-    "title": "Activation Compression of Graph Neural Networks using Block-wise Quantization with Improved Variance Minimization \". International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
+    "title": "Activation Compression of Graph Neural Networks using Block-wise Quantization with Improved Variance Minimization",
     "authors": [
       "Sebastian Eliassen",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "year": "2024",
+    "date": "2024-01-01",
     "link": "https://arxiv.org/pdf/2309.11856.pdf",
     "resources": [
       {
@@ -457,14 +478,15 @@
     "type": "conference"
   },
   {
-    "title": "BMRS: Bayesian Model Reduction for Structured Pruning \". Neural Information Processing Systems (NeurIPS)",
+    "title": "BMRS: Bayesian Model Reduction for Structured Pruning",
     "authors": [
       "Dustin Wright",
       "Christian Igel",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
     "year": "2024",
+    "date": "2024-01-01",
     "link": "https://arxiv.org/pdf/2406.01345",
     "resources": [
       {
@@ -479,17 +501,18 @@
     "type": "conference"
   },
   {
-    "title": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning \". ACM International Conference on Knowledge Discovery and Data Mining (KDD)",
+    "title": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
     "authors": [
       "Ulrik Friis-Jensen",
       "Frederik Lizak Johansen",
       "Andy Sode Anker",
       "Erik Bjørnager Dam",
       "Kirsten Marie Ørnsbjerg Jensen",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "ACM International Conference on Knowledge Discovery and Data Mining (KDD)",
     "year": "2024",
+    "date": "2024-03-01",
     "link": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671538",
     "resources": [
       {
@@ -504,14 +527,15 @@
     "type": "conference"
   },
   {
-    "title": "Energy Consumption-Aware Tabular Benchmarks for Neural Architecture Search \". International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
+    "title": "Energy Consumption-Aware Tabular Benchmarks for Neural Architecture Search",
     "authors": [
       "Pedram Bakhtiarifard",
       "Christian Igel",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "year": "2024",
+    "date": "2024-03-01",
     "link": "https://arxiv.org/pdf/2210.06015",
     "resources": [
       {
@@ -526,14 +550,15 @@
     "type": "conference"
   },
   {
-    "title": "How CO2STLY Is CHI? The Carbon Footprint of Generative AI in HCI Research and What We Should Do About It \". Conference of Human-Computer Interaction (CHI)",
+    "title": "How CO2STLY Is CHI? The Carbon Footprint of Generative AI in HCI Research and What We Should Do About It",
     "authors": [
       "Nanna Inie",
       "Jeanette Falk",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Conference of Human-Computer Interaction (CHI)",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://dl.acm.org/doi/pdf/10.1145/3706598.3714227",
     "resources": [
       {
@@ -548,13 +573,14 @@
     "type": "conference"
   },
   {
-    "title": "Is Adversarial Training with Compressed Datasets Effective? \". Scandinavian Conference on Image Analysis (SCIA)",
+    "title": "Is Adversarial Training with Compressed Datasets Effective?",
     "authors": [
       "Tong Chen",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Scandinavian Conference on Image Analysis (SCIA)",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://arxiv.org/pdf/2402.05675.pdf",
     "resources": [
       {
@@ -569,16 +595,17 @@
     "type": "conference"
   },
   {
-    "title": "PePR: Performance Per Resource Unit as a Metric to Promote Small-scale Deep Learning for Medical Image Analysis \". Northern Lights Deep Learning Conference (NLDL 2025)",
+    "title": "PePR: Performance Per Resource Unit as a Metric to Promote Small-scale Deep Learning for Medical Image Analysis",
     "authors": [
       "Raghavendra Selvan",
       "Bob Pepin",
       "Christian Igel",
       "Gabrielle Samuel",
-      "Erik B Dam."
+      "Erik B Dam"
     ],
-    "venue": "",
+    "venue": "Northern Lights Deep Learning Conference (NLDL 2025)",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://raw.githubusercontent.com/mlresearch/v265/main/assets/selvan25a/selvan25a.pdf",
     "resources": [
       {
@@ -593,14 +620,15 @@
     "type": "conference"
   },
   {
-    "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research \". Aarhus 2025 Conference on Computing [X] Crisis",
+    "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research",
     "authors": [
       "Nanna Inie",
       "Jeanette Falk",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Aarhus 2025 Conference on Computing [X] Crisis",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://arxiv.org/pdf/2504.00692",
     "resources": [
       {
@@ -615,13 +643,14 @@
     "type": "conference"
   },
   {
-    "title": "UniPhyNet: A Unified Network For Multimodal Physiological Raw Signal Classification \". IEEE International Workshop on Machine Learning for Signal Processing (MLSP)",
+    "title": "UniPhyNet: A Unified Network For Multimodal Physiological Raw Signal Classification",
     "authors": [
       "Renxiang Qiu",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "IEEE International Workshop on Machine Learning for Signal Processing (MLSP)",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://arxiv.org/pdf/2507.14163",
     "resources": [
       {
@@ -636,14 +665,15 @@
     "type": "conference"
   },
   {
-    "title": "A batch algorithm for estimating trajectories of point targets using expectation maximization \". IEEE Transactions on Signal Processing",
+    "title": "A batch algorithm for estimating trajectories of point targets using expectation maximization",
     "authors": [
       "Abu Sajana Rahmathullah",
       "Raghavendra Selvan",
-      "Lennart Svensson."
+      "Lennart Svensson"
     ],
-    "venue": "",
+    "venue": "IEEE Transactions on Signal Processing",
     "year": "2016",
+    "date": "2016-01-01",
     "link": "https://ieeexplore.ieee.org/document/7478157",
     "resources": [
       {
@@ -654,57 +684,16 @@
     "type": "journal"
   },
   {
-    "title": "Extracting tree-structures in CT data by tracking multiple statistically ranked hypotheses \". International Journal of Medical Physics Research and Practice",
-    "authors": [
-      "Raghavendra Selvan",
-      "Jens Petersen",
-      "Jesper H. Pedersen",
-      "Marleen de Bruijne."
-    ],
-    "venue": "",
-    "year": "2019",
-    "link": "https://arxiv.org/pdf/1806.08981",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/pdf/1806.08981"
-      }
-    ],
-    "type": "journal"
-  },
-  {
-    "title": "Increasing Accuracy of Optimal Surfaces Using Min-Marginal Energies \". IEEE transactions on medical imaging",
-    "authors": [
-      "Jens Petersen",
-      "Andres M Arias-Lorza",
-      "Raghavendra Selvan",
-      "Daniel Bos",
-      "Aad van der Lugt",
-      "Jesper H Pedersen",
-      "Mads Nielsen",
-      "Marleen de Bruijne."
-    ],
-    "venue": "",
-    "year": "2019",
-    "link": "https://ieeexplore.ieee.org/abstract/document/8599009",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://ieeexplore.ieee.org/abstract/document/8599009"
-      }
-    ],
-    "type": "journal"
-  },
-  {
-    "title": "Segmentation of roots in soil with U-Net \". Journal of Plant Methods",
+    "title": "Segmentation of roots in soil with U-Net",
     "authors": [
       "Abraham George Smith",
       "Jens Petersen",
       "Raghavendra Selvan",
-      "Camilla Ruø Rasmussen."
+      "Camilla Ruø Rasmussen"
     ],
-    "venue": "",
+    "venue": "Journal of Plant Methods",
     "year": "2019",
+    "date": "2019-01-01",
     "link": "https://arxiv.org/abs/1902.11050",
     "resources": [
       {
@@ -715,7 +704,51 @@
     "type": "journal"
   },
   {
-    "title": "Graph Refinement based Airway Extraction using Mean-Field Networks and Graph Neural Networks \". Medical Image Analysis",
+    "title": "Extracting tree-structures in CT data by tracking multiple statistically ranked hypotheses",
+    "authors": [
+      "Raghavendra Selvan",
+      "Jens Petersen",
+      "Jesper H. Pedersen",
+      "Marleen de Bruijne"
+    ],
+    "venue": "International Journal of Medical Physics Research and Practice",
+    "year": "2019",
+    "date": "2019-03-01",
+    "link": "https://arxiv.org/pdf/1806.08981",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/pdf/1806.08981"
+      }
+    ],
+    "type": "journal"
+  },
+  {
+    "title": "Increasing Accuracy of Optimal Surfaces Using Min-Marginal Energies",
+    "authors": [
+      "Jens Petersen",
+      "Andres M Arias-Lorza",
+      "Raghavendra Selvan",
+      "Daniel Bos",
+      "Aad van der Lugt",
+      "Jesper H Pedersen",
+      "Mads Nielsen",
+      "Marleen de Bruijne"
+    ],
+    "venue": "IEEE transactions on medical imaging",
+    "year": "2019",
+    "date": "2019-03-01",
+    "link": "https://ieeexplore.ieee.org/abstract/document/8599009",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://ieeexplore.ieee.org/abstract/document/8599009"
+      }
+    ],
+    "type": "journal"
+  },
+  {
+    "title": "Graph Refinement based Airway Extraction using Mean-Field Networks and Graph Neural Networks",
     "authors": [
       "Raghavendra Selvan",
       "Thomas Kipf",
@@ -723,10 +756,11 @@
       "Antonio GU Juarez",
       "Jesper H. Pedersen",
       "Jens Petersen",
-      "Marleen de Bruijne."
+      "Marleen de Bruijne"
     ],
-    "venue": "",
+    "venue": "Medical Image Analysis",
     "year": "2020",
+    "date": "2020-03-01",
     "link": "https://arxiv.org/pdf/1811.08674",
     "resources": [
       {
@@ -741,40 +775,17 @@
     "type": "journal"
   },
   {
-    "title": "Automatic airway segmentation from Computed Tomography using robust and efficient 3-D convolutional neural networks \". Scientific Reports",
-    "authors": [
-      "Antonio Juarez",
-      "Raghavendra Selvan",
-      "Zaigham Saghir",
-      "HAWM Tiddens",
-      "Marleen de Bruijne."
-    ],
-    "venue": "",
-    "year": "2021",
-    "link": "https://arxiv.org/pdf/2103.16328",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://www.nature.com/articles/s41598-021-95364-1"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2103.16328"
-      }
-    ],
-    "type": "journal"
-  },
-  {
-    "title": "Detection of foraging behavior from accelerometer data using U-Net type convolutional networks \". Ecological Informatics",
+    "title": "Detection of foraging behavior from accelerometer data using U-Net type convolutional networks",
     "authors": [
       "Manh Cuong Ngo",
       "Raghavendra Selvan",
       "Outi Tervo",
       "Mads Peter Heide-Jørgensen",
-      "Susanne Ditlevsen."
+      "Susanne Ditlevsen"
     ],
-    "venue": "",
+    "venue": "Ecological Informatics",
     "year": "2021",
+    "date": "2021-01-01",
     "link": "https://arxiv.org/pdf/2101.01992",
     "resources": [
       {
@@ -789,7 +800,77 @@
     "type": "journal"
   },
   {
-    "title": "Developing and validating COVID-19 adverse outcome risk prediction models from a bi-national European cohort of 5594 patients \". Scientific Reports",
+    "title": "Dynamic β-VAEs for quantifying biodiversity by clustering optically recorded insect signals",
+    "authors": [
+      "Klas Rydhmer",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Journal of Ecological Informatics",
+    "year": "2021",
+    "date": "2021-01-01",
+    "link": "https://arxiv.org/pdf/2102.05526",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://doi.org/10.1016/j.ecoinf.2021.101456"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2102.05526"
+      }
+    ],
+    "type": "journal"
+  },
+  {
+    "title": "Locally orderless tensor networks for classifying two- and three-dimensional medical images",
+    "authors": [
+      "Raghavendra Selvan",
+      "Silas Ørting",
+      "Erik B Dam"
+    ],
+    "venue": "The Journal of Machine Learning for Biomedical Imaging (MELBA)",
+    "year": "2021",
+    "date": "2021-01-01",
+    "link": "https://www.melba-journal.org/pdf/2021:5.pdf",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://www.melba-journal.org/papers/2021:005.html"
+      },
+      {
+        "label": "pdf",
+        "url": "https://www.melba-journal.org/pdf/2021:5.pdf"
+      }
+    ],
+    "type": "journal"
+  },
+  {
+    "title": "Locomotor deficits in a mouse model of ALS are paralleled by loss of V1-interneuron connections onto fast motor neurons",
+    "authors": [
+      "Ilary Allodi",
+      "Roser Montañana-Rosell",
+      "Raghavendra Selvan",
+      "Peter Low",
+      "Ole Kiehn"
+    ],
+    "venue": "Nature Communications",
+    "year": "2021",
+    "date": "2021-01-01",
+    "link": "https://www.nature.com/articles/s41467-021-23224-7.pdf",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://www.nature.com/articles/s41467-021-23224-7"
+      },
+      {
+        "label": "pdf",
+        "url": "https://www.nature.com/articles/s41467-021-23224-7.pdf"
+      }
+    ],
+    "type": "journal"
+  },
+  {
+    "title": "Developing and validating COVID-19 adverse outcome risk prediction models from a bi-national European cohort of 5594 patients",
     "authors": [
       "Espen Jimenez-Solem",
       "Tonny S Petersen",
@@ -825,10 +906,11 @@
       "Alexander Bonde",
       "Akshay Pai",
       "Mads Nielsen",
-      "Martin Sillesen."
+      "Martin Sillesen"
     ],
-    "venue": "",
+    "venue": "Scientific Reports",
     "year": "2021",
+    "date": "2021-01-19",
     "link": "https://www.nature.com/articles/s41598-021-81844-x.pdf",
     "resources": [
       {
@@ -843,74 +925,32 @@
     "type": "journal"
   },
   {
-    "title": "Dynamic β-VAEs for quantifying biodiversity by clustering optically recorded insect signals \". Journal of Ecological Informatics",
+    "title": "Automatic airway segmentation from Computed Tomography using robust and efficient 3-D convolutional neural networks",
     "authors": [
-      "Klas Rydhmer",
-      "Raghavendra Selvan ."
-    ],
-    "venue": "",
-    "year": "2021",
-    "link": "https://arxiv.org/pdf/2102.05526",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://doi.org/10.1016/j.ecoinf.2021.101456"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2102.05526"
-      }
-    ],
-    "type": "journal"
-  },
-  {
-    "title": "Locally orderless tensor networks for classifying two- and three-dimensional medical images \". The Journal of Machine Learning for Biomedical Imaging (MELBA)",
-    "authors": [
+      "Antonio Juarez",
       "Raghavendra Selvan",
-      "Silas Ørting",
-      "Erik B Dam."
+      "Zaigham Saghir",
+      "HAWM Tiddens",
+      "Marleen de Bruijne"
     ],
-    "venue": "",
+    "venue": "Scientific Reports",
     "year": "2021",
-    "link": "https://www.melba-journal.org/pdf/2021:5.pdf",
+    "date": "2021-03-03",
+    "link": "https://arxiv.org/pdf/2103.16328",
     "resources": [
       {
         "label": "link",
-        "url": "https://www.melba-journal.org/papers/2021:005.html"
+        "url": "https://www.nature.com/articles/s41598-021-95364-1"
       },
       {
         "label": "pdf",
-        "url": "https://www.melba-journal.org/pdf/2021:5.pdf"
+        "url": "https://arxiv.org/pdf/2103.16328"
       }
     ],
     "type": "journal"
   },
   {
-    "title": "Locomotor deficits in a mouse model of ALS are paralleled by loss of V1-interneuron connections onto fast motor neurons \". Nature Communications",
-    "authors": [
-      "Ilary Allodi",
-      "Roser Montañana-Rosell",
-      "Raghavendra Selvan",
-      "Peter Low",
-      "Ole Kiehn."
-    ],
-    "venue": "",
-    "year": "2021",
-    "link": "https://www.nature.com/articles/s41467-021-23224-7.pdf",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://www.nature.com/articles/s41467-021-23224-7"
-      },
-      {
-        "label": "pdf",
-        "url": "https://www.nature.com/articles/s41467-021-23224-7.pdf"
-      }
-    ],
-    "type": "journal"
-  },
-  {
-    "title": "Extracting Structural Motifs from Pair Distribution Function Data of Nanostructures using Explainable Machine Learning \". NPJ Computational Materials",
+    "title": "Extracting Structural Motifs from Pair Distribution Function Data of Nanostructures using Explainable Machine Learning",
     "authors": [
       "Andy S. Anker",
       "Emil T. S. Kjær",
@@ -922,10 +962,11 @@
       "Daniel Risskov Sørensen",
       "Simon J. L. Billinge",
       "Raghavendra Selvan",
-      "Kirsten M. Ø. Jensen."
+      "Kirsten M. Ø. Jensen"
     ],
-    "venue": "",
+    "venue": "NPJ Computational Materials",
     "year": "2022",
+    "date": "2022-01-01",
     "link": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6263f48f5b900913a0195c4f/original/extracting-structural-motifs-from-pair-distribution-function-data-of-nanostructures-using-explainable-machine-learning.pdf",
     "resources": [
       {
@@ -940,15 +981,16 @@
     "type": "journal"
   },
   {
-    "title": "Patch-based medical image segmentation using Matrix Product State Tensor Networks \". The Journal of Machine Learning for Biomedical Imaging (MELBA)",
+    "title": "Patch-based medical image segmentation using Matrix Product State Tensor Networks",
     "authors": [
       "Raghavendra Selvan",
       "Erik B Dam",
       "Søren Alexander Flensborg",
-      "Jens Petersen."
+      "Jens Petersen"
     ],
-    "venue": "",
+    "venue": "The Journal of Machine Learning for Biomedical Imaging (MELBA)",
     "year": "2022",
+    "date": "2022-01-01",
     "link": "https://www.melba-journal.org/pdf/2022:005.pdf",
     "resources": [
       {
@@ -963,40 +1005,16 @@
     "type": "journal"
   },
   {
-    "title": "DeepStruc: Towards structure solution from pair distribution function data using deep generative models \". Digital Discovery",
-    "authors": [
-      "Emil T. S. Kjær",
-      "Andy S. Anker",
-      "Marcus N. Weng",
-      "Simon J. L. Billinge",
-      "Raghavendra Selvan",
-      "Kirsten M. Ø. Jensen."
-    ],
-    "venue": "",
-    "year": "2023",
-    "link": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6221f17357a9d20c9a729ecb/original/deep-struc-towards-structure-solution-from-pair-distribution-function-data-using-deep-generative-models.pdf",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://pubs.rsc.org/en/content/articlehtml/2022/dd/d2dd00086e"
-      },
-      {
-        "label": "pdf",
-        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6221f17357a9d20c9a729ecb/original/deep-struc-towards-structure-solution-from-pair-distribution-function-data-using-deep-generative-models.pdf"
-      }
-    ],
-    "type": "journal"
-  },
-  {
-    "title": "Machine Learning for Analysis of Experimental Scattering and Spectroscopy Data in Materials Chemistry \". Chemical Science",
+    "title": "Machine Learning for Analysis of Experimental Scattering and Spectroscopy Data in Materials Chemistry",
     "authors": [
       "Andy S. Anker",
       "Kieth T. Butler",
       "Raghavendra Selvan",
-      "Kirsten M.Ø. Jensen."
+      "Kirsten M.Ø. Jensen"
     ],
-    "venue": "",
+    "venue": "Chemical Science",
     "year": "2023",
+    "date": "2023-01-01",
     "link": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64ed9d6079853bbd78a73fb0/original/machine-learning-for-analysis-of-experimental-scattering-and-spectroscopy-data-in-materials-chemistry.pdf",
     "resources": [
       {
@@ -1011,15 +1029,16 @@
     "type": "journal"
   },
   {
-    "title": "Pedunculopontine Chx10+ neurons control global motor arrest in mice \". Nature Neuroscience",
+    "title": "Pedunculopontine Chx10+ neurons control global motor arrest in mice",
     "authors": [
       "Haizea Goñi-Erro",
       "Raghavendra Selvan",
       "Roberto Leiras",
-      "Ole Kiehn."
+      "Ole Kiehn"
     ],
-    "venue": "",
+    "venue": "Nature Neuroscience",
     "year": "2023",
+    "date": "2023-01-01",
     "link": "https://www.nature.com/articles/s41593-023-01396-3.pdf",
     "resources": [
       {
@@ -1034,29 +1053,7 @@
     "type": "journal"
   },
   {
-    "title": "Predicting lake bathymetry from the topography of the surrounding terrain using deep learning \". Limnology and Oceanography: Methods",
-    "authors": [
-      "Kenneth Thorø Martinsen",
-      "Kaj Sand-Jensen",
-      "Raghavendra Selvan ."
-    ],
-    "venue": "",
-    "year": "2023",
-    "link": "https://aslopubs.onlinelibrary.wiley.com/doi/epdf/10.1002/lom3.10573",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lom3.10573"
-      },
-      {
-        "label": "pdf",
-        "url": "https://aslopubs.onlinelibrary.wiley.com/doi/epdf/10.1002/lom3.10573"
-      }
-    ],
-    "type": "journal"
-  },
-  {
-    "title": "Ten recommendations for reducing the carbon footprint of research computing in human neuroimaging \". Imaging Neuroscience",
+    "title": "Ten recommendations for reducing the carbon footprint of research computing in human neuroimaging",
     "authors": [
       "Nicholas E. Souter",
       "Loïc Lannelongue",
@@ -1065,10 +1062,11 @@
       "Lincoln J. Colling",
       "Nikhil Bhagwat",
       "Raghavendra Selvan",
-      "Charlotte L. Rae."
+      "Charlotte L. Rae"
     ],
-    "venue": "",
+    "venue": "Imaging Neuroscience",
     "year": "2023",
+    "date": "2023-01-01",
     "link": "https://osf.io/7q5mh/download",
     "resources": [
       {
@@ -1083,39 +1081,64 @@
     "type": "journal"
   },
   {
-    "title": "A GPU-Accelerated Open-Source Python Package for Calculating Powder Diffraction, Small-Angle-, and Total Scattering with the Debye Scattering Equation \". Journal of Open Source Software (JOSS)",
+    "title": "DeepStruc: Towards structure solution from pair distribution function data using deep generative models",
     "authors": [
-      "Frederik Lizak Johansen",
-      "Andy Sode Anker",
-      "Ulrik Friis-Jensen",
-      "Erik Bjørnager Dam",
-      "Kirsten Marie Ørnsbjerg Jensen",
-      "Raghavendra Selvan ."
+      "Emil T. S. Kjær",
+      "Andy S. Anker",
+      "Marcus N. Weng",
+      "Simon J. L. Billinge",
+      "Raghavendra Selvan",
+      "Kirsten M. Ø. Jensen"
     ],
-    "venue": "",
-    "year": "2024",
-    "link": "https://www.theoj.org/joss-papers/joss.06024/10.21105.joss.06024.pdf",
+    "venue": "Digital Discovery",
+    "year": "2023",
+    "date": "2023-03-01",
+    "link": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6221f17357a9d20c9a729ecb/original/deep-struc-towards-structure-solution-from-pair-distribution-function-data-using-deep-generative-models.pdf",
     "resources": [
       {
         "label": "link",
-        "url": "https://joss.theoj.org/papers/10.21105/joss.06024"
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2022/dd/d2dd00086e"
       },
       {
         "label": "pdf",
-        "url": "https://www.theoj.org/joss-papers/joss.06024/10.21105.joss.06024.pdf"
+        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6221f17357a9d20c9a729ecb/original/deep-struc-towards-structure-solution-from-pair-distribution-function-data-using-deep-generative-models.pdf"
       }
     ],
     "type": "journal"
   },
   {
-    "title": "High-throughput classification of S. cerevisiae tetrads using deep learning \". Yeast",
+    "title": "Predicting lake bathymetry from the topography of the surrounding terrain using deep learning",
+    "authors": [
+      "Kenneth Thorø Martinsen",
+      "Kaj Sand-Jensen",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Limnology and Oceanography: Methods",
+    "year": "2023",
+    "date": "2023-03-01",
+    "link": "https://aslopubs.onlinelibrary.wiley.com/doi/epdf/10.1002/lom3.10573",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lom3.10573"
+      },
+      {
+        "label": "pdf",
+        "url": "https://aslopubs.onlinelibrary.wiley.com/doi/epdf/10.1002/lom3.10573"
+      }
+    ],
+    "type": "journal"
+  },
+  {
+    "title": "High-throughput classification of S. cerevisiae tetrads using deep learning",
     "authors": [
       "Istvan B Szücs",
       "Raghavendra Selvan",
-      "Michael Lisby ."
+      "Michael Lisby"
     ],
-    "venue": "",
+    "venue": "Yeast",
     "year": "2024",
+    "date": "2024-01-01",
     "link": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/yea.3965?download=true",
     "resources": [
       {
@@ -1130,7 +1153,7 @@
     "type": "journal"
   },
   {
-    "title": "Measuring and reducing the carbon footprint of fMRI preprocessing in fMRIPrep \". Journal of Human Brain Mapping",
+    "title": "Measuring and reducing the carbon footprint of fMRI preprocessing in fMRIPrep",
     "authors": [
       "Nicholas E Souter",
       "Nikhil Bhagwat",
@@ -1140,10 +1163,11 @@
       "Gabrielle Samuel",
       "Loïc Lannelongue",
       "Raghavendra Selvan",
-      "Charlotte L. Rae."
+      "Charlotte L. Rae"
     ],
-    "venue": "",
+    "venue": "Journal of Human Brain Mapping",
     "year": "2024",
+    "date": "2024-01-01",
     "link": "https://onlinelibrary.wiley.com/doi/10.1002/hbm.70003",
     "resources": [
       {
@@ -1154,7 +1178,7 @@
     "type": "journal"
   },
   {
-    "title": "Spinal inhibitory neurons degenerate before motor neurons and excitatory neurons in a mouse model of ALS \". Science Advances",
+    "title": "Spinal inhibitory neurons degenerate before motor neurons and excitatory neurons in a mouse model of ALS",
     "authors": [
       "Roser Montanana-Rosell",
       "Raghavendra Selvan",
@@ -1162,10 +1186,11 @@
       "Jan M. Kaminski",
       "Dana B. Ahlmark",
       "Ole Kiehn",
-      "Ilary Allodi."
+      "Ilary Allodi"
     ],
-    "venue": "",
+    "venue": "Science Advances",
     "year": "2024",
+    "date": "2024-01-01",
     "link": "https://www.biorxiv.org/content/10.1101/2023.09.17.558103v1.full.pdf",
     "resources": [
       {
@@ -1180,7 +1205,7 @@
     "type": "journal"
   },
   {
-    "title": "Stabilization of V1 interneuron-motor neuron connectivity ameliorates motor phenotype in a mouse model of ALS \". Nature Communications",
+    "title": "Stabilization of V1 interneuron-motor neuron connectivity ameliorates motor phenotype in a mouse model of ALS",
     "authors": [
       "Santiago Mora",
       "Anna Stuckert",
@@ -1192,10 +1217,11 @@
       "Andreas Toft Sorensen",
       "Raghavendra Selvan",
       "Joost Verhaagen",
-      "Ilary Allodi."
+      "Ilary Allodi"
     ],
-    "venue": "",
+    "venue": "Nature Communications",
     "year": "2024",
+    "date": "2024-01-01",
     "link": "https://www.nature.com/articles/s41467-024-48925-7.pdf",
     "resources": [
       {
@@ -1210,7 +1236,33 @@
     "type": "journal"
   },
   {
-    "title": "Comparing the carbon footprint of fMRI data processing and analysis approaches \". Imaging Neuroscience",
+    "title": "A GPU-Accelerated Open-Source Python Package for Calculating Powder Diffraction, Small-Angle-, and Total Scattering with the Debye Scattering Equation",
+    "authors": [
+      "Frederik Lizak Johansen",
+      "Andy Sode Anker",
+      "Ulrik Friis-Jensen",
+      "Erik Bjørnager Dam",
+      "Kirsten Marie Ørnsbjerg Jensen",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Journal of Open Source Software (JOSS)",
+    "year": "2024",
+    "date": "2024-03-01",
+    "link": "https://www.theoj.org/joss-papers/joss.06024/10.21105.joss.06024.pdf",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://joss.theoj.org/papers/10.21105/joss.06024"
+      },
+      {
+        "label": "pdf",
+        "url": "https://www.theoj.org/joss-papers/joss.06024/10.21105.joss.06024.pdf"
+      }
+    ],
+    "type": "journal"
+  },
+  {
+    "title": "Comparing the carbon footprint of fMRI data processing and analysis approaches",
     "authors": [
       "Nicholas E Souter",
       "Chris Racey",
@@ -1220,10 +1272,11 @@
       "Gabrielle Samuel",
       "Loïc Lannelongue",
       "Raghavendra Selvan",
-      "Charlotte L. Rae."
+      "Charlotte L. Rae"
     ],
-    "venue": "",
+    "venue": "Imaging Neuroscience",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://osf.io/preprints/osf/k8gte",
     "resources": [
       {
@@ -1234,15 +1287,16 @@
     "type": "journal"
   },
   {
-    "title": "Efficiency is Not Enough: A Critical Perspective of Environmentally Sustainable AI \". Communications of ACM",
+    "title": "Efficiency is Not Enough: A Critical Perspective of Environmentally Sustainable AI",
     "authors": [
       "Dustin Wright",
       "Gabrielle Samuel",
       "Christian Igel",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Communications of ACM",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://dl.acm.org/doi/pdf/10.1145/3724500",
     "resources": [
       {
@@ -1257,7 +1311,7 @@
     "type": "journal"
   },
   {
-    "title": "Greening AI-enabled Systems with Software Engineering: A Research Agenda for Environmentally Sustainable AI Practices \". ACM Software Engineering Notes",
+    "title": "Greening AI-enabled Systems with Software Engineering: A Research Agenda for Environmentally Sustainable AI Practices",
     "authors": [
       "Luís Cruz",
       "João Paulo Fernandes",
@@ -1283,10 +1337,11 @@
       "Karthik Vaidhyanathan",
       "Roberto Verdecchia",
       "Ivan P. Yamshchikov",
-      "Henry Muccini."
+      "Henry Muccini"
     ],
-    "venue": "",
+    "venue": "ACM Software Engineering Notes",
     "year": "2025",
+    "date": "2025-03-01",
     "link": "https://arxiv.org/pdf/2506.01774",
     "resources": [
       {
@@ -1301,12 +1356,13 @@
     "type": "journal"
   },
   {
-    "title": "Bayesian tracking of multiple point targets using expectation maximization \". Chalmers University (MSc Thesis)",
+    "title": "Bayesian tracking of multiple point targets using expectation maximization",
     "authors": [
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Chalmers University (MSc Thesis)",
     "year": "2015",
+    "date": "2015-01-01",
     "link": "/publications/files/selvan2015MSc.pdf",
     "resources": [
       {
@@ -1321,12 +1377,13 @@
     "type": "monograph"
   },
   {
-    "title": "Extraction of Airways from Volumetric Data \". University of Copenhagen (PhD Thesis)",
+    "title": "Extraction of Airways from Volumetric Data",
     "authors": [
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "University of Copenhagen (PhD Thesis)",
     "year": "2018",
+    "date": "2018-01-01",
     "link": "/publications/files/raghavendraSelvanPhDThesis.pdf",
     "resources": [
       {
@@ -1341,12 +1398,13 @@
     "type": "monograph"
   },
   {
-    "title": "Sustainable AI: Tools for Moving Towards Green AI \". Upcoming Book (Early Release online)",
+    "title": "Sustainable AI: Tools for Moving Towards Green AI",
     "authors": [
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Upcoming Book (Early Release online)",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://www.oreilly.com/library/view/sustainable-ai/9781098155506/",
     "resources": [
       {
@@ -1361,7 +1419,7 @@
     "type": "monograph"
   },
   {
-    "title": "QUBIQ: Uncertainty Quantification for Biomedical Image Segmentation Challenge \". Arxiv",
+    "title": "QUBIQ: Uncertainty Quantification for Biomedical Image Segmentation Challenge",
     "authors": [
       "Hongwei Bran",
       "Fernando Navarro",
@@ -1442,10 +1500,11 @@
       "Andras Jakab",
       "Spyridon Bakas",
       "Leo Joskowicz",
-      "Bjoern Menze."
+      "Bjoern Menze"
     ],
-    "venue": "",
+    "venue": "Arxiv",
     "year": "2022",
+    "date": "2022-05-01",
     "link": "https://arxiv.org/pdf/2405.18435",
     "resources": [
       {
@@ -1460,16 +1519,17 @@
     "type": "preprint"
   },
   {
-    "title": "Explicit Temporal Embedding in Deep Generative Latent Models for Longitudinal Medical Image Synthesis \". Arxiv",
+    "title": "Explicit Temporal Embedding in Deep Generative Latent Models for Longitudinal Medical Image Synthesis",
     "authors": [
       "Julian Schön",
       "Raghavendra Selvan",
       "Lotte Nygård",
       "Ivan Richter Vogelius",
-      "Jens Petersen."
+      "Jens Petersen"
     ],
-    "venue": "",
+    "venue": "Arxiv",
     "year": "2023",
+    "date": "2023-07-01",
     "link": "https://arxiv.org/pdf/2301.05465",
     "resources": [
       {
@@ -1484,37 +1544,15 @@
     "type": "preprint"
   },
   {
-    "title": "Adversarial Fine-tuning of Compressed Neural Networks for Joint Improvement of Robustness and Efficiency \". Arxiv",
-    "authors": [
-      "Hallgrimur Thorsteinsson",
-      "Valdemar J Henriksen",
-      "Tong Chen",
-      "Raghavendra Selvan ."
-    ],
-    "venue": "",
-    "year": "2024",
-    "link": "https://arxiv.org/pdf/2403.09441",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/abs/2403.09441"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2403.09441"
-      }
-    ],
-    "type": "preprint"
-  },
-  {
-    "title": "When Can Memorization Improve Fairness? \". Arxiv",
+    "title": "When Can Memorization Improve Fairness?",
     "authors": [
       "Bob Pepin",
       "Christian Igel",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Arxiv",
     "year": "2024",
+    "date": "2024-01-01",
     "link": "https://arxiv.org/pdf/2412.09254",
     "resources": [
       {
@@ -1529,15 +1567,40 @@
     "type": "preprint"
   },
   {
-    "title": "Climate And Resource Awareness is Imperative to Achieving Sustainable AI (and Preventing a Global AI Arms Race) \". Arxiv",
+    "title": "Adversarial Fine-tuning of Compressed Neural Networks for Joint Improvement of Robustness and Efficiency",
+    "authors": [
+      "Hallgrimur Thorsteinsson",
+      "Valdemar J Henriksen",
+      "Tong Chen",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Arxiv",
+    "year": "2024",
+    "date": "2024-03-01",
+    "link": "https://arxiv.org/pdf/2403.09441",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2403.09441"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2403.09441"
+      }
+    ],
+    "type": "preprint"
+  },
+  {
+    "title": "Climate And Resource Awareness is Imperative to Achieving Sustainable AI (and Preventing a Global AI Arms Race)",
     "authors": [
       "Pedram Bakhtiarifard",
       "Pınar Tözün",
       "Christian Igel",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Arxiv",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://arxiv.org/pdf/2502.20016",
     "resources": [
       {
@@ -1552,14 +1615,15 @@
     "type": "preprint"
   },
   {
-    "title": "Oscillations Make Neural Networks Robust to Quantization \". Arxiv",
+    "title": "Oscillations Make Neural Networks Robust to Quantization",
     "authors": [
       "Jonathan Wenshøj",
       "Bob Pepin",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Arxiv",
     "year": "2025",
+    "date": "2025-01-01",
     "link": "https://arxiv.org/pdf/2502.00490",
     "resources": [
       {
@@ -1574,17 +1638,18 @@
     "type": "preprint"
   },
   {
-    "title": "deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models \". Arxiv",
+    "title": "deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models",
     "authors": [
       "Frederik Lizak Johansen",
       "Ulrik Friis-Jensen",
       "Erik Bjørnager Dam",
       "Kirsten Marie Ørnsbjerg Jensen",
       "Rocío Mercado",
-      "Raghavendra Selvan ."
+      "Raghavendra Selvan"
     ],
-    "venue": "",
+    "venue": "Arxiv",
     "year": "2025",
+    "date": "2025-03-01",
     "link": "https://arxiv.org/pdf/2502.02189",
     "resources": [
       {
