@@ -39,9 +39,9 @@ def parse_li(li, section_label):
     first_dot = txt.find('"')
     if first_dot != -1:
         authors = txt[:first_dot].strip()
-        rest = txt[first_dot+2:].strip()
+        rest = txt[first_dot+1:].strip()
         # Title is up to the first ' . ' sequence
-        title_split = re.split(r"\s\.\s", rest, maxsplit=1)
+        title_split = re.split(r"\s\"\s", rest, maxsplit=1)
         if len(title_split) == 2:
             title = title_split[0].strip()
             tail = title_split[1]
