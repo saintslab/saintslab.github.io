@@ -4,6 +4,7 @@ role: PhD Student
 email: pba@di.ku.dk
 photo: /assets/img/pedram.jpg
 github: https://github.com/pedrambakh
-order: 2
+scholar: https://scholar.google.com/citations?user=wnOiOHoAAAAJ&hl=en&oi=ao
+order: 3
 ---
 

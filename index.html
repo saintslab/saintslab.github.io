@@ -21,24 +21,6 @@ title: Home
   </div>
 </section>
 
-<section class="section container">
-  <h2 class="section-title">Featured Projects</h2>
-  <div class="grid project-grid">
-    {% for proj in site.data.projects limit:6 %}
-      <a class="card project" href="{{ proj.link | default: '/projects/' }}">
-        <div class="card-body">
-          <h3>{{ proj.title }}</h3>
-          <p class="muted">{{ proj.summary }}</p>
-        </div>
-        {% if proj.tags %}
-        <div class="tags">
-          {% for t in proj.tags %}<span class="tag">{{ t }}</span>{% endfor %}
-        </div>
-        {% endif %}
-      </a>
-    {% endfor %}
-  </div>
-</section>
 <section id="people" class="section container">
   <h2 class="section-title">People</h2>
   <div class="grid people-grid">
@@ -61,4 +43,22 @@ title: Home
   </div>
 </section>
 
+<section class="section container">
+  <h2 class="section-title">Featured Projects</h2>
+  <div class="grid project-grid">
+    {% for proj in site.data.projects limit:6 %}
+      <a class="card project" href="{{ proj.link | default: '/projects/' }}">
+        <div class="card-body">
+          <h3>{{ proj.title }}</h3>
+          <p class="muted">{{ proj.summary }}</p>
+        </div>
+        {% if proj.tags %}
+        <div class="tags">
+          {% for t in proj.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+        </div>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+</section>
 
