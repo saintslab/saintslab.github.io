@@ -2,13 +2,16 @@
   summary: Exploring means and methods to improve the sustainability of machine learning models.
   link: https://raghavian.github.io/projects/#sustainability-of-ai 
   tags: [sustainability, efficiency, optimization]
+  thumb: /assets/img/projects/sustainability.png
 
 - title: AI for Sciences
-  summary: ML methods can accelerate research and open possibilities of asking novel questions in many scientific disciplines. In this line of research, several inter-disciplinary collaborations spanning a broad range of topics are being investigated. From an ML point of view, these do open interesting methods development. 
+  summary: Several inter-disciplinary collaborations spanning a broad range of topics are being investigated. From an ML point of view, these do open interesting methods development. 
   link: https://raghavian.github.io/projects/#ai-for-sciences
   tags: [materials chemistry, earth monitoring, neuroscience]
+  thumb: /assets/img/projects/aichemy.png
 
 - title: Medical Image Analysis
   summary: https://raghavian.github.io/projects/#bio-medical-image-analysis
   link: Raghav's PhD was in medical image analysis, and he is still actively pursuing exciting ideas in this domain.
   tags: [segmentation, uncertainty, generative models]
+  thumb: /assets/img/projects/mia.png
