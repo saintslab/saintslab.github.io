@@ -162,3 +162,25 @@ body{
   .menu.open{display:flex; flex-direction:column; position:absolute; right:16px; top:56px; background: var(--panel); padding:10px; border:1px solid var(--border); border-radius:12px}
   .person-card{grid-template-columns:1fr}
 }
+
+.project .thumb-wrap{
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(14,165,233,0.12), rgba(16,185,129,0.12));
+  border-bottom: 1px solid var(--border);
+}
+.project .thumb-wrap img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.project .thumb-wrap.placeholder{
+  /* keeps layout even when no image is provided */
+  background: linear-gradient(180deg, rgba(14,165,233,0.10), rgba(16,185,129,0.10));
+}
+.card.project{
+  overflow: hidden;            /* lets the top image take the card radius */
+  border-radius: 16px;
+}
+
