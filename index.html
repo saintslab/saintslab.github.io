@@ -25,7 +25,7 @@ title: Home
 <section id="people" class="section container">
   <h2 class="section-title">People</h2>
   <div class="grid people-grid">
-    {% assign current = site.people | where_exp: "p", "p.former != true" %}
+    {% assign current = site.people | "p.former != true" %}
     {% assign sorted = site.people | sort: 'order' %}
     {% for person in sorted %}
       <a class="card person-teaser" href="{{ person.url }}">
