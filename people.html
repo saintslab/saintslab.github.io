@@ -13,6 +13,8 @@ permalink: /people/
 
 <section class="section container">
   {% assign people = site.people | sort: "order" %}
+  <div class="grid people-grid">
+
   {% for person in people %}
     {% unless person.former %}
       <a class="card person-teaser" href="{{ person.url }}">
@@ -28,5 +30,6 @@ permalink: /people/
       </a>
     {% endunless %}
   {% endfor %}
+  </div>
 </section>
 
