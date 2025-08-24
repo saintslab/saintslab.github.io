@@ -24,25 +24,25 @@ title: Home
 
 <section id="people" class="section container">
   <h2 class="section-title">People</h2>
-  <div class="grid people-grid">
-    {% assign current = site.people | "p.former != true" %}
-    {% assign sorted = site.people | sort: 'order' %}
-    {% for person in sorted %}
+<div class="grid people-grid">
+  {% assign people = site.people | sort: "name" %}  {# keep your existing ordering, or your order-based assign #}
+  {% for person in people %}
+    {% unless person.former %}
       <a class="card person-teaser" href="{{ person.url }}">
         <div class="avatar">
-          {% if person.photo %}
-            <img src="{{ person.photo }}" alt="{{ person.name }}">
-          {% else %}
-            <div class="placeholder">Photo</div>
-          {% endif %}
+          {% if person.photo %}<img src="{{ person.photo }}" alt="{{ person.name }}">{% else %}<div class="placeholder">Photo</div>{% endif %}
         </div>
         <div class="card-body">
           <h3>{{ person.name }}</h3>
           {% if person.role %}<p class="muted">{{ person.role }}</p>{% endif %}
+          {% assign raw = person.blurb | default: person.content %}
+          {% assign teaser = raw | markdownify | strip_html | replace: '&nbsp;', ' ' | strip %}
+          {% if teaser != '' %}<p class="teaser">{{ teaser | truncatewords: 24 }}</p>{% endif %}
         </div>
       </a>
-    {% endfor %}
-  </div>
+    {% endunless %}
+  {% endfor %}
+</div>
 </section>
 
 <section class="section container">
