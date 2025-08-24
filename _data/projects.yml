@@ -11,7 +11,7 @@
   thumb: /assets/img/projects/aichemy.png
 
 - title: Medical Image Analysis
-  summary: https://raghavian.github.io/projects/#bio-medical-image-analysis
-  link: Raghav's PhD was in medical image analysis, and he is still actively pursuing exciting ideas in this domain.
+  link: https://raghavian.github.io/projects/#bio-medical-image-analysis
+  summary: Raghav's PhD was in medical image analysis, and he is still actively pursuing exciting ideas in this domain.
   tags: [segmentation, uncertainty, generative models]
   thumb: /assets/img/projects/mia.png
