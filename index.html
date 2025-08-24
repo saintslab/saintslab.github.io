@@ -25,7 +25,7 @@ title: Home
 <section id="people" class="section container">
   <h2 class="section-title">People</h2>
 <div class="grid people-grid">
-  {% assign people = site.people | sort: "name" %}  {# keep your existing ordering, or your order-based assign #}
+  {% assign people = site.people | sort: "name" %}
   {% for person in people %}
     {% unless person.former %}
       <a class="card person-teaser" href="{{ person.url }}">
