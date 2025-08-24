@@ -35,9 +35,6 @@ title: Home
         <div class="card-body">
           <h3>{{ person.name }}</h3>
           {% if person.role %}<p class="muted">{{ person.role }}</p>{% endif %}
-          {% assign raw = person.blurb | default: person.content %}
-          {% assign teaser = raw | markdownify | strip_html | replace: '&nbsp;', ' ' | strip %}
-          {% if teaser != '' %}<p class="teaser">{{ teaser | truncatewords: 24 }}</p>{% endif %}
         </div>
       </a>
     {% endunless %}
