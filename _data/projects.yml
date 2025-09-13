@@ -17,8 +17,8 @@
   tags: [materials chemistry, earth monitoring, neuroscience]
   thumb: /assets/img/projects/aichemy.png
 
-- title: Medical Image Analysis
-  link: https://raghavian.github.io/projects/#bio-medical-image-analysis
-  summary: Raghav's PhD was in medical image analysis, and he is still actively pursuing exciting ideas in this domain.
-  tags: [segmentation, uncertainty, generative models]
-  thumb: /assets/img/projects/mia.png
+#- title: Medical Image Analysis
+#  link: https://raghavian.github.io/projects/#bio-medical-image-analysis
+#  summary: Raghav's PhD was in medical image analysis, and he is still actively pursuing exciting ideas in this domain.
+#  tags: [segmentation, uncertainty, generative models]
+#  thumb: /assets/img/projects/mia.png
