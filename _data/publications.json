@@ -620,29 +620,6 @@
     "type": "conference"
   },
   {
-    "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research",
-    "authors": [
-      "Nanna Inie",
-      "Jeanette Falk",
-      "Raghavendra Selvan"
-    ],
-    "venue": "Aarhus 2025 Conference on Computing [X] Crisis",
-    "year": "2025",
-    "date": "2025-01-01",
-    "link": "https://arxiv.org/pdf/2504.00692",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/abs/2504.00692"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2504.00692"
-      }
-    ],
-    "type": "conference"
-  },
-  {
     "title": "UniPhyNet: A Unified Network For Multimodal Physiological Raw Signal Classification",
     "authors": [
       "Renxiang Qiu",
@@ -660,6 +637,29 @@
       {
         "label": "pdf",
         "url": "https://arxiv.org/pdf/2507.14163"
+      }
+    ],
+    "type": "conference"
+  },
+  {
+    "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research",
+    "authors": [
+      "Nanna Inie",
+      "Jeanette Falk",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Sixth Decennial Aarhus Conference: Computing X Crisis",
+    "year": "2025",
+    "date": "2025-12-01",
+    "link": "https://dl.acm.org/doi/pdf/10.1145/3737609.3747110",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://dl.acm.org/doi/full/10.1145/3737609.3747110"
+      },
+      {
+        "label": "pdf",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3737609.3747110"
       }
     ],
     "type": "conference"
