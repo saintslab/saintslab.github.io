@@ -4,6 +4,13 @@
   tags: [sustainability, efficiency, optimization]
   thumb: /assets/img/projects/sustainability.png
 
+- title: Carbontracker
+  summary: Suite of tools for tracking and predicting carbon footprint of ML workflows.
+  link: https://carbontracker.info/
+  tags: [carbon footprint, efficiency, optimization, ]
+  thumb: /assets/img/projects/carbontracker.png
+
+
 - title: AI for Sciences
   summary: Several inter-disciplinary collaborations spanning a broad range of topics are being investigated. From an ML point of view, these do open interesting methods development. 
   link: https://raghavian.github.io/projects/#ai-for-sciences
