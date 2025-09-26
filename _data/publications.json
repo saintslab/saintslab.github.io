@@ -1591,6 +1591,28 @@
     "type": "preprint"
   },
   {
+    "title": "A Discrepancy-Based Perspective on Dataset Condensation",
+    "authors": [
+      "Tong Chen",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Arxiv",
+    "year": "2025",
+    "date": "2025-01-01",
+    "link": "https://arxiv.org/pdf/2509.10367",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2509.10367"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2509.10367"
+      }
+    ],
+    "type": "preprint"
+  },
+  {
     "title": "Climate And Resource Awareness is Imperative to Achieving Sustainable AI (and Preventing a Global AI Arms Race)",
     "authors": [
       "Pedram Bakhtiarifard",
