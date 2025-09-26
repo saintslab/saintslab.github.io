@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="38%" r="26%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.0"/>
+    </radialGradient>
+    <style>
+      .ring{ fill:none; stroke:url(#g); stroke-width:12; stroke-linecap:round; }
+      .halo{ fill:url(#halo); }
+      .head{ fill:none; stroke:url(#g); stroke-width:12; }
+      .robe{ fill:none; stroke:url(#g); stroke-width:12; stroke-linejoin:round; }
+      .star{ fill:url(#g); }
+    </style>
+  </defs>
+
+  <!-- outer medallion -->
+  <circle class="ring" cx="256" cy="256" r="232"/>
+
+  <!-- soft radiant halo behind the head -->
+  <ellipse class="halo" cx="256" cy="195" rx="130" ry="88"/>
+
+  <!-- head -->
+  <circle class="head" cx="256" cy="200" r="56"/>
+
+  <!-- shoulders and robe -->
+  <path class="robe" d="M136 352
+                       C168 300, 208 272, 256 272
+                       C304 272, 344 300, 376 352
+                       L328 424
+                       C305 392, 282 376, 256 376
+                       C230 376, 207 392, 184 424
+                       Z"/>
+
+  <!-- small guiding star -->
+  <path class="star" d="M390 138
+    l10 0 l4 -10 l4 10 l10 0 l-8 6 l3 10 l-9 -6 l-9 6 l3 -10 z"/>
+</svg>
