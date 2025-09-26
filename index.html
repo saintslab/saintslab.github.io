@@ -30,7 +30,7 @@ title: Home
     {% unless person.former %}
       <a class="card person-teaser" href="{{ person.url }}">
         <div class="avatar">
-          {% if person.photo %}<img src="{{ person.photo }}" alt="{{ person.name }}">{% else %}<div class="placeholder">Photo</div>{% endif %}
+          {% if person.photo %}<img src="{{ person.photo }}" alt="{{ person.name }}">{% else %}<img class="placeholder-icon" src="/assets/img/saint-placeholder.svg" alt="Placeholder icon">{% endif %}
         </div>
         <div class="card-body">
           <h3>{{ person.name }}</h3>
