@@ -1,6 +1,6 @@
 ---
 name: Jonathan V. Wenshøj
-role: Research Assistant
+role: Student Research Assistant
 email: jowe@di.ku.dk
 photo: /assets/img/jonathan.jpg
 github: https://github.com/
