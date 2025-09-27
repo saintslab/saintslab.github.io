@@ -7,6 +7,44 @@ permalink: /publications/
 <section class="page-hero">
   <div class="container">
     <h1 class="gradient-text">Publications</h1>
+    <div class="toc">
+      {% assign theme_meta = site.data.project_themes %}
+      {% if theme_meta and theme_meta.order and theme_meta.order.size > 0 %}
+        {% assign toc_keys = theme_meta.order %}
+        {% assign labels = theme_meta.labels %}
+      {% else %}
+        {% assign pubs = site.data.publications %}
+        {% assign toc_keys = pubs | map: "theme_key" | uniq | compact %}
+        {% assign labels = {} %}
+      {% endif %}
+
+    <nav class="toc-vertical" aria-label="Project areas">
+      {% for key in toc_keys %}
+        {% assign label = nil %}
+        {% if labels and labels[key] %}{% assign label = labels[key] %}{% endif %}
+        {% unless label %}
+          {% assign tokens = key | split: "-" %}
+          {% capture label %}
+            {% for w in tokens %}
+              {% assign up = w | upcase %}
+              {% if up == "AI" or up == "ML" or up == "HPC" %}
+                {{ up }}
+              {% else %}
+                {{ w | capitalize }}
+              {% endif %}
+              {% unless forloop.last %} {% endunless %}
+            {% endfor %}
+          {% endcapture %}
+          {% assign label = label | strip %}
+        {% endunless %}
+
+        <a class="toc-item" href="#{{ key | slugify }}">{{ label }}</a>
+      {% endfor %}
+    </nav>
+
+    </div>
+
+
     <p class="subtitle">Grouped by project area. Search and year filters work across all sections.</p>
     <div class="pub-filters">
       <input type="search" id="q" placeholder="Search title, author, venue, year">
@@ -20,43 +58,6 @@ permalink: /publications/
 </section>
 
 <section class="section container">
-  <div class="toc">
-    {% assign theme_meta = site.data.project_themes %}
-    {% if theme_meta and theme_meta.order and theme_meta.order.size > 0 %}
-      {% assign toc_keys = theme_meta.order %}
-      {% assign labels = theme_meta.labels %}
-    {% else %}
-      {% assign pubs = site.data.publications %}
-      {% assign toc_keys = pubs | map: "theme_key" | uniq | compact %}
-      {% assign labels = {} %}
-    {% endif %}
-
-  <nav class="toc-vertical" aria-label="Project areas">
-    {% for key in toc_keys %}
-      {% assign label = nil %}
-      {% if labels and labels[key] %}{% assign label = labels[key] %}{% endif %}
-      {% unless label %}
-        {% assign tokens = key | split: "-" %}
-        {% capture label %}
-          {% for w in tokens %}
-            {% assign up = w | upcase %}
-            {% if up == "AI" or up == "ML" or up == "HPC" %}
-              {{ up }}
-            {% else %}
-              {{ w | capitalize }}
-            {% endif %}
-            {% unless forloop.last %} {% endunless %}
-          {% endfor %}
-        {% endcapture %}
-        {% assign label = label | strip %}
-      {% endunless %}
-
-      <a class="toc-item" href="#{{ key | slugify }}">{{ label }}</a>
-    {% endfor %}
-  </nav>
-
-  </div>
-
   {% assign theme_order = site.data.project_themes.order %}
   {% assign labels = site.data.project_themes.labels %}
   {% for key in theme_order %}
