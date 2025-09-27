@@ -7,7 +7,7 @@ on:
   push:
     paths:
       - .github/workflows/pubs-sync.yml
-      - scripts/parse_publications.py
+      - scripts/parse_from_projects.py
 
 jobs:
   sync:
