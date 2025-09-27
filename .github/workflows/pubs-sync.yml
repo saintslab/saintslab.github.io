@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install requests beautifulsoup4 lxml
-      - run: python scripts/parse_publications.py
+      - run: python scripts/parse_from_projects.py
       - name: Commit updates
         run: |
           if [[ -n "$(git status --porcelain _data/publications.json)" ]]; then
