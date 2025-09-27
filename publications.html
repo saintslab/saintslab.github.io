@@ -30,10 +30,10 @@ permalink: /publications/
     {% assign labels = {} %}
   {% endif %}
 
-  <nav class="toc-nav" aria-label="Project areas">
+  <nav class="toc-vertical" aria-label="Project areas">
     {% for key in toc_keys %}
       {% assign label = labels[key] | default: key | replace: "-", " " | capitalize %}
-      <a href="#{{ key | slugify }}">{{ label }}</a>
+      <a class="toc-item" href="#{{ key | slugify }}">{{ label }}</a>
     {% endfor %}
   </nav>
 </div>
