@@ -135,6 +135,21 @@ body{
 .pub{padding:14px 16px; border:1px solid var(--border); border-radius:16px; background: #fff}
 [data-theme="dark"] .pub{background: rgba(255,255,255,0.04)}
 .pub-title{margin:0 0 6px 0}
+/* Make publication titles use the same gradient treatment as the H1 */
+.pub-title,
+.pub-title a {
+  background: linear-gradient(90deg, var(--accentA), var(--accentB));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+}
+
+/* Optional: a subtle underline on hover so links still read as links */
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
 .pub-authors, .pub-venue{margin:0; color:var(--muted)}
 .pub-links{margin-top:8px; display:flex; gap:8px; flex-wrap:wrap}
 .chip{padding:6px 10px; border:1px solid var(--border); border-radius:9999px; color:var(--text); text-decoration:none; background:#fff}
