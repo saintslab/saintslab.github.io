@@ -30,23 +30,57 @@ permalink: /publications/
     {% assign labels = {} %}
   {% endif %}
 
-  <nav class="toc-vertical" aria-label="Project areas">
-    {% for key in toc_keys %}
-      {% assign label = labels[key] | default: key | replace: "-", " " | capitalize %}
-      <a class="toc-item" href="#{{ key | slugify }}">{{ label }}</a>
-    {% endfor %}
-  </nav>
+<nav class="toc-vertical" aria-label="Project areas">
+  {% for key in toc_keys %}
+    {% assign label = nil %}
+    {% if labels and labels[key] %}{% assign label = labels[key] %}{% endif %}
+    {% unless label %}
+      {% assign tokens = key | split: "-" %}
+      {% capture label %}
+        {% for w in tokens %}
+          {% assign up = w | upcase %}
+          {% if up == "AI" or up == "ML" or up == "HPC" %}
+            {{ up }}
+          {% else %}
+            {{ w | capitalize }}
+          {% endif %}
+          {% unless forloop.last %} {% endunless %}
+        {% endfor %}
+      {% endcapture %}
+      {% assign label = label | strip %}
+    {% endunless %}
+
+    <a class="toc-item" href="#{{ key | slugify }}">{{ label }}</a>
+  {% endfor %}
+</nav>
+
 </div>
 
 <section class="section container">
   {% assign theme_order = site.data.project_themes.order %}
   {% assign labels = site.data.project_themes.labels %}
-
   {% for key in theme_order %}
-    {% assign label = labels[key] | default: key %}
     {% assign section = site.data.publications | where: "theme_key", key | sort: "date" | reverse %}
     {% if section.size > 0 %}
-      <h2 id="{{ key }}" class="section-title">{{ label }}</h2>
+      {% assign label = nil %}
+      {% if labels and labels[key] %}{% assign label = labels[key] %}{% endif %}
+      {% unless label %}
+        {% assign tokens = key | split: "-" %}
+        {% capture label %}
+          {% for w in tokens %}
+            {% assign up = w | upcase %}
+            {% if up == "AI" or up == "ML" or up == "HPC" %}
+              {{ up }}
+            {% else %}
+              {{ w | capitalize }}
+            {% endif %}
+            {% unless forloop.last %} {% endunless %}
+          {% endfor %}
+        {% endcapture %}
+        {% assign label = label | strip %}
+      {% endunless %}
+
+      <h2 id="{{ key | slugify }}" class="section-title">{{ label }}</h2>
       <div class="pub-list">
         {% for p in section %}
           <article class="pub"
