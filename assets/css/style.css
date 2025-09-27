@@ -192,10 +192,15 @@ body{
   opacity: 0.9;            /* lets it sit back a touch */
 }
 
+
+/* Replace the previous TOC rules with these */
 .toc { margin-top: 12px }
 .toc-vertical {
   display: block;
-  max-width: 720px;
+  width: 100%;
+  max-width: none;    /* important: let it span the full container */
+  padding-left: 0;    /* in case something upstream added padding */
+  margin-left: 0;
 }
 .toc-item {
   display: block;
@@ -204,9 +209,9 @@ body{
   color: var(--text);
   border-bottom: 1px solid var(--border);
 }
-.toc-item:first-child {
-  border-top: 1px solid var(--border);
-}
+.toc-item:first-child { border-top: 1px solid var(--border) }
+
+
 .toc-item:hover {
   background: linear-gradient(90deg, rgba(14,165,233,0.08), rgba(16,185,129,0.08));
 }
