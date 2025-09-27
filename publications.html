@@ -19,6 +19,25 @@ permalink: /publications/
   </div>
 </section>
 
+<div class="toc">
+  {% assign theme_meta = site.data.project_themes %}
+  {% if theme_meta and theme_meta.order and theme_meta.order.size > 0 %}
+    {% assign toc_keys = theme_meta.order %}
+    {% assign labels = theme_meta.labels %}
+  {% else %}
+    {% assign pubs = site.data.publications %}
+    {% assign toc_keys = pubs | map: "theme_key" | uniq | compact %}
+    {% assign labels = {} %}
+  {% endif %}
+
+  <nav class="toc-nav" aria-label="Project areas">
+    {% for key in toc_keys %}
+      {% assign label = labels[key] | default: key | replace: "-", " " | capitalize %}
+      <a href="#{{ key | slugify }}">{{ label }}</a>
+    {% endfor %}
+  </nav>
+</div>
+
 <section class="section container">
   {% assign theme_order = site.data.project_themes.order %}
   {% assign labels = site.data.project_themes.labels %}

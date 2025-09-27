@@ -192,3 +192,26 @@ body{
   opacity: 0.9;            /* lets it sit back a touch */
 }
 
+.toc { margin-top: 10px }
+.toc-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  align-items: center;
+}
+.toc-nav a {
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  padding: 6px 10px;
+  color: var(--text);
+  background: rgba(255,255,255,0.85);
+}
+[data-theme="dark"] .toc-nav a {
+  background: rgba(255,255,255,0.06);
+}
+.toc-nav a:hover {
+  border-color: var(--accentA);
+  background: linear-gradient(90deg, rgba(14,165,233,0.10), rgba(16,185,129,0.10));
+}
+
