@@ -223,14 +223,24 @@ body{
 }
 
 
-/* Publications: make titles match the page gradient */
+/* Publications: plain accent color, no gradient */
 .pub .pub-title,
 .pub .pub-title a,
 .pub .pub-title a:link,
 .pub .pub-title a:visited {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  -webkit-text-fill-color: currentColor; /* reset if gradient was used before */
   color: var(--accentA);
   text-decoration: none;
 }
 
-.pub-title a:hover { color: var(--accentB); text-decoration: underline; }
+.pub .pub-title a:hover,
+.pub .pub-title a:focus-visible {
+  color: var(--accentB);
+  text-decoration: underline;
+  outline: none;
+}
+
 
