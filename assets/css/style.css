@@ -244,3 +244,12 @@ body{
 }
 
 
+/* People cards: use site accents for names */
+.person-teaser h3{
+  color: var(--accentA);
+  transition: color .2s ease;
+}
+.person-teaser:hover h3{
+  color: var(--accentB);
+}
+
