@@ -232,3 +232,21 @@ body{
 }
 
 
+/* Publications: make titles match the page gradient */
+.pub .pub-title,
+.pub .pub-title a,
+.pub .pub-title a:link,
+.pub .pub-title a:visited {
+  background: linear-gradient(90deg, var(--accentA), var(--accentB));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;  /* Safari/WebKit */
+  text-decoration: none;
+  display: inline-block;                 /* helps some browsers render the clip */
+}
+
+.pub .pub-title a:hover {
+  text-decoration: underline;
+}
+
