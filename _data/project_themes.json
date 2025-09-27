@@ -1,0 +1,12 @@
+{
+  "order": [
+    "sustainability-of-ai",
+    "ai-for-sciences",
+    "bio-medical-image-analysis"
+  ],
+  "labels": {
+    "sustainability-of-ai": "Sustainability of AI",
+    "ai-for-sciences": "AI for Sciences",
+    "bio-medical-image-analysis": "Bio-Medical Image Analysis"
+  }
+}
