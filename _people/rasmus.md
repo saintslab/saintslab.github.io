@@ -1,6 +1,6 @@
 ---
 name: Rasmus Løvstad
-role: Research Assistant
+role: Student Research Assistant
 email: rhl@di.ku.dk
 photo: /assets/img/rasmus.jpg
 github: https://github.com/Snailed/
