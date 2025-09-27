@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Publications
-description: Publications by SAINTS Lab
 permalink: /publications/
 ---
 
 <section class="page-hero">
   <div class="container">
     <h1 class="gradient-text">Publications</h1>
-    <p class="subtitle">Search across all categories, or jump to a section below.</p>
+    <p class="subtitle">Grouped by project area. Search and year filters work across all sections.</p>
     <div class="pub-filters">
       <input type="search" id="q" placeholder="Search title, author, venue, year">
       <select id="year">
@@ -17,26 +16,16 @@ permalink: /publications/
         {% for y in years %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
       </select>
     </div>
-    <p class="subtitle" style="margin-top:8px">
-      <a href="#conference">Refereed Conference</a> ·
-      <a href="#journal">Journal</a> ·
-      <a href="#preprint">Preprint</a> ·
-      <a href="#monograph">Monograph</a>
-    </p>
   </div>
 </section>
 
 <section class="section container">
-  {% assign keys = "conference,journal,preprint,monograph" | split: "," %}
-  {% for key in keys %}
-    {% if key == "conference" %}{% assign label = "Refereed Conference" %}{% endif %}
-    {% if key == "journal" %}{% assign label = "Journal" %}{% endif %}
-    {% if key == "preprint" %}{% assign label = "Preprint" %}{% endif %}
-    {% if key == "monograph" %}{% assign label = "Monograph" %}{% endif %}
+  {% assign theme_order = site.data.project_themes.order %}
+  {% assign labels = site.data.project_themes.labels %}
 
-    {% assign section = site.data.publications | where: "type", key %}
-    {% assign section = section | sort: "date" | reverse %}
-
+  {% for key in theme_order %}
+    {% assign label = labels[key] | default: key %}
+    {% assign section = site.data.publications | where: "theme_key", key | sort: "date" | reverse %}
     {% if section.size > 0 %}
       <h2 id="{{ key }}" class="section-title">{{ label }}</h2>
       <div class="pub-list">
@@ -45,26 +34,56 @@ permalink: /publications/
                    data-title="{{ p.title | downcase }}"
                    data-authors="{{ p.authors | join: ' ' | downcase }}"
                    data-venue="{{ p.venue | downcase }}"
-                   data-year="{{ p.year }}"
-                   data-type="{{ p.type }}">
+                   data-year="{{ p.year }}">
             <h3 class="pub-title">
               {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
             </h3>
-            <p class="pub-authors">{{ p.authors | join: ', ' }}</p>
-            <p class="pub-venue">
-              {{ p.venue }}{% if p.venue and p.year %},{% endif %} {{ p.year }}
-            </p>
+            {% if p.authors_html %}
+              <p class="pub-authors">{{ p.authors_html | strip_newlines }}</p>
+            {% else %}
+              <p class="pub-authors">{{ p.authors | join: ', ' }}</p>
+            {% endif %}
+            <p class="pub-venue">{{ p.venue }}{% if p.venue and p.year %}, {% endif %}{{ p.year }}</p>
             {% if p.resources %}
-            <div class="pub-links">
-              {% for r in p.resources %}
-                <a class="chip" href="{{ r.url }}" target="_blank" rel="noopener">{{ r.label }}</a>
-              {% endfor %}
-            </div>
+              <div class="pub-links">
+                {% for r in p.resources %}
+                  <a class="chip" href="{{ r.url }}" target="_blank" rel="noopener">{{ r.label }}</a>
+                {% endfor %}
+              </div>
             {% endif %}
           </article>
         {% endfor %}
       </div>
     {% endif %}
   {% endfor %}
+
+  {% assign other = site.data.publications | where_exp: "x", "x.theme_key == nil" | sort: "date" | reverse %}
+  {% if other.size > 0 %}
+    <h2 id="other" class="section-title">Other</h2>
+    <div class="pub-list">
+      {% for p in other %}
+        <article class="pub"
+                 data-title="{{ p.title | downcase }}"
+                 data-authors="{{ p.authors | join: ' ' | downcase }}"
+                 data-venue="{{ p.venue | downcase }}"
+                 data-year="{{ p.year }}">
+          <h3 class="pub-title">
+            {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+          </h3>
+          {% if p.authors_html %}
+            <p class="pub-authors">{{ p.authors_html | strip_newlines }}</p>
+          {% else %}
+            <p class="pub-authors">{{ p.authors | join: ', ' }}</p>
+          {% endif %}
+          <p class="pub-venue">{{ p.venue }}{% if p.venue and p.year %}, {% endif %}{{ p.year }}</p>
+          {% if p.resources %}
+            <div class="pub-links">
+              {% for r in p.resources %}<a class="chip" href="{{ r.url }}" target="_blank" rel="noopener">{{ r.label }}</a>{% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  {% endif %}
 </section>
 
