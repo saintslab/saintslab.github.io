@@ -124,6 +124,31 @@
     "theme_label": "AI for Sciences"
   },
   {
+    "title": "Trading Carbon for Physics: On the Resource Efficiency of Machine Learning for Spatio-Temporal Forecasting",
+    "authors": [
+      "Sophia N. Wilson",
+      "Jens Hesselbjerg Christensen",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Arxiv",
+    "year": "2025",
+    "date": "2025-01-01",
+    "link": "https://arxiv.org/pdf/2509.24517",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2509.24517"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2509.24517"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "Sustainable AI: Tools for Moving Towards Green AI",
     "authors": [
       "Raghavendra Selvan"
