@@ -2,7 +2,7 @@
 name: Bob Pepin
 role: Postdoc
 email: bope@di.ku.dk
-photo: /assets/img/bob.jpg
+photo: /assets/img/bob.jpeg
 scholar: https://scholar.google.com/citations?user=w7gb0Q4AAAAJ&hl=en&oi=ao
 order: 998
 former: true
