@@ -32,6 +32,7 @@ layout: default
   </article>
 </section>
 
+{% unless page.role and page.role contains 'PI' %}
 <section class="section container">
   <h2 class="section-title">Publications</h2>
 
@@ -85,4 +86,4 @@ layout: default
     <p class="muted">No publications found for this profile. </p>
   {%- endif -%}
 </section>
-
+{% endunless %}
