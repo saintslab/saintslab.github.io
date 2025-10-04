@@ -1,6 +1,8 @@
 ---
 name: Julian E. Schön
 role: Research Assistant
+pub_aliases:
+  - Julian Schön
 photo: /assets/img/julian.jpg
 scholar: https://scholar.google.com/citations?user=YqdxR9UAAAAJ&hl=en&oi=ao 
 order: 10
