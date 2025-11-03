@@ -149,22 +149,22 @@
     "theme_label": "Sustainability of AI"
   },
   {
-    "title": "Sustainable AI: Tools for Moving Towards Green AI",
+    "title": "Sustainable AI",
     "authors": [
       "Raghavendra Selvan"
     ],
-    "venue": "Upcoming Book (Early Release online)",
+    "venue": "Book",
     "year": "2025",
     "date": "2025-01-01",
-    "link": "https://www.oreilly.com/library/view/sustainable-ai/9781098155506/",
+    "link": "https://raghavian.github.io/sustainable-ai/",
     "resources": [
       {
         "label": "link",
-        "url": "https://www.oreilly.com/library/view/sustainable-ai/9781098155506/"
+        "url": "https://raghavian.github.io/sustainable-ai/"
       },
       {
         "label": "pdf",
-        "url": "https://www.oreilly.com/library/view/sustainable-ai/9781098155506/"
+        "url": "https://raghavian.github.io/sustainable-ai/"
       }
     ],
     "type": "from-projects",
