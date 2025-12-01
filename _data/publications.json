@@ -205,18 +205,18 @@
       "Bob Pepin",
       "Raghavendra Selvan"
     ],
-    "venue": "Arxiv",
+    "venue": "Transactions on Machine Learning Research (TMLR)",
     "year": "2025",
     "date": "2025-01-01",
-    "link": "https://arxiv.org/pdf/2502.00490",
+    "link": "https://openreview.net/forum?id=bPwcJ0nkDC",
     "resources": [
       {
         "label": "link",
-        "url": "https://arxiv.org/abs/2502.00490"
+        "url": "https://openreview.net/forum?id=bPwcJ0nkDC"
       },
       {
         "label": "pdf",
-        "url": "https://arxiv.org/pdf/2502.00490"
+        "url": "https://openreview.net/forum?id=bPwcJ0nkDC"
       }
     ],
     "type": "from-projects",
