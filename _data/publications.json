@@ -1,5 +1,36 @@
 [
   {
+    "title": "Sustainable AI in medicine: balancing benefits and environmental costs",
+    "authors": [
+      "Nikolas E. J. Schmitz",
+      "Cristina Richie",
+      "Raghavendra Selvan",
+      "Loïc Lannelongue",
+      "Ariel Dora Stern",
+      "Nick Schneider",
+      "Joe Lennerz",
+      "Blanca Iciar Indave Ruiz",
+      "Martin Strauch & Peter Boor"
+    ],
+    "venue": "Nature Reviews Nephrology",
+    "year": "2026",
+    "date": "2026-03-01",
+    "link": "https://rdcu.be/eZeDu",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://www.nature.com/articles/s41581-026-01047-3"
+      },
+      {
+        "label": "pdf",
+        "url": "https://rdcu.be/eZeDu"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research",
     "authors": [
       "Nanna Inie",
