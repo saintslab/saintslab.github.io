@@ -31,6 +31,34 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "How Hyper-Datafication Impacts the Sustainability Costs in Frontier AI",
+    "authors": [
+      "Sophia N. Wilson",
+      "Sebastian Mair",
+      "Mophat Okinyi",
+      "Erik B Dam",
+      "Janin Koch",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Preprint",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://raghavian.github.io/_pages/files/wilson2026hyperdatafication.pdf",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://raghavian.github.io/_pages/files/wilson2026hyperdatafication.pdf"
+      },
+      {
+        "label": "pdf",
+        "url": "https://raghavian.github.io/_pages/files/wilson2026hyperdatafication.pdf"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research",
     "authors": [
       "Nanna Inie",
