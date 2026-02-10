@@ -1,45 +1,57 @@
 ---
 layout: page
-title: Sustainable AI Workshop 2026
+title: Workshop on Sustainable AI 2026
 permalink: /workshop2026/
 ---
 
-# Sustainable AI Workshop 2026
+<div class="post">
 
-The Sustainable Artificial Intelligence for Sciences (SAINTS) Lab is hosting a specialized workshop on June 12, 2026, at the University of Copenhagen to address the critical intersection of computational efficiency and environmental stewardship. This session facilitates a technical exchange on the dual mandate of "AI for Sustainability" and the "Sustainability of AI," focusing on the mitigation of the carbon intensity inherent in modern machine learning workflows.
+  <header class="post-header">
+    <h1 class="post-title">Sustainable AI Workshop 2026</h1>
+    <p class="post-description">Advancing Resource-Efficient Machine Learning for Scientific Discovery</p>
+  </header>
 
-### Series of Technical Talks
+  <article>
+    <div class="projects">
+      <p>
+        The Sustainable Artificial Intelligence for Sciences (SAINTS) Lab is pleased to announce a technical workshop scheduled for June 12, 2026, at the University of Copenhagen. This event serves as a forum for examining the intersection of computational efficiency and ecological responsibility. As machine learning models scale in complexity, the necessity for robust frameworks that quantify and mitigate carbon intensity becomes paramount. This workshop addresses these challenges through the dual lens of the sustainability of AI and the application of AI to solve scientific sustainability problems.
+      </p>
 
-**Foundations of Resource-Efficient Machine Learning**
-*Raghavendra Selvan, Principal Investigator*
-This session explores the theoretical boundaries of algorithmic efficiency. It addresses the necessity of moving beyond accuracy-centric metrics to include energy-delay products and hardware-aware optimizations as primary objectives in model selection.
+      <h2 class="category">Series of Technical Talks</h2>
+      <p>
+        <strong>Foundations of Resource-Efficient Machine Learning</strong><br>
+        <em>Raghavendra Selvan, Principal Investigator</em><br>
+        This session interrogates the theoretical boundaries of algorithmic efficiency. It shifts the focus from accuracy-centric metrics toward energy-delay products and hardware-aware optimizations as primary objectives in model selection.
+      </p>
 
-**Operationalizing Carbon Awareness with Carbontracker 2.0**
-*Sophia Wilson, PhD Student*
-An analysis of the updated Carbontracker framework, demonstrating real-time integration with global energy grid APIs. The talk covers predictive modeling of carbon intensity during long-running training sessions and the implementation of automated "green-scheduling" to shift workloads to periods of high renewable energy availability.
+      <p>
+        <strong>Operationalizing Carbon Awareness with Carbontracker 2.0</strong><br>
+        <em>Sophia Wilson, PhD Student</em><br>
+        An analysis of the updated Carbontracker framework, demonstrating real-time integration with global energy grid APIs. The talk covers predictive modeling of carbon intensity during long-running training sessions and the implementation of automated green-scheduling to shift workloads to periods of high renewable energy availability.
+      </p>
 
-**Pruning and Quantization Strategies for Scientific Foundation Models**
-*Tong Chen, Postdoc*
-This presentation details methods for reducing the parameter footprint of large-scale models without compromising downstream performance in scientific domains. It focuses on structured pruning and low-bitwidth quantization specifically tailored for the high-precision requirements of chemical and physical data modeling.
+      <p>
+        <strong>Pruning and Quantization Strategies for Scientific Foundation Models</strong><br>
+        <em>Tong Chen, Postdoc</em><br>
+        This presentation details methods for reducing the parameter footprint of large-scale models without compromising downstream performance. It focuses on structured pruning and low-bitwidth quantization specifically tailored for the high-precision requirements of chemical and physical data modeling.
+      </p>
 
-**Neural Architecture Search (NAS) under Stringent Resource Constraints**
-*Pedram Bakhtiarifard, PhD Student*
-A deep dive into multi-objective NAS algorithms designed to identify Pareto-optimal architectures that balance predictive power with limited FLOPs and memory consumption, ensuring AI utility in edge-computing environments and resource-limited scientific field work.
+      <h2 class="category">Participants and Organizers</h2>
+      <p>
+        The workshop is organized by the core research team at the SAINTS Lab. <strong>Raghavendra Selvan</strong> serves as the lead organizer, with <strong>Tong Chen</strong> managing the technical program. Research demonstrations and logistical support are provided by <strong>Sophia Wilson</strong>, <strong>Pedram Bakhtiarifard</strong>, <strong>Jonathan V. Wenshøj</strong>, and <strong>Mikkel Dahl</strong>.
+      </p>
 
-### Location and Logistics
+      <h2 class="category">Location and Logistics</h2>
+      <p>
+        The workshop will be held at the <strong>H.C. Ørsted Institute (HCØ)</strong>, within the North Campus of the University of Copenhagen. 
+        <br><strong>Venue:</strong> Alf Ross Auditorium (Room 9A.3.01)
+        <br><strong>Address:</strong> Universitetsparken 5, 2100 København Ø, Denmark
+      </p>
 
-The workshop will be held at the **H.C. Ørsted Institute (HCØ)**, within the North Campus of the University of Copenhagen.
+      <p>
+        The event is structured as a hybrid session, combining physical attendance for local researchers with a synchronous digital stream for the international scientific community. Registration is required to manage venue capacity.
+      </p>
+    </div>
+  </article>
 
-* **Venue:** Alf Ross Auditorium (Room 9A.3.01)
-* **Address:** Universitetsparken 5, 2100 København Ø, Denmark
-* **Format:** The event is structured as a hybrid session, with physical attendance for local researchers and a synchronous digital stream for the international scientific community.
-
-### Participating Researchers
-
-The event is organized by the core members of the SAINTS Lab:
-* **Raghavendra Selvan** (Lead Organizer)
-* **Tong Chen** (Technical Program Chair)
-* **Sophia Wilson** & **Pedram Bakhtiarifard** (Logistics and Demonstrations)
-* **Jonathan V. Wenshøj** & **Mikkel Dahl** (Research Support)
-
-Registration for external attendees is required to manage venue capacity. Inquiries regarding participation or abstract submission for the poster session should be directed to the lab's primary contact address at DIKU.
+</div>
