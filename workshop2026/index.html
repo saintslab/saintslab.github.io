@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable AI 2026 | SAINTS Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* These colors are tuned to match the SAINTS Lab academic theme */
+            --bg-color: #ffffff; 
+            --text-color: #1a1a1a;
+            --accent-color: #003366; /* Deep navy accent */
+            --muted-color: #555555;
+            --border-color: #eaeaea;
+            --section-bg: #fafafa;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        nav {
+            border-bottom: 1px solid var(--border-color);
+            padding: 25px 0;
+            margin-bottom: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-left: 25px;
+            transition: opacity 0.2s;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        nav .logo {
+            font-weight: 700;
+            margin-left: 0;
+            color: var(--text-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem;
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+
+        .date-location {
+            font-size: 1.2rem;
+            color: var(--muted-color);
+            font-weight: 400;
+        }
+
+        section {
+            margin-bottom: 70px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-color);
+        }
+
+        p {
+            margin-bottom: 25px;
+            font-size: 1.05rem;
+            color: #333;
+        }
+
+        /* Speaker Headshots - GenU Inspired */
+        .speaker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .speaker-card {
+            text-align: center;
+        }
+
+        .speaker-image {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: var(--section-bg);
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+            filter: grayscale(20%);
+            transition: all 0.3s ease;
+        }
+
+        .speaker-card:hover .speaker-image {
+            filter: grayscale(0%);
+            border-color: var(--accent-color);
+            transform: scale(1.03);
+        }
+
+        .speaker-name {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 4px;
+            font-size: 1.1rem;
+        }
+
+        .speaker-bio {
+            font-size: 0.85rem;
+            color: var(--muted-color);
+            line-height: 1.3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 18px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            font-weight: 600;
+            color: var(--muted-color);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        footer {
+            margin-top: 100px;
+            padding: 40px 0;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--muted-color);
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2.2rem; }
+            .speaker-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <nav>
+        <a href="https://saintslab.github.io/" class="logo">SAINTS Lab</a>
+        <div>
+            <a href="#speakers">Speakers</a>
+            <a href="#program">Program</a>
+            <a href="#registration">Registration</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Sustainable Artificial Intelligence for Sciences (SAINTS) 2026</h1>
+        <div class="date-location">
+            March 6, 2026 &nbsp;&bull;&nbsp; Copenhagen, Denmark
+        </div>
+    </header>
+
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>
+            The increasing computational demands of state-of-the-art machine learning models necessitate a rigorous re-evaluation of our field's impact on sustainability. SAINTS'26 is the first in a series of workshops that serves as a collaborative forum for advancing the discourse on the sustainability of AI. We will focus on the growing computational demands of recent AI models, efficiency improvements using novel algorithmic research, and the broader discourse on improving the overall sustainability of AI.
+        </p>
+    </section>
+
+    <section id="speakers">
+        <h2>Speakers</h2>
+        <div class="speaker-grid">
+            <div class="speaker-card">
+                <img src="images/ana.jpeg" alt="Ana-Maria Oprescu" class="speaker-image" onerror="this.src='https://www.uva.nl/en/profile/o/p/a.m.oprescu/a.m.oprescu.html'">
+                <span class="speaker-name">Ana-Maria Oprescu</span>
+                <span class="speaker-bio">Assistant Professor<br>University of Amsterdam</span>
+            </div>
+            <div class="speaker-card">
+                <img src="images/speaker2.jpg" alt="TBD" class="speaker-image" onerror="this.src='https://via.placeholder.com/160'">
+                <span class="speaker-name">TBD</span>
+                <span class="speaker-bio">TBD<br>TBD</span>
+            </div>
+            <div class="speaker-card">
+                <img src="images/raghav.jpg" alt="Raghav" class="speaker-image" onerror="this.src='https://raghavian.github.io/'">
+                <span class="speaker-name">Raghavendra Selvan</span>
+                <span class="speaker-bio">Assistant Professor<br>University of Copenhagen</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="program">
+        <h2>Program</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:15 - 09:30</td>
+                    <td><strong>Welcome:</strong> Introductory remarks and welcome by Sophia Wilson </td>
+                </tr>
+                <tr>
+                    <td>09:30 - 10:00</td>
+                    <td><strong>Keynote:</strong> Keynote by Ana-Maria Oprescu</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 10:40</td>
+                    <td><strong>Technical Track-1:</strong> Three 10 minute presentations by students.</td>
+                </tr>
+                <tr>
+                    <td>10:40 - 11:00</td>
+                    <td><strong>Coffee Break</strong> </td>
+                </tr>
+                <tr>
+                    <td>11:00 - 11:30</td>
+                    <td><strong>Keynote:</strong> Keynote by Raghavendra Selvan</td>
+                </tr>
+                <tr>
+                    <td>11:30 - 12:10</td>
+                    <td><strong>Technical Track-2:</strong> Three 10 minute presentations by students.</td>
+                </tr>
+                <tr>
+                    <td>12:10 - 13:00</td>
+                    <td><strong>Conclusion and Lunch</strong> Concluding remarks by Sophia Wilson.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+     <section id="registration">
+        <h2>Registration</h2>
+        <p>
+            Attendance is limited to ensure high-quality discussion. Please submit an expression of interest including your research focus to the SAINTS Lab organizing committee by March 1st, 2026.
+        </p>
+    </section>
+    <footer>
+        <p>&copy; 2026 SAINTS Lab &bull; Copenhagen, Denmark</p>
+    </footer>
+</div>
+
+</body>
+</html>
