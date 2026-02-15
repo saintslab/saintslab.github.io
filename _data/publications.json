@@ -31,6 +31,32 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "Stop Preaching and Start Practising Data Frugality for Responsible Development of AI",
+    "authors": [
+      "Sophia N. Wilson",
+      "Guðrún Fjóla Guðmundsdóttir",
+      "Andrew Millard",
+      "Raghavendra Selvan Sebastian Mair"
+    ],
+    "venue": "Preprint",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://researchprofiles.ku.dk/files/534321266/wilson2026data_frugality.pdf",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://researchprofiles.ku.dk/en/publications/stop-preaching-and-start-practising-data-frugality-for-responsibl/"
+      },
+      {
+        "label": "pdf",
+        "url": "https://researchprofiles.ku.dk/files/534321266/wilson2026data_frugality.pdf"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "How Hyper-Datafication Impacts the Sustainability Costs in Frontier AI",
     "authors": [
       "Sophia N. Wilson",
