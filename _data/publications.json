@@ -86,6 +86,33 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "Algorithmic Simplification of Neural Networks with Mosaic-of-Motifs",
+    "authors": [
+      "Pedram Bakhtiarifard",
+      "Tong Chen",
+      "Jonathan Wenshøj",
+      "Erik B Dam",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Preprint",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://arxiv.org/pdf/2602.14896",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2602.14896"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2602.14896"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research",
     "authors": [
       "Nanna Inie",
