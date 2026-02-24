@@ -41,7 +41,11 @@ permalink: /people/
 </section>
 
 <section class="section container">
-  {% assign people = site.people | where_exp: "p", "p.affiliated == yes" %}
+  {% assign visitors = site.people | where_exp: "p", "p.former == visitor" %}
+  {% assign with_order = alumni | where_exp: "p", "p.order" | sort: "order" %}
+  {% assign without_order = alumni | where_exp: "p", "p.order == nil" | sort: "name" %}
+  {% assign people = with_order | concat: without_order %}
+
   <div class="grid people-grid">
 
   {% for person in people %}
