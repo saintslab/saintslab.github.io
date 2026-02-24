@@ -41,7 +41,7 @@ permalink: /people/
 </section>
 
 <section class="section container">
-  {% assign people = site.people | where_exp: "p", "p.affiliated == yes" %}
+  {% assign people = site.people | where_exp: "p", "p.former == visitor" %}
   <div class="grid people-grid">
 
   {% for person in people %}
