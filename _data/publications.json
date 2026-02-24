@@ -1,5 +1,32 @@
 [
   {
+    "title": "deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models",
+    "authors": [
+      "Frederik Lizak Johansen",
+      "Adam F Sapnik",
+      "Erik Bjørnager Dam",
+      "Raghavendra Selvan",
+      "Kirsten M Ø Jensen"
+    ],
+    "venue": "Arxiv",
+    "year": "2026",
+    "date": "2026-12-01",
+    "link": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2"
+      },
+      {
+        "label": "pdf",
+        "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "ai-for-sciences",
+    "theme_label": "AI for Sciences"
+  },
+  {
     "title": "Sustainable AI in medicine: balancing benefits and environmental costs",
     "authors": [
       "Nikolas E. J. Schmitz",
@@ -162,34 +189,6 @@
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
     "theme_label": "Sustainability of AI"
-  },
-  {
-    "title": "deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models",
-    "authors": [
-      "Frederik Lizak Johansen",
-      "Ulrik Friis-Jensen",
-      "Erik Bjørnager Dam",
-      "Kirsten Marie Ørnsbjerg Jensen",
-      "Rocío Mercado",
-      "Raghavendra Selvan"
-    ],
-    "venue": "Arxiv",
-    "year": "2025",
-    "date": "2025-03-01",
-    "link": "https://arxiv.org/pdf/2502.02189",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/abs/2502.02189"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2502.02189"
-      }
-    ],
-    "type": "from-projects",
-    "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
   },
   {
     "title": "Greening AI-enabled Systems with Software Engineering: A Research Agenda for Environmentally Sustainable AI Practices",
