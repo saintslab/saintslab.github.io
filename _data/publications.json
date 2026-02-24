@@ -113,6 +113,32 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "A High-Throughput Cost-Effective Platform for Monitoring Viscoelastic Transitions in Hydrocolloids",
+    "authors": [
+      "Adar Fridman",
+      "Serafim Bakalis",
+      "Raghavendra Selvan",
+      "Remko M Boom"
+    ],
+    "venue": "Journal of Food Engineering",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://doi.org/10.1016/j.jfoodeng.2026.113039",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://doi.org/10.1016/j.jfoodeng.2026.113039"
+      },
+      {
+        "label": "pdf",
+        "url": "https://doi.org/10.1016/j.jfoodeng.2026.113039"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "ai-for-sciences",
+    "theme_label": "AI for Sciences"
+  },
+  {
     "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research",
     "authors": [
       "Nanna Inie",
