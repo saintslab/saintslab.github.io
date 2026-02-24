@@ -35,14 +35,9 @@ permalink: /people/
   </div>
 </section>
 
-<section class="page-hero">
-  <div class="container">
-    <h1 class="gradient-text">Visitors and Other Affiliated Members</h1>
-    <p class="subtitle">Affiliated members of SAINTS Lab.</p>
-  </div>
-</section>
 
 <section class="section container">
+<h2 class="section-title">Visitors and Other Affiliated Members</h2>
   {% assign alumni = site.people | where_exp: "p", "p.visitor == true" %}
   {% assign with_order = alumni | where_exp: "p", "p.order" | sort: "order" %}
   {% assign without_order = alumni | where_exp: "p", "p.order == nil" | sort: "name" %}
