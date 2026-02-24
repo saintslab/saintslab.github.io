@@ -9,5 +9,6 @@ photo: /assets/img/pedram.jpg
 github: https://github.com/pedrambakh
 scholar: https://scholar.google.com/citations?user=wnOiOHoAAAAJ&hl=en&oi=ao
 order: 3
+affiliated: no
 ---
 
