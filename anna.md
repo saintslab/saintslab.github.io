@@ -9,6 +9,6 @@ scholar: https://scholar.google.com/citations?user=ONKp-9cAAAAJ&hl=da
 order: 3
 from: 2023
 to: 
-former: visitor
+affiliated: yes
 ---
 
