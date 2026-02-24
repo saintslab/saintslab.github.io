@@ -41,24 +41,41 @@ permalink: /people/
 </section>
 
 <section class="section container">
-  {% assign people = site.people | where_exp: "p", "p.former == visitor" %}
-  <div class="grid people-grid">
+  {% assign alumni = site.people | where_exp: "p", "p.former == visitor" %}
+  {% assign with_order = alumni | where_exp: "p", "p.order" | sort: "order" %}
+  {% assign without_order = alumni | where_exp: "p", "p.order == nil" | sort: "name" %}
+  {% assign people = with_order | concat: without_order %}
 
-  {% for person in people %}
-    {% unless person.former %}
+  <div class="grid people-grid">
+    {% for person in people %}
       <a class="card person-teaser" href="{{ person.url }}">
         <div class="avatar">
-          {% if person.photo %}<img src="{{ person.photo }}" alt="{{ person.name }}">{% else %}<img class="placeholder-icon" src="/assets/img/saint-placeholder.svg" alt="Placeholder icon">{% endif %}
+          {% if person.photo %}
+            <img src="{{ person.photo }}" alt="{{ person.name }}">
+          {% else %}
+            <div class="placeholder">Photo</div>
+          {% endif %}
         </div>
         <div class="card-body">
           <h3>{{ person.name }}</h3>
           {% if person.role %}<p class="muted">{{ person.role }}</p>{% endif %}
+          {% assign years = "" %}
+          {% if person.from or person.to %}
+            {% assign years = person.from | append: "–" | append: person.to %}
+          {% elsif person.years %}
+            {% assign years = person.years %}
+          {% endif %}
+          {% if years != "" %}<p class="muted">{{ years }}</p>{% endif %}
+          {% if person.placement %}<p class="muted">Now: {{ person.placement }}</p>{% endif %}
           {% assign raw = person.blurb | default: person.content %}
           {% assign teaser = raw | markdownify | strip_html | replace: '&nbsp;', ' ' | strip %}
+          {% if teaser != "" %}
+            <p class="teaser">{{ teaser | truncatewords: 22 }}</p>
+          {% endif %}
         </div>
       </a>
-    {% endunless %}
-  {% endfor %}
+    {% endfor %}
   </div>
 </section>
+
 
