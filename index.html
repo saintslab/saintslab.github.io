@@ -28,6 +28,7 @@ title: Home
   {% assign people = site.people | sort: "order" %}
   {% for person in people %}
     {% unless person.former %}
+    {% unless person.visitor %}
       <a class="card person-teaser" href="{{ person.url }}">
         <div class="avatar">
           {% if person.photo %}<img src="{{ person.photo }}" alt="{{ person.name }}">{% else %}<img class="placeholder-icon" src="/assets/img/saint-placeholder.svg" alt="Placeholder icon">{% endif %}
@@ -37,6 +38,7 @@ title: Home
           {% if person.role %}<p class="muted">{{ person.role }}</p>{% endif %}
         </div>
       </a>
+    {% endunless %}
     {% endunless %}
   {% endfor %}
 </div>

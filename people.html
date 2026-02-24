@@ -16,6 +16,7 @@ permalink: /people/
   <div class="grid people-grid">
 
   {% for person in people %}
+    {% unless person.visitor %}
     {% unless person.former %}
       <a class="card person-teaser" href="{{ person.url }}">
         <div class="avatar">
@@ -28,6 +29,7 @@ permalink: /people/
           {% assign teaser = raw | markdownify | strip_html | replace: '&nbsp;', ' ' | strip %}
         </div>
       </a>
+    {% endunless %}
     {% endunless %}
   {% endfor %}
   </div>
