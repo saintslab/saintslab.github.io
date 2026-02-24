@@ -41,7 +41,7 @@ permalink: /people/
 </section>
 
 <section class="section container">
-  {% assign alumni = site.people | where_exp: "p", "p.former == visitor" %}
+  {% assign alumni = site.people | where_exp: "p", "p.visitor == true" %}
   {% assign with_order = alumni | where_exp: "p", "p.order" | sort: "order" %}
   {% assign without_order = alumni | where_exp: "p", "p.order == nil" | sort: "name" %}
   {% assign people = with_order | concat: without_order %}

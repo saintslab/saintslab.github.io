@@ -10,6 +10,5 @@ order: 3
 former: true
 from: 2022
 to: 2025
-affiliated: yes
 ---
 
