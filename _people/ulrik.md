@@ -1,14 +1,15 @@
 ---
-name: Anna Villaume Stuckert 
+name: Ulrik Friis-Jensen 
 role: Co-Supervised PhD Student
 pub_aliases:
-  - Anna Villaume Stuckert
+  - Ulrik Friis-Jensen
 email: 
-photo: /assets/img/anna.jpg
-scholar: https://scholar.google.com/citations?user=ONKp-9cAAAAJ&hl=da
+photo: /assets/img/ulrik.jpg
+scholar: https://scholar.google.com/citations?user=NcbvZ5IAAAAJ&hl=en&oi=ao
 order: 3
-from: 2023
-to: 
+former: true
+from: 2022
+to: 2025
 affiliated: yes
 ---
 
