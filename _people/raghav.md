@@ -7,6 +7,7 @@ website: https://raghavian.github.io/
 scholar: https://scholar.google.com/citations?hl=en&user=R9VBQ54AAAAJ&view_op=list_works&sortby=pubdate
 github: https://github.com/raghavian
 order: 1
+affiliated: no
 ---
 
 I lead this team that focuses on ML/AI and sustainability. Our main focus is on building holistically sustainable AI. 
