@@ -1,6 +1,6 @@
 ---
 name: Ulrik Friis-Jensen 
-role: PhD Student
+role: Co-Supervised PhD Student
 pub_aliases:
   - Ulrik Friis-Jensen
 email: 
