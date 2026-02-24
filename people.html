@@ -16,7 +16,7 @@ permalink: /people/
   <div class="grid people-grid">
 
   {% for member in members %}
-  {% if member.affiliated != "yes" %}
+  {% if member.affiliated = "no" %}
   {% for person in people %}
     {% unless person.former %}
       <a class="card person-teaser" href="{{ person.url }}">
