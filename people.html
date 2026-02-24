@@ -15,8 +15,6 @@ permalink: /people/
   {% assign people = site.people | sort: "order" %}
   <div class="grid people-grid">
 
-  {% for member in members %}
-  {% if member.affiliated = "no" %}
   {% for person in people %}
     {% unless person.former %}
       <a class="card person-teaser" href="{{ person.url }}">
@@ -32,8 +30,6 @@ permalink: /people/
       </a>
     {% endunless %}
   {% endfor %}
-{% endif %}
-{% endfor %}
   </div>
 </section>
 
@@ -45,11 +41,9 @@ permalink: /people/
 </section>
 
 <section class="section container">
-  {% assign people = site.people | sort: "order" %}
+  {% assign people = site.people | where_exp: "p", "p.affiliated == yes" %}
   <div class="grid people-grid">
 
-  {% for member in members %}
-  {% if member.affiliated = "yes" %}
   {% for person in people %}
     {% unless person.former %}
       <a class="card person-teaser" href="{{ person.url }}">
@@ -65,8 +59,6 @@ permalink: /people/
       </a>
     {% endunless %}
   {% endfor %}
-{% endif %}
-{% endfor %}
   </div>
 </section>
 
