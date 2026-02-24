@@ -4,7 +4,7 @@ role: Co-Supervised PhD Student
 pub_aliases:
   - João Henrique Campagnolo
 email: 
-photo: 
+photo: /assets/img/saint-placeholder.png 
 scholar: https://scholar.google.com/
 order: 3
 former: true
