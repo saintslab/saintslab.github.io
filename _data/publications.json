@@ -113,6 +113,30 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "FairQuant: Fairness-Aware Mixed-Precision Quantization for Medical Image Classification",
+    "authors": [
+      "Thomas Woergaard",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Preprint",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://arxiv.org/pdf/2602.23192",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2602.23192"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2602.23192"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "Algorithmic Simplification of Neural Networks with Mosaic-of-Motifs",
     "authors": [
       "Pedram Bakhtiarifard",
