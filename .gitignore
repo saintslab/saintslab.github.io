@@ -1,0 +1,12 @@
+# macOS Finder metadata files.
+# These are local machine artifacts and should never be versioned.
+.DS_Store
+
+# Jekyll local build output from `jekyll serve` / `jekyll build`.
+# Generated files should be rebuilt locally/CI, not committed.
+_site/
+
+# Jekyll cache/state files generated during local preview.
+# These speed up local builds but are environment-specific.
+.jekyll-cache/
+.jekyll-metadata
