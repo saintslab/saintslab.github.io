@@ -3,23 +3,24 @@
     "title": "deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models",
     "authors": [
       "Frederik Lizak Johansen",
-      "Adam F Sapnik",
+      "Ulrik Friis-Jensen",
       "Erik Bjørnager Dam",
-      "Raghavendra Selvan",
-      "Kirsten M Ø Jensen"
+      "Kirsten Marie Ørnsbjerg Jensen",
+      "Rocío Mercado",
+      "Raghavendra Selvan"
     ],
-    "venue": "Arxiv",
+    "venue": "Transactions on Machine Learning Research (TMLR)",
     "year": "2026",
-    "date": "2026-12-01",
-    "link": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2",
+    "date": "2026-03-01",
+    "link": "https://openreview.net/forum?id=LftFQ35l47",
     "resources": [
       {
         "label": "link",
-        "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2"
+        "url": "https://openreview.net/forum?id=LftFQ35l47"
       },
       {
         "label": "pdf",
-        "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2"
+        "url": "https://openreview.net/forum?id=LftFQ35l47"
       }
     ],
     "type": "from-projects",
