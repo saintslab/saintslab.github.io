@@ -59,6 +59,33 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "Tackling Real-World Crystal Structure Prediction from Powder X-ray Diffraction Data",
+    "authors": [
+      "Frederik Lizak Johansen",
+      "Adam F Sapnik",
+      "Erik Bjørnager Dam",
+      "Raghavendra Selvan",
+      "Kirsten M Ø Jensen"
+    ],
+    "venue": "Arxiv",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2"
+      },
+      {
+        "label": "pdf",
+        "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "ai-for-sciences",
+    "theme_label": "AI for Sciences"
+  },
+  {
     "title": "Stop Preaching and Start Practising Data Frugality for Responsible Development of AI",
     "authors": [
       "Sophia N. Wilson",
