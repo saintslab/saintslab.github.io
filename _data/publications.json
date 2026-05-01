@@ -86,7 +86,7 @@
     "theme_label": "AI for Sciences"
   },
   {
-    "title": "Stop Preaching and Start Practising Data Frugality for Responsible Development of AI",
+    "title": "Position: Stop Preaching and Start Practising Data Frugality for Responsible Development of AI",
     "authors": [
       "Sophia N. Wilson",
       "Guðrún Fjóla Guðmundsdóttir",
@@ -94,7 +94,7 @@
       "Raghavendra Selvan",
       "Sebastian Mair"
     ],
-    "venue": "Preprint",
+    "venue": "International Conference on Machine Learning. ICML",
     "year": "2026",
     "date": "2026-01-01",
     "link": "https://researchprofiles.ku.dk/files/534321266/wilson2026data_frugality.pdf",
@@ -106,6 +106,32 @@
       {
         "label": "pdf",
         "url": "https://researchprofiles.ku.dk/files/534321266/wilson2026data_frugality.pdf"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
+    "title": "Position: Neglecting the Sustainability of AI is fuelling a Global AI Arms Race",
+    "authors": [
+      "Pedram Bakhtiarifard",
+      "Pınar Tözün",
+      "Christian Igel",
+      "Raghavendra Selvan"
+    ],
+    "venue": "International Conference on Machine Learning. ICML",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://arxiv.org/pdf/2502.20016",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2502.20016"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2502.20016"
       }
     ],
     "type": "from-projects",
@@ -535,32 +561,6 @@
       {
         "label": "pdf",
         "url": "https://arxiv.org/pdf/2512.12981"
-      }
-    ],
-    "type": "from-projects",
-    "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
-  },
-  {
-    "title": "Climate And Resource Awareness is Imperative to Achieving Sustainable AI (and Preventing a Global AI Arms Race)",
-    "authors": [
-      "Pedram Bakhtiarifard",
-      "Pınar Tözün",
-      "Christian Igel",
-      "Raghavendra Selvan"
-    ],
-    "venue": "Arxiv",
-    "year": "2025",
-    "date": "2025-01-01",
-    "link": "https://arxiv.org/pdf/2502.20016",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/abs/2502.20016"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2502.20016"
       }
     ],
     "type": "from-projects",
