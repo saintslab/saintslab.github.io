@@ -59,6 +59,33 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "An Empirical Study of the Influence of Adversarial Fine-Tuning on Compressed Neural Networks",
+    "authors": [
+      "Hallgrimur Thorsteinsson",
+      "Valdemar J Henriksen",
+      "Daniel I R Cruz",
+      "Raghavendra Selvan",
+      "Tong Chen"
+    ],
+    "venue": "Scandinavian Conference on Artificial Intelligence (SCAI)",
+    "year": "2026",
+    "date": "2026-03-01",
+    "link": "https://arxiv.org/pdf/2403.09441",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2403.09441"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2403.09441"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "Tackling Real-World Crystal Structure Prediction from Powder X-ray Diffraction Data",
     "authors": [
       "Frederik Lizak Johansen",
@@ -643,32 +670,6 @@
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
     "theme_label": "AI for Sciences"
-  },
-  {
-    "title": "Adversarial Fine-tuning of Compressed Neural Networks for Joint Improvement of Robustness and Efficiency",
-    "authors": [
-      "Hallgrimur Thorsteinsson",
-      "Valdemar J Henriksen",
-      "Tong Chen",
-      "Raghavendra Selvan"
-    ],
-    "venue": "Arxiv",
-    "year": "2024",
-    "date": "2024-03-01",
-    "link": "https://arxiv.org/pdf/2403.09441",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/abs/2403.09441"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2403.09441"
-      }
-    ],
-    "type": "from-projects",
-    "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
   },
   {
     "title": "A GPU-Accelerated Open-Source Python Package for Calculating Powder Diffraction, Small-Angle-, and Total Scattering with the Debye Scattering Equation",
