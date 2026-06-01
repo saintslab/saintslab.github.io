@@ -113,6 +113,29 @@
     "theme_label": "AI for Sciences"
   },
   {
+    "title": "Sustainability of large-scale artificial intelligence models in health care",
+    "authors": [
+      "Raghavendra Selvan"
+    ],
+    "venue": "The Lancet Digital Health",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://www.thelancet.com/action/showPdf?pii=S2589-7500%2826%2900039-7",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00039-7/fulltext"
+      },
+      {
+        "label": "pdf",
+        "url": "https://www.thelancet.com/action/showPdf?pii=S2589-7500%2826%2900039-7"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "Position: Stop Preaching and Start Practising Data Frugality for Responsible Development of AI",
     "authors": [
       "Sophia N. Wilson",
