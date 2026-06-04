@@ -1,6 +1,6 @@
 ---
 name: Rwiddhi Chakraborty 
-role: Collaborating Post Doctoral Researcher
+role: Collaborating Postdoc
 pub_aliases:
   - Rwiddhi Chakraborty
 email: 
