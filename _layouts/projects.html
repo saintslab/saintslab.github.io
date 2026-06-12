@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<article class="project-page">
+  <header class="project-header">
+    <h1>{{ page.title }}</h1>
+    <p class="project-meta">
+      <strong>Timeline:</strong> {{ page.start_year }} – {{ page.end_year }} | 
+      <span class="status-badge status-{{ page.status }}">{{ page.status | upcase }}</span>
+    </p>
+  </header>
+
+  {% if page.image %}
+  <div class="project-hero-image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }} header image">
+  </div>
+  {% endif %}
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+  
+  <p><a href="{{ '/projects/' | relative_url }}">&larr; Back to Projects Overview</a></p>
+</article>
+
+{% unless page.role and page.name contains 'Raghav' %}
+<section class="section container">
+  <h2 class="section-title">Publications</h2>
+
+  {%- comment -%} Build an alias list: [full name] + optional pub_aliases {%- endcomment -%}
+  {% assign aliases = page.pub_aliases | default: empty | compact %}
+  {% assign aliases = aliases | push: page.name %}
+
+  {%- comment -%} Collect candidate pubs for any alias {%- endcomment -%}
+  {% assign candidates = "" | split: "" %}
+  {% for a in aliases %}
+    {% assign exact = site.data.publications | where_exp: "p", "p.authors contains a" %}
+    {% assign candidates = candidates | concat: exact %}
+  {% endfor %}
+
+  {%- comment -%} Sort newest → oldest; we’ll de-dup on the fly while rendering {%- endcomment -%}
+  {% assign candidates = candidates | sort: "date" | reverse %}
+
+  {%- assign seen = "" -%}
+  <div class="pub-list">
+    {% for p in candidates %}
+      {% capture marker %}||{{ p.title }}||{% endcapture %}
+      {% unless seen contains marker %}
+        {% assign seen = seen | append: marker %}
+        <article class="pub"
+                 data-title="{{ p.title | downcase }}"
+                 data-authors="{{ p.authors | join: ' ' | downcase }}"
+                 data-venue="{{ p.venue | downcase }}"
+                 data-year="{{ p.year }}">
+          <h3 class="pub-title">
+            {% if p.link %}<a class="pub-link" href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+          </h3>
+          {% if p.authors_html %}
+            <p class="pub-authors">{{ p.authors_html | strip_newlines }}</p>
+          {% else %}
+            <p class="pub-authors">{{ p.authors | join: ', ' }}</p>
+          {% endif %}
+          <p class="pub-venue">{{ p.venue }}{% if p.venue and p.year %}, {% endif %}{{ p.year }}</p>
+          {% if p.resources %}
+            <div class="pub-links">
+              {% for r in p.resources %}
+                <a class="chip" href="{{ r.url }}" target="_blank" rel="noopener">{{ r.label }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endunless %}
+    {% endfor %}
+  </div>
+
+  {%- if seen == "" -%}
+    <p class="muted">No publications found for this profile in collaboration with SAINTS Lab. </p>
+  {%- endif -%}
+</section>
+{% endunless %}
+

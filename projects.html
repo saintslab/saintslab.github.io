@@ -1,29 +1,51 @@
 ---
 layout: default
 title: Projects
-description: Research projects from SAINTS Lab
 permalink: /projects/
 ---
-<section class="page-hero">
-  <div class="container">
-    <h1 class="gradient-text">Projects</h1>
-  </div>
-</section>
 
-<section class="section container">
-  <div class="grid project-grid">
-    {% for proj in site.data.projects %}
-      <div class="card project">
-        <div class="card-body">
-          <h3>{% if proj.link %}<a href="{{ proj.link }}" target="_blank" rel="noopener">{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %}</h3>
-          <p class="muted">{{ proj.summary }}</p>
+<div class="projects-container">
+  <h1>Research Projects</h1>
+  <p>An overview of our ongoing and completed research directions at SAINTS Lab.</p>
+
+  <!-- ================= ACTIVE PROJECTS ================= -->
+  <section class="projects-section">
+    <h2>Active Projects</h2>
+    <div class="projects-grid">
+      {% assign active_projects = site.projects | where: "status", "active" %}
+      {% for project in active_projects %}
+        <div class="project-card">
+          {% if project.image %}
+            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-thumb">
+          {% endif %}
+          <div class="project-card-body">
+            <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            <p>{{ project.description }}</p>
+            <a class="read-more" href="{{ project.url | relative_url }}">View Project Details &rarr;</a>
+          </div>
         </div>
-        {% if proj.tags %}
-        <div class="tags">
-          {% for t in proj.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- ================= COMPLETED PROJECTS ARCHIVE ================= -->
+  <section class="projects-section archive-section" style="margin-top: 3rem;">
+    <h2>Project Archive</h2>
+    <p class="subtitle">Completed historical research initiatives.</p>
+    
+    <div class="archive-list">
+      {% assign completed_projects = site.projects | where: "status", "completed" | sort: "end_year" | reverse %}
+      {% for project in completed_projects %}
+        <div class="archive-item" style="padding: 1rem 0; border-bottom: 1px solid #eee;">
+          <span class="archive-date" style="color: #666; font-family: monospace; margin-right: 1.5rem;">
+            [{{ project.start_year }} - {{ project.end_year }}]
+          </span>
+          <strong class="archive-title">
+            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+          </strong>
+          <p style="margin: 0.25rem 0 0 0; font-size: 0.95rem; color: #555;">{{ project.description }}</p>
         </div>
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
-</section>
+      {% endfor %}
+    </div>
+  </section>
+</div>
