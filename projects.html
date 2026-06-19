@@ -4,54 +4,58 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="projects-container">
+<div class="container-lg px-3 my-5 markdown-body">
   <h1>Research Projects</h1>
   <p>An overview of our ongoing and completed research directions at SAINTS Lab.</p>
 
-  <!-- ================= ACTIVE PROJECTS ================= -->
+  <hr>
+
   <section class="projects-section">
     <h2>Active Projects</h2>
-    <div class="projects-grid">
+    <div class="projects-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
       {% assign active_projects = site.projects | where: "status", "active" %}
       {% for project in active_projects %}
-        <div class="project-card">
+        <div class="project-card" style="border: 1px solid #e1e4e8; border-radius: 6px; overflow: hidden; background: #fff; display: flex; flex-direction: column;">
           {% if project.image %}
-            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-thumb">
+            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="width: 100%; height: 160px; object-fit: cover; border-bottom: 1px solid #e1e4e8;">
           {% endif %}
-          <div class="project-card-body">
-            <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-            <p>{{ project.description }}</p>
-            <a class="read-more" href="{{ project.url | relative_url }}">View Project Details &rarr;</a>
+          <div class="project-card-body" style="padding: 1rem; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <h3 style="margin-top: 0; margin-bottom: 0.5rem;"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+              <p style="font-size: 0.9rem; color: #586069; margin-bottom: 1rem;">{{ project.description }}</p>
+            </div>
+            <a class="read-more" href="{{ project.url | relative_url }}" style="font-size: 0.9rem; font-weight: 600;">View Details &rarr;</a>
           </div>
         </div>
       {% endfor %}
     </div>
   </section>
 
-<section class="projects-section archive-section" style="margin-top: 3rem;">
-  <h2>Project Archive</h2>
-  <p class="subtitle">Completed historical research initiatives.</p>
-  
-  {% assign completed_projects = site.projects | where: "status", "completed" %}
-  
-  {% if completed_projects.size > 0 %}
-    <div class="archive-list">
-      {% assign sorted_completed = completed_projects | where_exp: "item", "item.end_year != nil" | sort: "end_year" | reverse %}
-      
-      {% for project in sorted_completed %}
-        <div class="archive-item" style="padding: 1rem 0; border-bottom: 1px solid #eee;">
-          <span class="archive-date" style="color: #666; font-family: monospace; margin-right: 1.5rem;">
-            [{{ project.start_year }} - {{ project.end_year }}]
-          </span>
-          <strong class="archive-title">
-            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-          </strong>
-          <p style="margin: 0.25rem 0 0 0; font-size: 0.95rem; color: #555;">{{ project.description }}</p>
-        </div>
-      {% endfor %}
-    </div>
-  {% else %}
-    <p style="font-style: italic; color: #777;">No completed projects archived at this time.</p>
-  {% endif %}
-</section>
-
+  <section class="projects-section archive-section" style="margin-top: 4rem;">
+    <h2>Project Archive</h2>
+    <p style="color: #586069; font-style: italic; margin-bottom: 1rem;">Completed historical research initiatives.</p>
+    
+    {% assign completed_projects = site.projects | where: "status", "completed" %}
+    
+    {% if completed_projects.size > 0 %}
+      <div class="archive-list" style="border-top: 1px solid #e1e4e8;">
+        {% assign sorted_completed = completed_projects | where_exp: "item", "item.end_year != nil" | sort: "end_year" | reverse %}
+        {% for project in sorted_completed %}
+          <div class="archive-item" style="padding: 1rem 0; border-bottom: 1px solid #e1e4e8; display: flex; align-items: baseline;">
+            <span class="archive-date" style="color: #586069; font-family: monospace; font-size: 0.9rem; width: 120px; flex-shrink: 0;">
+              [{{ project.start_year }} - {{ project.end_year }}]
+            </span>
+            <div class="archive-details">
+              <strong class="archive-title" style="font-size: 1.1rem;">
+                <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+              </strong>
+              <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; color: #586069;">{{ project.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p style="font-style: italic; color: #6a737d; border-top: 1px solid #e1e4e8; padding-top: 1rem;">No completed projects archived at this time.</p>
+    {% endif %}
+  </section>
+</div>
