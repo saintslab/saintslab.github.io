@@ -28,14 +28,17 @@ permalink: /projects/
     </div>
   </section>
 
-  <!-- ================= COMPLETED PROJECTS ARCHIVE ================= -->
-  <section class="projects-section archive-section" style="margin-top: 3rem;">
-    <h2>Project Archive</h2>
-    <p class="subtitle">Completed historical research initiatives.</p>
-    
+<section class="projects-section archive-section" style="margin-top: 3rem;">
+  <h2>Project Archive</h2>
+  <p class="subtitle">Completed historical research initiatives.</p>
+  
+  {% assign completed_projects = site.projects | where: "status", "completed" %}
+  
+  {% if completed_projects.size > 0 %}
     <div class="archive-list">
-      {% assign completed_projects = site.projects | where: "status", "completed" | sort: "end_year" | reverse %}
-      {% for project in completed_projects %}
+      {% assign sorted_completed = completed_projects | where_exp: "item", "item.end_year != nil" | sort: "end_year" | reverse %}
+      
+      {% for project in sorted_completed %}
         <div class="archive-item" style="padding: 1rem 0; border-bottom: 1px solid #eee;">
           <span class="archive-date" style="color: #666; font-family: monospace; margin-right: 1.5rem;">
             [{{ project.start_year }} - {{ project.end_year }}]
@@ -47,5 +50,8 @@ permalink: /projects/
         </div>
       {% endfor %}
     </div>
-  </section>
-</div>
+  {% else %}
+    <p style="font-style: italic; color: #777;">No completed projects archived at this time.</p>
+  {% endif %}
+</section>
+
