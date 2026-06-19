@@ -253,3 +253,40 @@ body{
 .person-teaser:hover h3{
   color: var(--accentB);
 }
+
+/* Project Cards Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 100%));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.project-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+.project-thumb {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.project-card-body {
+  padding: 1.25rem;
+}
+.read-more {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-weight: 500;
+}
+
+/* Status Badges */
+.status-badge {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.status-active { background-color: #e6ffed; color: #22863a; }
+.status-completed { background-color: #f6f8fa; color: #6a737d; }

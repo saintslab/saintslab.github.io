@@ -9,6 +9,11 @@ collections:
     output: true
     permalink: /people/:name/
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 defaults:
   - scope:
       path: ""
