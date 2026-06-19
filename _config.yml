@@ -8,8 +8,6 @@ collections:
   people:
     output: true
     permalink: /people/:name/
-
-collections:
   projects:
     output: true
     permalink: /projects/:path/
