@@ -3,7 +3,7 @@ layout: project
 title: "EnrichMyData"
 status: completed
 description: "EMD"
-image: /assets/images/projects/emd.png
+image: /assets/img/projects/emd.png
 start_year: 2021
 end_year: 2014
 ---
