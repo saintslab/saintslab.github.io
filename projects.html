@@ -13,18 +13,21 @@ permalink: /projects/
 
 <section class="section container">
   <h2>Active Projects</h2>
-  <div class="grid projects-grid" style="margin-top: 1.5rem; margin-bottom: 3rem;">
+  
+  <div class="grid people-grid">
     {% assign active_projects = site.projects | where: "status", "active" %}
     {% for project in active_projects %}
-      <a class="card project-teaser" href="{{ project.url }}">
-        {% if project.image %}
-          <div class="project-hero-thumb" style="width: 100%; height: 160px; overflow: hidden; border-bottom: 1px solid var(--border-color, #e1e4e8);">
-            <img src="{{ project.image }}" alt="{{ project.title }}" style="width: 100%; height: 100%; object-fit: cover;">
-          </div>
-        {% endif %}
+      <a class="card person-teaser" href="{{ project.url | relative_url }}">
+        <div class="avatar">
+          {% if project.image %}
+            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="object-fit: cover; border-radius: 0;">
+          {% else %}
+            <img class="placeholder-icon" src="/assets/img/saint-placeholder.svg" alt="Placeholder icon">
+          {% endif %}
+        </div>
         <div class="card-body">
           <h3>{{ project.title }}</h3>
-          <p class="muted" style="font-size: 0.9rem; line-height: 1.4; margin-top: 0.5rem;">{{ project.description }}</p>
+          <p class="muted" style="font-size: 0.9rem; line-height: 1.4; margin-top: 0.25rem;">{{ project.description }}</p>
         </div>
       </a>
     {% endfor %}
@@ -47,7 +50,7 @@ permalink: /projects/
           </span>
           <div class="archive-details">
             <strong class="archive-title" style="font-size: 1.1rem;">
-              <a href="{{ project.url }}">{{ project.title }}</a>
+              <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
             </strong>
             <p class="muted" style="margin: 0.25rem 0 0 0; font-size: 0.9rem;">{{ project.description }}</p>
           </div>
