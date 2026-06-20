@@ -5,7 +5,7 @@ status: active
 description: "Use Kolmogorov-Chaitin-Solomonoff Complexity to develop theories to explain learning and compression in Deep Learning."
 image: /assets/img/projects/citadl.png
 start_year: 2027
-end_year: ongoing
+end_year: 
 ---
 
 ### Project Overview
