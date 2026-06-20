@@ -1,9 +1,9 @@
 ---
 layout: project
-title: "GLEAN: Green Lean Data in the Era of Frontier AI"
+title: "DataPACT"
 status: active
-description: "Improving the data efficiency and overall sustainability of data in frontier AI."
-image: /assets/img/projects/datapact.png
+description: "DataPACT envisions a future where compliance, ethics, and environmental sustainability are integral to data and AI operations."
+image: /assets/img/projects/glean.png
 start_year: 2025
 end_year: ongoing
 website: https://datapact.eu/
@@ -13,7 +13,10 @@ website: https://datapact.eu/
 
 ### Team Members
 - Raghavendra Selvan (PI)
-- Sophia N. Wilson (PhD Candidate)
+- Pedram Bakhtiarifard (PhD Candidate)
+- Tong Chen (Postdoc)
+- Mikkel Dahl (Student Research Assistant)
+- Jonathan Wenshøj (Student Research Assistant)
 
 ### Publications
 - ...
