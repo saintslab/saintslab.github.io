@@ -6,6 +6,7 @@ description: "Use Kolmogorov-Chaitin-Solomonoff Complexity to develop theories t
 image: /assets/img/projects/citadl.png
 start_year: 2027
 end_year: 
+order: 4
 ---
 
 ### Project Overview

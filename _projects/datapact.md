@@ -7,6 +7,7 @@ image: /assets/img/projects/datapact.png
 start_year: 2025
 end_year: ongoing
 website: https://datapact.eu/
+order: 2
 ---
 
 ### Project Overview
