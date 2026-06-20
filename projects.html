@@ -36,28 +36,23 @@ permalink: /projects/
 
 <section class="section container">
   <h2>Project Archive</h2>
-  <p class="muted" style="font-style: italic; margin-bottom: 1.5rem;">Completed historical research initiatives.</p>
-  
-  {% assign completed_projects = site.projects | where: "status", "completed" %}
-  
-  {% if completed_projects.size > 0 %}
-    <div class="archive-list" style="border-top: 1px solid var(--border-color, #e1e4e8);">
-      {% assign sorted_completed = completed_projects | where_exp: "item", "item.end_year != nil" | sort: "end_year" | reverse %}
-      {% for project in sorted_completed %}
-        <div class="archive-item" style="padding: 1rem 0; border-bottom: 1px solid var(--border-color, #e1e4e8); display: flex; align-items: baseline;">
-          <span class="archive-date" style="font-family: monospace; font-size: 0.9rem; width: 120px; flex-shrink: 0; color: var(--muted-color, #586069);">
-            [{{ project.start_year }} - {{ project.end_year }}]
-          </span>
-          <div class="archive-details">
-            <strong class="archive-title" style="font-size: 1.1rem;">
-              <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-            </strong>
-            <p class="muted" style="margin: 0.25rem 0 0 0; font-size: 0.9rem;">{{ project.description }}</p>
-          </div>
+  <div class="grid people-grid" style="grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));">
+    {% assign active_projects = site.projects | where: "status", "completed" %}
+    {% for project in active_projects %}
+      <a class="card person-teaser" href="{{ project.url | relative_url }}">
+        <div class="avatar">
+          {% if project.image %}
+            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="object-fit: cover; border-radius: 0;">
+          {% else %}
+            <img class="placeholder-icon" src="/assets/img/saint-placeholder.svg" alt="Placeholder icon">
+          {% endif %}
         </div>
-      {% endfor %}
-    </div>
-  {% else %}
-    <p class="muted" style="font-style: italic; border-top: 1px solid var(--border-color, #e1e4e8); padding-top: 1rem;">No completed projects archived at this time.</p>
-  {% endif %}
+        <div class="card-body">
+          <h3>{{ project.title }}</h3>
+          <p class="muted" style="font-size: 0.9rem; line-height: 1.4; margin-top: 0.25rem;">{{ project.description }}</p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+
 </section>
