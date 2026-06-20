@@ -1,10 +1,10 @@
 ---
 layout: project
-title: "GLEAN: Green Lean Data in the Era of Frontier AI"
+title: "CITADL: Complexity Informed Theory for Accelerated Deep Learning"
 status: active
-description: "Improving the data efficiency and overall sustainability of data in frontier AI."
-image: /assets/img/projects/glean.png
-start_year: 2025
+description: "Use Kolmogorov-Chaitin-Solomonoff Complexity to develop theories to explain learning and compression in Deep Learning."
+image: /assets/img/projects/citadl.png
+start_year: 2027
 end_year: ongoing
 ---
 
@@ -12,7 +12,6 @@ end_year: ongoing
 
 ### Team Members
 - Raghavendra Selvan (PI)
-- Sophia N. Wilson (PhD Candidate)
 
 ### Publications
 - ...
