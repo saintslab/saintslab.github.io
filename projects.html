@@ -14,7 +14,7 @@ permalink: /projects/
 <section class="section container">
   <h2>Active Projects</h2>
   
-  <div class="grid people-grid">
+  <div class="grid people-grid" style="grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));">
     {% assign active_projects = site.projects | where: "status", "active" %}
     {% for project in active_projects %}
       <a class="card person-teaser" href="{{ project.url | relative_url }}">
