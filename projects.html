@@ -50,38 +50,37 @@ permalink: /projects/
 
 <section class="section container">
   <h2>Project Archive</h2>
-  <p class="muted" style="font-style: italic; margin-bottom: 1.5rem;">Completed historical research initiatives.</p>
-  
-  {% assign completed_projects = site.projects | where: "status", "completed" %}
-  
-  {% if completed_projects.size > 0 %}
-    <div class="archive-list" style="border-top: 1px solid var(--border-color, #e1e4e8);">
-      {% assign sorted_completed = completed_projects | where_exp: "item", "item.end_year != nil" | sort: "end_year" | reverse %}
-      {% for project in sorted_completed %}
-        <div class="archive-item" style="padding: 1rem 0; border-bottom: 1px solid var(--border-color, #e1e4e8); display: flex; align-items: baseline;">
-          <span class="archive-date" style="font-family: monospace; font-size: 0.9rem; width: 120px; flex-shrink: 0; color: var(--muted-color, #586069);">
-            [{{ project.start_year }} - {{ project.end_year }}]
-          </span>
-          
-          <div class="archive-details" style="flex-grow: 1;">
-            <div style="display: flex; gap: 1rem; align-items: baseline; flex-wrap: wrap;">
-              <strong class="archive-title" style="font-size: 1.1rem;">
-                <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-              </strong>
-              
-              {% if project.website %}
-                <a href="{{ project.website }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.85rem; font-weight: 600; color: var(--accent-color, #0366d6); text-decoration: none;">
-                  Website &#8599;
-                </a>
+  <div class="grid people-grid" style="grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));">
+    {% assign active_projects = site.projects | where: "status", "completed" %}
+    {% for project in active_projects %}
+      
+      <div class="card person-teaser" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+        
+        <div>
+          <a href="{{ project.url | relative_url }}" style="display: block; width: 100%;">
+            <div class="avatar">
+              {% if project.image %}
+                <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="object-fit: cover; border-radius: 0;">
+              {% else %}
+                <img class="placeholder-icon" src="/assets/img/saint-placeholder.svg" alt="Placeholder icon">
               {% endif %}
             </div>
-            
-            <p class="muted" style="margin: 0.25rem 0 0 0; font-size: 0.9rem;">{{ project.description }}</p>
+          </a>
+
+          <div class="card-body" style="padding-bottom: 0.5rem;">
+            <h3 style="margin-top: 0;"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            <p class="muted" style="font-size: 0.9rem; line-height: 1.4; margin-top: 0.25rem;">{{ project.description }}</p>
           </div>
         </div>
-      {% endfor %}
-    </div>
-  {% else %}
-    <p class="muted" style="font-style: italic; border-top: 1px solid var(--border-color, #e1e4e8); padding-top: 1rem;">No completed projects archived at this time.</p>
-  {% endif %}
+
+        <div style="padding: 0 1.25rem 1.25rem 1.25rem; font-size: 0.85rem; display: flex; gap: 1rem; margin-top: auto;">
+          <a href="{{ project.url | relative_url }}" style="font-weight: 600;">Details &rarr;</a>
+          {% if project.website %}
+            <a href="{{ project.website }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600; color: var(--accent-color, #0366d6);">Website &#8599;</a>
+          {% endif %}
+        </div>
+
+      </div>{% endfor %}
+  </div>
+
 </section>
