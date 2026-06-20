@@ -12,7 +12,4 @@ end_year: ongoing
 
 ### Team Members
 - Raghavendra Selvan (PI)
-- Sophia N. Wilson (PhD Candidate)
-
-### Publications
-- ...
+- [Sophia N. Wilson](https://saintslab.github.io/people/sophia/) (PhD Candidate)

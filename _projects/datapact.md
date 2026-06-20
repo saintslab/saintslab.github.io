@@ -13,10 +13,9 @@ website: https://datapact.eu/
 
 ### Team Members
 - Raghavendra Selvan (PI)
-- Pedram Bakhtiarifard (PhD Candidate)
-- Tong Chen (Postdoc)
-- Mikkel Dahl (Student Research Assistant)
-- Jonathan Wenshøj (Student Research Assistant)
+- [Pedram Bakhtiarifard](https://saintslab.github.io/people/pedram/) (PhD Candidate)
+- [Tong Chen](https://saintslab.github.io/people/tong/) (Postdoc)
+- [Jonathan Wenshøj](https://saintslab.github.io/people/jonathan/) (Student Research Assistant)
+- [Mikkel Dahl](https://saintslab.github.io/people/mikkel/) (Student Research Assistant)
 
-### Publications
-- ...
+
