@@ -30,6 +30,20 @@ permalink: /projects/
           <p class="muted" style="font-size: 0.9rem; line-height: 1.4; margin-top: 0.25rem;">{{ project.description }}</p>
         </div>
       </a>
+
+      <div class="card-body" style="padding-bottom: 0.5rem;">
+                  <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+                  <p class="muted" style="font-size: 0.9rem; line-height: 1.4; margin-top: 0.25rem;">{{ project.description }}</p>
+                </div>
+              </div>
+              
+              <div style="padding: 0 1.25rem 1.25rem 1.25rem; font-size: 0.85rem; display: flex; gap: 1rem;">
+                <a href="{{ project.url | relative_url }}" style="font-weight: 600;">Details &rarr;</a>
+                {% if project.website %}
+                  <a href="{{ project.website }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600; color: var(--accent-color, #0366d6);">Website &#8599;</a>
+                {% endif %}
+              </div>
+      </div>
     {% endfor %}
   </div>
 </section>

@@ -26,6 +26,13 @@ layout: default
               {{ page.status }}
             </span>
           </p>
+          {% if page.website %}
+            <p style="margin-bottom: 0; margin-top: 1.25rem;">
+              <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer" class="btn" style="display: block; text-align: center; padding: 0.4rem; background: var(--btn-bg, #0366d6); color: #fff; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.9rem;">
+                Project Homepage &#8599;
+              </a>
+            </p>
+          {% endif %}
         </div>
       </div>
       
