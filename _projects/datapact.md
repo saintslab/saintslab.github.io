@@ -6,6 +6,7 @@ description: "Improving the data efficiency and overall sustainability of data i
 image: /assets/img/projects/glean.png
 start_year: 2025
 end_year: ongoing
+website: https://datapact.eu/
 ---
 
 ### Project Overview
