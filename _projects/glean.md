@@ -1,22 +1,18 @@
 ---
 layout: project
-title: "CITADL: Algorithmic Information Theory for AI Efficiency"
+title: "GLEAN: Green Lean Data in the Era of Frontier AI"
 status: active
-description: "Using algorithmic information theory to explain and optimize AI model efficiency."
-image: /assets/images/projects/citadl-thumb.png
-start_year: 2026
+description: "Improving the data efficiency and overall sustainability of data in frontier AI."
+image: /assets/images/projects/glean.png
+start_year: 2025
 end_year: ongoing
 ---
 
 ### Project Overview
-Mathematical formulation or abstract goes here...
-
-$$\min_{\theta} \mathcal{L}(f_\theta(X), Y) + \lambda \cdot K(\theta)$$
-
-Where $K(\theta)$ represents the Kolmogorov complexity of the network parameters...
 
 ### Team Members
 - Raghavendra Selvan (PI)
+- Sophia N. Wilson (PhD Candidate)
 
 ### Publications
 - ...
