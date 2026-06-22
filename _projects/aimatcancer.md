@@ -14,6 +14,6 @@ This project aims to develop AI to automate radiotherapy workflows, reducing wor
 
 
 ### Project Members
-- **Collaborators:** [Stine Korreman](https://scholar.google.com/citations?user=Kk79RW8AAAAJ&hl=en)(PI), [Jens Petersen](https://scholar.google.com/citations?user=J3L5JdQAAAAJ&hl=en&oi=ao), 
+- **Collaborators:** [Stine Korreman](https://scholar.google.com/citations?user=Kk79RW8AAAAJ&hl=en)(PI), [Jens Petersen](https://scholar.google.com/citations?user=J3L5JdQAAAAJ&hl=en&oi=ao) (Co-PI) 
 - Raghavendra Selvan (WP Lead) 
 - Manuel Wegmann (PhD Candidate)
