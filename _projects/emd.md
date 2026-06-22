@@ -10,4 +10,3 @@ website: https://enrichmydata.eu/
 ---
 
 ### Project Overview
-Details of the satellite architecture and launch deployment.
