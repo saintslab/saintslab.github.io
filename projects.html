@@ -51,6 +51,47 @@ permalink: /projects/
   </div>
 </section>
 
+<section class="section container">
+  <h2>Active Collaborative Projects</h2>
+  <p class="subtitle">An overview of ongoing projects where SAINTS Lab is collaborating with others.</p>
+
+  <div class="grid people-grid" style="grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));">
+    {% assign active_projects = site.projects | where: "status", "collab" %}
+    
+    {% assign sorted_active = active_projects | sort: "order" | reverse %}
+    
+    {% for project in sorted_active %}
+      <div class="card person-teaser" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+        
+        <div>
+          <a href="{{ project.url | relative_url }}" style="display: block; width: 100%;">
+            <div class="avatar">
+              {% if project.image %}
+                <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="object-fit: cover; border-radius: 0;">
+              {% else %}
+                <img class="placeholder-icon" src="/assets/img/saint-placeholder.svg" alt="Placeholder icon">
+              {% endif %}
+            </div>
+          </a>
+
+          <div class="card-body" style="padding-bottom: 0.5rem;">
+            <h3 style="margin-top: 0;"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            <p class="muted" style="font-size: 0.9rem; line-height: 1.4; margin-top: 0.25rem;">{{ project.description }}</p>
+          </div>
+        </div>
+
+        <div style="padding: 0 1.25rem 1.25rem 1.25rem; font-size: 0.85rem; display: flex; gap: 1rem; margin-top: auto;">
+          <a href="{{ project.url | relative_url }}" style="font-weight: 600;">Details &rarr;</a>
+          {% if project.website %}
+            <a href="{{ project.website }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600; color: var(--accent-color, #0366d6);">Website &#8599;</a>
+          {% endif %}
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
 
 <section class="section container">
   <h2>Project Archive</h2>
