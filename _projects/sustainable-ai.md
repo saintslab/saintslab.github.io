@@ -7,7 +7,7 @@ image: /assets/img/projects/sustainable-ai.png
 start_year: 2025
 end_year: ongoing
 website: https://raghavian.github.io/sustainable-ai/
-order: 4
+order: 2
 ---
 
 ### Abstract of the Book
