@@ -7,6 +7,11 @@ image: /assets/img/projects/sustainml.png
 start_year: 2021
 end_year: 2024
 website: https://sustainml.readthedocs.io/en/latest/
+order: 0
+funding_body: "Horizon Europe"
+funding_url: "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
+funding_logo: "/assets/img/funding/EU.jpg" # Path to your sponsor's logo file
+grant_number: "101070408"
 ---
 
 ### Project Overview
