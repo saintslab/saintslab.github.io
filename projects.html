@@ -33,10 +33,39 @@ permalink: /projects/
             </div>
           </a>
 
-          <div class="card-body" style="padding-bottom: 0.5rem;">
-            <h3 style="margin-top: 0;"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-            <p class="muted" style="font-size: 0.9rem; line-height: 1.4; margin-top: 0.25rem;">{{ project.description }}</p>
+         <div class="card-body" style="padding-bottom: 0.5rem; display: flex; flex-direction: column; justify-content: space-between; flex-grow: 1;">
+            <div>
+              <h3 style="margin-top: 0;"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+              <p class="muted" style="font-size: 0.9rem; line-height: 1.4; margin-top: 0.25rem; margin-bottom: 1rem;">{{ project.description }}</p>
+            </div>
+            
+            {% if project.funding_body %}
+              <div style="font-size: 0.8rem; margin-top: auto; display: flex; align-items: center; gap: 0.5rem; background: var(--bg-spaced, #f6f8fa); padding: 0.4rem 0.6rem; border: 1px solid var(--border-color, #e1e4e8); border-radius: 4px;">
+                
+                {% if project.funding_logo %}
+                  <div style="width: 24px; height: 24px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                    <img src="{{ project.funding_logo | relative_url }}" alt="{{ project.funding_body }} logo" style="max-width: 100%; max-height: 100%; object-fit: contain; margin: 0;">
+                  </div>
+                {% endif %}
+                
+                <div style="line-height: 1.3; color: var(--muted-color, #586069);">
+                  <span style="color: #6a737d; font-size: 0.75rem; display: block;">Supported by:</span>
+                  <strong>
+                    {% if project.funding_url %}
+                      <a href="{{ project.funding_url }}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">{{ project.funding_body }}</a>
+                    {% else %}
+                      {{ project.funding_body }}
+                    {% endif %}
+                  </strong>
+                  {% if project.grant_number %}
+                    <span style="display: block; font-size: 0.75rem; color: #6a737d; font-family: monospace;">Grant #{{ project.grant_number }}</span>
+                  {% endif %}
+                </div>
+
+              </div>
+            {% endif %}
           </div>
+
         </div>
 
         <div style="padding: 0 1.25rem 1.25rem 1.25rem; font-size: 0.85rem; display: flex; gap: 1rem; margin-top: auto;">
