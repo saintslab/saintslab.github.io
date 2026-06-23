@@ -8,6 +8,10 @@ start_year: 2019
 end_year: ongoing
 website: https://carbontracker.info/
 order: 1
+funding_body: "Horizon Europe"
+funding_url: "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
+funding_logo: "/assets/img/funding/EU.jpg" # Path to your sponsor's logo file
+grant_number: "101070284, 101070408, 101189771"
 ---
 
 ### Project Overview
