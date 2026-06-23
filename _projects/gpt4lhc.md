@@ -6,6 +6,7 @@ description: "GPT-style models for unsupervised event detection from particle ac
 image: /assets/img/projects/gpt4lhc.png
 start_year: 2024
 end_year: ongoing
+order: 1
 ---
 
 ### Project Overview

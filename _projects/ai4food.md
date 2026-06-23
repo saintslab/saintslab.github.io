@@ -6,6 +6,7 @@ description: "Sustainable Food Processing using Artificial Intelligence"
 image: /assets/img/projects/ai4food.png
 start_year: 2025
 end_year: ongoing
+order: 3
 ---
 
 ### Project Overview

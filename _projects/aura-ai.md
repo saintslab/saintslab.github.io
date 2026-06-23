@@ -6,6 +6,7 @@ description: "Acoustic Understanding from Recordings of Arctic marine mammals us
 image: /assets/img/projects/aura-ai.png
 start_year: 2024
 end_year: ongoing
+order: 2
 ---
 
 ### Project Overview
