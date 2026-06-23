@@ -4,28 +4,55 @@ layout: default
 
 <section class="section container">
   <div class="profile-layout" style="display: flex; flex-wrap: wrap; gap: 2.5rem; margin-top: 2rem;">
-    
+
     <aside class="profile-sidebar" style="flex: 1 1 280px; max-width: 320px;">
       <div class="card" style="overflow: hidden; width: 100%;">
         {% if page.image %}
           <div class="avatar" style="width: 100%; border-bottom: 1px solid var(--border-color, #e1e4e8);">
-            <img src="{{ page.image }}" alt="{{ page.title }}" style="width: 100%; height: auto; object-fit: cover; border-radius: 0;">
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width: 100%; height: auto; object-fit: cover; border-radius: 0;">
           </div>
         {% endif %}
         <div class="card-body" style="padding: 1.25rem;">
           <h2 style="font-size: 1.25rem; margin-top: 0; margin-bottom: 0.5rem;">{{ page.title }}</h2>
-          
+
           <p class="muted" style="font-size: 0.9rem; margin-bottom: 1rem;">
             <strong>Timeline:</strong><br>
             {{ page.start_year }} – {{ page.end_year }}
           </p>
 
-          <p class="muted" style="font-size: 0.9rem; margin-bottom: 0;">
+          <p class="muted" style="font-size: 0.9rem; margin-bottom: 1rem;">
             <strong>Status:</strong><br>
             <span class="status-tag" style="display: inline-block; padding: 0.2rem 0.5rem; background: var(--bg-spaced, #f6f8fa); border: 1px solid var(--border-color, #e1e4e8); border-radius: 4px; font-weight: 600; font-size: 0.8rem; text-transform: uppercase;">
               {{ page.status }}
             </span>
           </p>
+
+          {% if page.funding_body %}
+            <div class="muted" style="font-size: 0.9rem; margin-bottom: 1rem; border-top: 1px solid var(--border-color, #e1e4e8); padding-top: 1rem; margin-top: 1rem;">
+              <strong>Supported By:</strong>
+              
+              <div style="display: flex; gap: 0.75rem; align-items: center; margin-top: 0.5rem;">
+                {% if page.funding_logo %}
+                  <div style="width: 40px; height: 40px; background: #fff; border: 1px solid var(--border-color, #e1e4e8); border-radius: 4px; padding: 2px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <img src="{{ page.funding_logo | relative_url }}" alt="{{ page.funding_body }} logo" style="max-width: 100%; max-height: 100%; object-fit: contain; margin: 0;">
+                  </div>
+                {% endif %}
+                
+                <div style="line-height: 1.3;">
+                  {% if page.funding_url %}
+                    <a href="{{ page.funding_url }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600; display: block;">{{ page.funding_body }} &#8599;</a>
+                  {% else %}
+                    <span style="font-weight: 600; color: var(--text-main, #24292e); display: block;">{{ page.funding_body }}</span>
+                  {% endif %}
+                  
+                  {% if page.grant_number %}
+                    <span style="font-size: 0.75rem; color: #6a737d; font-family: monospace; display: block; margin-top: 0.15rem;">ID: {{ page.grant_number }}</span>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endif %}
+
           {% if page.website %}
             <p style="margin-bottom: 0; margin-top: 1.25rem;">
               <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer" class="btn" style="display: block; text-align: center; padding: 0.4rem; background: var(--btn-bg, #0366d6); color: #fff; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.9rem;">
@@ -35,7 +62,7 @@ layout: default
           {% endif %}
         </div>
       </div>
-      
+
       <p style="margin-top: 1.5rem; font-size: 0.9rem;">
         <a href="{{ '/projects/' | relative_url }}">&larr; Back to Projects</a>
       </p>
@@ -46,7 +73,7 @@ layout: default
       {% if page.description %}
         <p class="subtitle" style="font-size: 1.2rem; color: var(--muted-color, #586069); margin-bottom: 2rem;">{{ page.description }}</p>
       {% endif %}
-      
+
       <hr style="margin-bottom: 2rem;">
 
       <div class="markdown-body">
