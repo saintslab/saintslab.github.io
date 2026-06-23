@@ -15,5 +15,5 @@ The Large Hadron Collider (LHC) is among the most powerful instruments in physic
 
 ### Project Members
 - **Collaborators:** [Oleg Ruchayskiy](https://scholar.google.com/citations?user=BTyTFF0AAAAJ&hl=en)(PI), [Erik Dam](https://scholar.google.com/citations?user=WCP-mBEAAAAJ&hl=en&oi=ao) (PI)
-- Raghavendra Selvan (Co-PI) 
+- Raghavendra Selvan (Co-Applicant) 
 - Jean-Loup Tastet (Postdoc)

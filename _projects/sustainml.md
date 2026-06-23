@@ -5,7 +5,7 @@ status: completed
 description: "SustainML"
 image: /assets/img/projects/sustainml.png
 start_year: 2021
-end_year: 2014
+end_year: 2024
 website: https://sustainml.readthedocs.io/en/latest/
 ---
 
