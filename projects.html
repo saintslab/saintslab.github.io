@@ -101,6 +101,8 @@ permalink: /projects/
   <h2>Project Archive</h2>
   <div class="grid people-grid" style="grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));">
     {% assign active_projects = site.projects | where: "status", "completed" %}
+    {% assign sorted_active = active_projects | sort: "order" | reverse %}
+
     {% for project in active_projects %}
       
       <div class="card person-teaser" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
