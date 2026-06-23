@@ -26,27 +26,26 @@ layout: default
               {{ page.status }}
             </span>
           </p>
-
           {% if page.funding_body %}
             <div class="muted" style="font-size: 0.9rem; margin-bottom: 1rem; border-top: 1px solid var(--border-color, #e1e4e8); padding-top: 1rem; margin-top: 1rem;">
-              <strong>Supported By:</strong>
+              <strong style="display: block; margin-bottom: 0.75rem;">Supported By:</strong>
               
-              <div style="display: flex; gap: 0.75rem; align-items: center; margin-top: 0.5rem;">
+              <div style="display: flex; flex-direction: column; gap: 0.75rem;">
                 {% if page.funding_logo %}
-                  <div style="width: 40px; height: 40px; background: #fff; border: 1px solid var(--border-color, #e1e4e8); border-radius: 4px; padding: 2px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                    <img src="{{ page.funding_logo | relative_url }}" alt="{{ page.funding_body }} logo" style="max-width: 100%; max-height: 100%; object-fit: contain; margin: 0;">
+                  <div style="width: 100%; background: #fff; border: 1px solid var(--border-color, #e1e4e8); border-radius: 4px; padding: 6px; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">
+                    <img src="{{ page.funding_logo | relative_url }}" alt="{{ page.funding_body }} logo" style="width: 100%; max-height: 80px; object-fit: contain; margin: 0;">
                   </div>
                 {% endif %}
                 
-                <div style="line-height: 1.3;">
+                <div style="line-height: 1.4;">
                   {% if page.funding_url %}
-                    <a href="{{ page.funding_url }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600; display: block;">{{ page.funding_body }} &#8599;</a>
+                    <a href="{{ page.funding_url }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600; display: block; font-size: 0.95rem;">{{ page.funding_body }} &#8599;</a>
                   {% else %}
-                    <span style="font-weight: 600; color: var(--text-main, #24292e); display: block;">{{ page.funding_body }}</span>
+                    <span style="font-weight: 600; color: var(--text-main, #24292e); display: block; font-size: 0.95rem;">{{ page.funding_body }}</span>
                   {% endif %}
                   
                   {% if page.grant_number %}
-                    <span style="font-size: 0.75rem; color: #6a737d; font-family: monospace; display: block; margin-top: 0.15rem;">Grant #: {{ page.grant_number }}</span>
+                    <span style="font-size: 0.8rem; color: #6a737d; font-family: monospace; display: block; margin-top: 0.25rem;">Grant #{{ page.grant_number }}</span>
                   {% endif %}
                 </div>
               </div>
