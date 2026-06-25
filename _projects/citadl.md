@@ -7,6 +7,10 @@ image: /assets/img/projects/citadl.png
 start_year: 2027
 end_year: 
 order: 4
+funding_body: "Independent Research Fund Denmark (DFF)"
+funding_url: "https://dff.dk/en"
+funding_logo: "/assets/img/funding/dff-logo.png" # Path to your sponsor's logo file
+grant_number: # Specific Grant ID
 ---
 
 ### Project Overview
