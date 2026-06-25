@@ -19,4 +19,4 @@ Modern AI systems are powerful but can be extremely resource-intensive. Training
 
 ### Team Members
 - Raghavendra Selvan (PI)
-- Two PhDs to be hired in 2027-2028
+- Project is expected to begin in Spring 2027
