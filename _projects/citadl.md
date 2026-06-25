@@ -9,7 +9,7 @@ end_year:
 order: 4
 funding_body: "Independent Research Fund Denmark (DFF)"
 funding_url: "https://dff.dk/en"
-funding_logo: "/assets/img/funding/dff-logo.png" # Path to your sponsor's logo file
+funding_logo: "/assets/img/funding/sapere.png" # Path to your sponsor's logo file
 grant_number: # Specific Grant ID
 ---
 
