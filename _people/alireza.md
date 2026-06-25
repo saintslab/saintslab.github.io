@@ -9,8 +9,9 @@ scholar: https://scholar.google.com/citations?user=-CavHbAAAAAJ&hl=en&oi=ao
 website: https://www.simula.no/people/alireza
 github: 
 order: 3
-from: 2026
-to: 
+former: true
+from: 2026/04
+to: 2026/06
 visitor: true
 ---
 
