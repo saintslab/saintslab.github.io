@@ -201,15 +201,15 @@
     "venue": "ACM Conference on Fairness, Accountability, and Transparency. (FAccT)",
     "year": "2026",
     "date": "2026-01-01",
-    "link": "https://researchprofiles.ku.dk/files/532743281/wilson2026hyperdatafication.pdf",
+    "link": "https://dl.acm.org/doi/pdf/10.1145/3805689.3812393",
     "resources": [
       {
         "label": "link",
-        "url": "https://arxiv.org/abs/2602.00056"
+        "url": "https://dl.acm.org/doi/10.1145/3805689.3812393"
       },
       {
         "label": "pdf",
-        "url": "https://researchprofiles.ku.dk/files/532743281/wilson2026hyperdatafication.pdf"
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3805689.3812393"
       }
     ],
     "type": "from-projects",
