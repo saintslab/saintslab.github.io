@@ -6,7 +6,7 @@ description: "AI-driven trustworthy foundation Models for personalized and effec
 image: /assets/img/projects/aim.png
 start_year: 2026
 end_year: ongoing
-order: 4
+order: 5
 ---
 
 ### Project Overview
