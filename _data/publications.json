@@ -86,6 +86,22 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "The CO2ST of Agentic AI in Research",
+    "authors": [
+      "Nanna Inie",
+      "Jeanette Falk",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Nordic Conference on Human-Computer Interaction (NordCHI)",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": null,
+    "resources": [],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "Tackling Real-World Crystal Structure Prediction from Powder X-ray Diffraction Data",
     "authors": [
       "Frederik Lizak Johansen",
@@ -201,15 +217,15 @@
     "venue": "ACM Conference on Fairness, Accountability, and Transparency. (FAccT)",
     "year": "2026",
     "date": "2026-01-01",
-    "link": "https://researchprofiles.ku.dk/files/532743281/wilson2026hyperdatafication.pdf",
+    "link": "https://dl.acm.org/doi/pdf/10.1145/3805689.3812393",
     "resources": [
       {
         "label": "link",
-        "url": "https://arxiv.org/abs/2602.00056"
+        "url": "https://dl.acm.org/doi/10.1145/3805689.3812393"
       },
       {
         "label": "pdf",
-        "url": "https://researchprofiles.ku.dk/files/532743281/wilson2026hyperdatafication.pdf"
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3805689.3812393"
       }
     ],
     "type": "from-projects",
