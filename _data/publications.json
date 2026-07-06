@@ -86,6 +86,22 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "The CO2ST of Agentic AI in Research",
+    "authors": [
+      "Nanna Inie",
+      "Jeanette Falk",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Nordic Conference on Human-Computer Interaction (NordCHI)",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": null,
+    "resources": [],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "Tackling Real-World Crystal Structure Prediction from Powder X-ray Diffraction Data",
     "authors": [
       "Frederik Lizak Johansen",
