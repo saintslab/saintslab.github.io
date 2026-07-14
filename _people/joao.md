@@ -1,6 +1,6 @@
 ---
 name: João Henrique Campagnolo 
-role: Co-Supervised PhD Student
+role: Co-Supervised PhD Candidate
 pub_aliases:
   - João Henrique Campagnolo
 email: 

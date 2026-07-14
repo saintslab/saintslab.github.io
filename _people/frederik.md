@@ -1,6 +1,6 @@
 ---
 name: Frederik Lizak Johansen 
-role: PhD Student
+role: PhD Candidate
 pub_aliases:
   - Frederik Johansen
 email: frjo@di.ku.dk
