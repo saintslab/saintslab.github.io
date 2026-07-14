@@ -1,6 +1,6 @@
 ---
 name: Manuel Wegmann 
-role: Co-Supervised PhD Student
+role: Co-Supervised PhD Candidate
 pub_aliases:
   - Manuel Wegmann
 email: 

@@ -1,6 +1,6 @@
 ---
 name: Pedram Bakhtiarifard
-role: PhD Student
+role: PhD Candidate
 pub_aliases:
   - Pedram Bakh.
   - Bakhtiarifard, Pedram

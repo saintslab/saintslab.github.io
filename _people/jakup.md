@@ -1,6 +1,6 @@
 ---
 name: Jákup Odssonur Svøðstein
-role: Co-Supervised PhD Student
+role: Co-Supervised PhD Candidate
 pub_aliases:
   - Jákup Odssonur Svøðstein
   - Jákup Svøðstein
