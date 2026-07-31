@@ -8,8 +8,8 @@ website: https://di.ku.dk/english/staff/?pure=en/persons/608870
 photo: /assets/img/jean.jpg
 scholar: https://scholar.google.com/citations?hl=en&user=kQJbjnAAAAAJ&view_op=list_works&sortby=pubdate
 order: 3
-from: 2024
-to: 
-visitor: true
+from: 2024/08
+to: 2026/07
+former: true
 ---
 
