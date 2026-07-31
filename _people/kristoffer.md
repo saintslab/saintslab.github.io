@@ -1,6 +1,8 @@
 ---
 name: Kristoffer Stensbo-Smidt
 role: Postdoc
+pub_aliases:
+  - Kristoffer Stensbo-Smidt
 email: 
 photo: /assets/img/kristoffer.jpg
 scholar: https://scholar.google.com/citations?user=urhY48QAAAAJ&hl=en&oi=ao
