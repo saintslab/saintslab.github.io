@@ -117,7 +117,7 @@
     "resources": [
       {
         "label": "link",
-        "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000236/v2"
+        "url": "https://doi.org/10.1039/D6DD00088F"
       },
       {
         "label": "pdf",
@@ -198,6 +198,31 @@
       {
         "label": "pdf",
         "url": "https://arxiv.org/pdf/2502.20016"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
+    "title": "Physics Priors Offer Useful Accuracy-Carbon Trade-Offs in Spatio-Temporal Forecasting",
+    "authors": [
+      "Sophia N. Wilson",
+      "Jens Hesselbjerg Christensen",
+      "Raghavendra Selvan"
+    ],
+    "venue": "ECCV Workshop on Representation Learning with Very Limited Resources (LIMIT)",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://arxiv.org/pdf/2509.24517",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2509.24517"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2509.24517"
       }
     ],
     "type": "from-projects",
@@ -431,31 +456,6 @@
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
     "theme_label": "AI for Sciences"
-  },
-  {
-    "title": "Trading Carbon for Physics: On the Resource Efficiency of Machine Learning for Spatio-Temporal Forecasting",
-    "authors": [
-      "Sophia N. Wilson",
-      "Jens Hesselbjerg Christensen",
-      "Raghavendra Selvan"
-    ],
-    "venue": "Arxiv",
-    "year": "2025",
-    "date": "2025-01-01",
-    "link": "https://arxiv.org/pdf/2509.24517",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/abs/2509.24517"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2509.24517"
-      }
-    ],
-    "type": "from-projects",
-    "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
   },
   {
     "title": "Sustainable AI",
