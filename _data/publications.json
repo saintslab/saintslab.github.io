@@ -481,6 +481,36 @@
     "theme_label": "Sustainability of AI"
   },
   {
+    "title": "RegainedAI: Towards a Reference Architecture for Redefining Responsible AI in the Green Digital Transition",
+    "authors": [
+      "Dumitru Roman",
+      "Raghavendra Selvan",
+      "Arda Goknil",
+      "Hina Anwar",
+      "Nikolay Nikolov",
+      "Hasan Sozer",
+      "Ahmet Soylu",
+      "Tor Björn Minde"
+    ],
+    "venue": "Management of Digital EcoSystems. MEDES 2025",
+    "year": "2025",
+    "date": "2025-01-01",
+    "link": "https://doi.org/10.1007/978-3-032-36547-7_25",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://doi.org/10.1007/978-3-032-36547-7_25"
+      },
+      {
+        "label": "pdf",
+        "url": "https://doi.org/10.1007/978-3-032-36547-7_25"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI"
+  },
+  {
     "title": "PePR: Performance Per Resource Unit as a Metric to Promote Small-scale Deep Learning for Medical Image Analysis",
     "authors": [
       "Raghavendra Selvan",
