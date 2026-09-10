@@ -183,7 +183,7 @@
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
     "theme_label": "Sustainability of AI",
-    "projectname": null
+    "projectname": "glean"
   },
   {
     "title": "Position: Neglecting the Sustainability of AI is fuelling a Global AI Arms Race",
@@ -265,7 +265,7 @@
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
     "theme_label": "Sustainability of AI",
-    "projectname": null
+    "projectname": "glean"
   },
   {
     "title": "FairQuant: Fairness-Aware Mixed-Precision Quantization for Medical Image Classification",
@@ -318,7 +318,7 @@
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
     "theme_label": "Sustainability of AI",
-    "projectname": null
+    "projectname": "citadl"
   },
   {
     "title": "Algorithmic Simplification of Neural Networks with Mosaic-of-Motifs",
@@ -346,7 +346,7 @@
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
     "theme_label": "Sustainability of AI",
-    "projectname": null
+    "projectname": "citadl"
   },
   {
     "title": "A High-Throughput Cost-Effective Platform for Monitoring Viscoelastic Transitions in Hydrocolloids",
