@@ -78,6 +78,55 @@ layout: default
       <div class="markdown-body">
         {{ content }}
       </div>
+      
+      <!-- ================= DYNAMIC RELATED PUBLICATIONS ================= -->
+      {% if page.project_slug %}
+        {% assign all_pubs = site.data.publications %}
+        
+        {% assign project_pubs = "" | split: "" %}
+        {% for pub in all_pubs %}
+          {% if pub.projectname contains page.project_slug or pub.projectname == page.project_slug %}
+            {% assign project_pubs = project_pubs | push: pub %}
+          {% endif %}
+        {% endfor %}
+
+        {% if project_pubs.size > 0 %}
+          <div class="project-publications" style="margin-top: 3rem; border-top: 1px solid var(--border-color, #e1e4e8); padding-top: 1.5rem;">
+            <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Related Publications</h2>
+            <ol class="publications-list" style="padding-left: 1.25rem; margin-top: 1rem;">
+              {% for pub in project_pubs %}
+                <li style="margin-bottom: 1.25rem; line-height: 1.5;">
+                  <strong style="font-size: 1.05rem;">
+                    {% if pub.link %}
+                      <a href="{{ pub.link }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
+                    {% else %}
+                      {{ pub.title }}
+                    {% endif %}
+                  </strong>
+                  <br>
+                  <span style="font-size: 0.95rem; color: var(--muted-color, #586069);">
+                    {% if pub.authors %}
+                      {% for author in pub.authors %}
+                        {% if author contains "Raghavendra Selvan" %}
+                          <strong>Raghavendra Selvan</strong>
+                        {% else %}
+                          {{ author }}
+                        {% endif %}
+                        {% unless forloop.last %}, {% endunless %}
+                      {% endfor %}
+                    {% endif %}
+                  </span>
+                  <br>
+                  <span style="font-size: 0.9rem; font-style: italic; color: #444;">
+                    {{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}
+                  </span>
+                </li>
+              {% endfor %}
+            </ol>
+          </div>
+        {% endif %}
+      {% endif %}
+
     </article>
 
   </div>

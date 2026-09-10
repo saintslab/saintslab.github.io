@@ -98,7 +98,8 @@ def parse_pub_li(li, theme_key, theme_label):
         "resources": resources,
         "type": "from-projects",       # informational only
         "theme_key": theme_key,
-        "theme_label": theme_label
+        "theme_label": theme_label,
+        "projectname": post.get("projectname")
     }
 
 def main():
