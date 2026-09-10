@@ -1,0 +1,13 @@
+{%- comment -%}
+  author-list.html
+  Renders an author array as "A, B, C" with SAINTS Lab members wrapped in <strong>.
+
+  Params:
+    authors       - array of author-name strings
+    member_index  - the string produced by member-index.html
+{%- endcomment -%}
+{%- for author in include.authors -%}
+  {%- assign needle = author | strip | downcase | prepend: "|" | append: "|" -%}
+  {%- if include.member_index contains needle -%}<strong>{{ author }}</strong>{%- else -%}{{ author }}{%- endif -%}
+  {%- unless forloop.last -%}, {% endunless -%}
+{%- endfor -%}

@@ -1,0 +1,12 @@
+{%- comment -%}
+  member-index.html
+  Emits a pipe-delimited, lowercased index of every team member's name plus any
+  pub_aliases, e.g.  |raghavendra selvan (raghav)|raghavendra selvan|tong chen|...
+  Single source of truth for "who counts as a SAINTS Lab member" when rendering
+  author lists.
+
+  Usage in a layout/page:
+    {%- capture member_index -%}{%- include member-index.html -%}{%- endcapture -%}
+    {% include author-list.html authors=pub.authors member_index=member_index %}
+{%- endcomment -%}
+|{%- for person in site.people -%}{{ person.name | strip | downcase }}|{%- for a in person.pub_aliases -%}{{ a | strip | downcase }}|{%- endfor -%}{%- endfor -%}
