@@ -25,7 +25,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Sustainable AI in medicine: balancing benefits and environmental costs",
@@ -56,7 +57,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "An Empirical Study of the Influence of Adversarial Fine-Tuning on Compressed Neural Networks",
@@ -83,7 +85,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "The CO2ST of Agentic AI in Research",
@@ -99,7 +102,8 @@
     "resources": [],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Tackling Real-World Crystal Structure Prediction from Powder X-ray Diffraction Data",
@@ -126,7 +130,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Sustainability of large-scale artificial intelligence models in health care",
@@ -149,7 +154,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Position: Stop Preaching and Start Practising Data Frugality for Responsible Development of AI",
@@ -176,7 +182,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Position: Neglecting the Sustainability of AI is fuelling a Global AI Arms Race",
@@ -202,7 +209,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Physics Priors Offer Useful Accuracy-Carbon Trade-Offs in Spatio-Temporal Forecasting",
@@ -227,7 +235,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "How Hyper-Datafication Impacts the Sustainability Costs in Frontier AI",
@@ -255,7 +264,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "FairQuant: Fairness-Aware Mixed-Precision Quantization for Medical Image Classification",
@@ -279,7 +289,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Characterizing Learning in Deep Neural Networks using Tractable Algorithmic Complexity Analysis",
@@ -306,7 +317,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Algorithmic Simplification of Neural Networks with Mosaic-of-Motifs",
@@ -333,7 +345,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "A High-Throughput Cost-Effective Platform for Monitoring Viscoelastic Transitions in Hydrocolloids",
@@ -359,7 +372,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research",
@@ -384,7 +398,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Greening AI-enabled Systems with Software Engineering: A Research Agenda for Environmentally Sustainable AI Practices",
@@ -431,7 +446,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "UniPhyNet: A Unified Network For Multimodal Physiological Raw Signal Classification",
@@ -455,7 +471,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Sustainable AI",
@@ -478,7 +495,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "RegainedAI: Towards a Reference Architecture for Redefining Responsible AI in the Green Digital Transition",
@@ -508,7 +526,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "PePR: Performance Per Resource Unit as a Metric to Promote Small-scale Deep Learning for Medical Image Analysis",
@@ -535,7 +554,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Oscillations Make Neural Networks Robust to Quantization",
@@ -560,7 +580,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Is Adversarial Training with Compressed Datasets Effective?",
@@ -584,7 +605,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "How CO2STLY Is CHI? The Carbon Footprint of Generative AI in HCI Research and What We Should Do About It",
@@ -609,7 +631,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Efficiency is Not Enough: A Critical Perspective of Environmentally Sustainable AI",
@@ -635,7 +658,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Comparing the carbon footprint of fMRI data processing and analysis approaches",
@@ -662,7 +686,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "CoDeQ: End-to-End Joint Model Compression with Dead-Zone Quantizer for High-Sparsity and Low-Precision Networks",
@@ -688,7 +713,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "A Discrepancy-Based Perspective on Dataset Condensation",
@@ -712,7 +738,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Energy Consumption-Aware Tabular Benchmarks for Neural Architecture Search",
@@ -737,7 +764,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
@@ -765,7 +793,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "A GPU-Accelerated Open-Source Python Package for Calculating Powder Diffraction, Small-Angle-, and Total Scattering with the Debye Scattering Equation",
@@ -793,7 +822,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "When Can Memorization Improve Fairness?",
@@ -818,7 +848,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Stabilization of V1 interneuron-motor neuron connectivity ameliorates motor phenotype in a mouse model of ALS",
@@ -851,7 +882,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Spinal inhibitory neurons degenerate before motor neurons and excitatory neurons in a mouse model of ALS",
@@ -880,7 +912,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Measuring and reducing the carbon footprint of fMRI preprocessing in fMRIPrep",
@@ -907,7 +940,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "High-throughput classification of S. cerevisiae tetrads using deep learning",
@@ -932,7 +966,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "BMRS: Bayesian Model Reduction for Structured Pruning",
@@ -957,7 +992,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Activation Compression of Graph Neural Networks using Block-wise Quantization with Improved Variance Minimization",
@@ -981,7 +1017,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Operating critical machine learning models in resource constrained regimes",
@@ -1006,7 +1043,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Explicit Temporal Embedding in Deep Generative Latent Models for Longitudinal Medical Image Synthesis",
@@ -1033,7 +1071,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Predicting lake bathymetry from the topography of the surrounding terrain using deep learning",
@@ -1058,7 +1097,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "DeepStruc: Towards structure solution from pair distribution function data using deep generative models",
@@ -1086,7 +1126,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Ten recommendations for reducing the carbon footprint of research computing in human neuroimaging",
@@ -1116,7 +1157,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Pedunculopontine Chx10+ neurons control global motor arrest in mice",
@@ -1142,7 +1184,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Machine Learning for Analysis of Experimental Scattering and Spectroscopy Data in Materials Chemistry",
@@ -1168,7 +1211,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Efficient Self-Supervision using Patch-based Contrastive Learning for Histopathology Image Segmentation",
@@ -1192,7 +1236,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Interpreting Latent Spaces of Generative Models for Medical Images using Unsupervised Methods",
@@ -1217,7 +1262,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "QUBIQ: Uncertainty Quantification for Biomedical Image Segmentation Challenge",
@@ -1319,7 +1365,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Patch-based medical image segmentation using Matrix Product State Tensor Networks",
@@ -1345,7 +1392,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Identifying partial mouse brain microscopy images from Allen reference atlas using a contrastively learned semantic space",
@@ -1370,7 +1418,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Hybrid Ladder Transformers with Efficient Parallel-Cross Attention for Medical Image Segmentation",
@@ -1395,7 +1444,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Extracting Structural Motifs from Pair Distribution Function Data of Nanostructures using Explainable Machine Learning",
@@ -1428,7 +1478,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Carbon Footprint of Selecting and Training Deep Learning Models for Medical Image Analysis",
@@ -1455,7 +1506,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Automatic airway segmentation from Computed Tomography using robust and efficient 3-D convolutional neural networks",
@@ -1482,7 +1534,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Developing and validating COVID-19 adverse outcome risk prediction models from a bi-national European cohort of 5594 patients",
@@ -1539,7 +1592,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Segmenting two-dimensional structures with strided tensor networks",
@@ -1564,7 +1618,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Locomotor deficits in a mouse model of ALS are paralleled by loss of V1-interneuron connections onto fast motor neurons",
@@ -1591,7 +1646,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Locally orderless tensor networks for classifying two- and three-dimensional medical images",
@@ -1616,7 +1672,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Dynamic β-VAEs for quantifying biodiversity by clustering optically recorded insect signals",
@@ -1640,7 +1697,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Detection of foraging behavior from accelerometer data using U-Net type convolutional networks",
@@ -1667,7 +1725,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Deep ensemble model for segmenting microscopy images in the presence of limited labeled data",
@@ -1694,7 +1753,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Carbon footprint driven deep learning model selection for medical imaging",
@@ -1717,7 +1777,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Multi-layered tensor networks for image classification",
@@ -1742,7 +1803,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Graph Refinement based Airway Extraction using Mean-Field Networks and Graph Neural Networks",
@@ -1771,7 +1833,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Uncertainty quantification in medical image segmentation with Normalizing Flows",
@@ -1797,7 +1860,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Tensor Networks for Medical Image Classification",
@@ -1821,7 +1885,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Lung Segmentation from Chest X-rays using Variational Data Imputation",
@@ -1850,7 +1915,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Characterising the Atomic Structure of Mono-Metallic Nanoparticles from X-Ray Scattering Data Using Conditional Generative Models",
@@ -1878,7 +1944,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models",
@@ -1903,7 +1970,8 @@
     ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI"
+    "theme_label": "Sustainability of AI",
+    "projectname": "projectname"
   },
   {
     "title": "Increasing Accuracy of Optimal Surfaces Using Min-Marginal Energies",
@@ -1929,7 +1997,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Extracting tree-structures in CT data by tracking multiple statistically ranked hypotheses",
@@ -1951,7 +2020,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "A joint 3D UNet-Graph Neural Network-based method for Airway Segmentation from chest CTs",
@@ -1973,7 +2043,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Segmentation of roots in soil with U-Net",
@@ -1995,7 +2066,8 @@
     ],
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
-    "theme_label": "AI for Sciences"
+    "theme_label": "AI for Sciences",
+    "projectname": "projectname"
   },
   {
     "title": "Mean field network based graph refinement with application to airway tree extraction",
@@ -2018,7 +2090,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Extraction of Airways using Graph Neural Networks",
@@ -2042,7 +2115,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Extraction of Airways from Volumetric Data",
@@ -2065,7 +2139,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Extraction of airways with probabilistic state-space models and Bayesian smoothing",
@@ -2087,7 +2162,8 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   },
   {
     "title": "Extraction of airway trees using multiple hypothesis tracking and template matching",
@@ -2109,6 +2185,7 @@
     ],
     "type": "from-projects",
     "theme_key": "bio-medical-image-analysis",
-    "theme_label": "Bio-Medical Image Analysis"
+    "theme_label": "Bio-Medical Image Analysis",
+    "projectname": "projectname"
   }
 ]
