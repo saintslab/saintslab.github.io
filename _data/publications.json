@@ -26,7 +26,7 @@
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
     "theme_label": "AI for Sciences",
-    "projectname": null
+    "projectname": "aichemy"
   },
   {
     "title": "Sustainable AI in medicine: balancing benefits and environmental costs",
@@ -131,7 +131,7 @@
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
     "theme_label": "AI for Sciences",
-    "projectname": null
+    "projectname": "aichemy"
   },
   {
     "title": "Sustainability of large-scale artificial intelligence models in health care",
@@ -794,7 +794,7 @@
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
     "theme_label": "AI for Sciences",
-    "projectname": null
+    "projectname": "aichemy"
   },
   {
     "title": "A GPU-Accelerated Open-Source Python Package for Calculating Powder Diffraction, Small-Angle-, and Total Scattering with the Debye Scattering Equation",
@@ -823,7 +823,7 @@
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
     "theme_label": "AI for Sciences",
-    "projectname": null
+    "projectname": "aichemy"
   },
   {
     "title": "When Can Memorization Improve Fairness?",
@@ -1127,7 +1127,7 @@
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
     "theme_label": "AI for Sciences",
-    "projectname": null
+    "projectname": "aichemy"
   },
   {
     "title": "Ten recommendations for reducing the carbon footprint of research computing in human neuroimaging",
@@ -1945,7 +1945,7 @@
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
     "theme_label": "AI for Sciences",
-    "projectname": null
+    "projectname": "aichemy"
   },
   {
     "title": "Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models",
