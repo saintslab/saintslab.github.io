@@ -23,6 +23,3 @@ You can read more about the project and the grant [here](https://dff.dk/en/our-f
 ### Team Members
 - Raghavendra Selvan (PI)
 - Project is expected to begin in Spring 2027
-
-### Publications
-

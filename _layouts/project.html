@@ -82,7 +82,9 @@ layout: default
       <!-- ================= DYNAMIC RELATED PUBLICATIONS ================= -->
       {% if page.project_slug %}
         {% assign all_pubs = site.data.publications %}
-        
+
+        {%- capture member_index -%}|{%- for person in site.people -%}{{ person.name | strip | downcase }}|{%- for a in person.pub_aliases -%}{{ a | strip | downcase }}|{%- endfor -%}{%- endfor -%}{%- endcapture -%}
+
         {% assign project_pubs = "" | split: "" %}
         {% for pub in all_pubs %}
           {% if pub.projectname contains page.project_slug or pub.projectname == page.project_slug %}
@@ -92,7 +94,7 @@ layout: default
 
         {% if project_pubs.size > 0 %}
           <div class="project-publications" style="margin-top: 3rem; border-top: 1px solid var(--border-color, #e1e4e8); padding-top: 1.5rem;">
-            <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Publications</h2>
+            <h3>Related Publications</h3>
             <ol class="publications-list" style="padding-left: 1.25rem; margin-top: 1rem;">
               {% for pub in project_pubs %}
                 <li style="margin-bottom: 1.25rem; line-height: 1.5;">
@@ -107,8 +109,9 @@ layout: default
                   <span style="font-size: 0.95rem; color: var(--muted-color, #586069);">
                     {% if pub.authors %}
                       {% for author in pub.authors %}
-                        {% if author contains "Raghavendra Selvan" %}
-                          <strong>Raghavendra Selvan</strong>
+                        {% assign author_needle = author | strip | downcase | prepend: "|" | append: "|" %}
+                        {% if member_index contains author_needle %}
+                          <strong>{{ author }}</strong>
                         {% else %}
                           {{ author }}
                         {% endif %}

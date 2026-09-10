@@ -1,5 +1,7 @@
 ---
 name: Raghavendra Selvan (Raghav)
+pub_aliases:
+  - Raghavendra Selvan
 role: Principal Investigator
 email: raghav@di.ku.dk
 photo: /assets/img/raghav.jpg
