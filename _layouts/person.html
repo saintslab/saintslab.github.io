@@ -51,7 +51,8 @@ layout: default
   {%- comment -%} Sort newest → oldest; we’ll de-dup on the fly while rendering {%- endcomment -%}
   {% assign candidates = candidates | sort: "date" | reverse %}
 
-  {%- capture member_index -%}{%- include member-index.html -%}{%- endcapture -%}
+  {%- comment -%} On a profile, bold only this person in the author lists, not every lab member {%- endcomment -%}
+  {%- capture member_index -%}|{%- for a in aliases -%}{{ a | strip | downcase }}|{%- endfor -%}{%- endcapture -%}
   {%- assign seen = "" -%}
   <div class="pub-list">
     {% for p in candidates %}
