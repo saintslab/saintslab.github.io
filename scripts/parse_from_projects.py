@@ -41,6 +41,18 @@ def guess_iso_date(text, year):
     return f"{year}-{month}-{day}"
 
 def parse_pub_li(li, theme_key, theme_label):
+
+
+    raw_projectname = li.get("data-projectname", "")
+    
+    # Parse into a list if comma-separated, or keep as string/None
+    if raw_projectname:
+        if "," in raw_projectname:
+            projectname = [p.strip() for p in raw_projectname.split(",") if p.strip()]
+        else:
+            projectname = raw_projectname.strip()
+    else:
+        projectname = None
     raw = normspace(" ".join(li.stripped_strings))
 
     # collect resource links
@@ -99,7 +111,7 @@ def parse_pub_li(li, theme_key, theme_label):
         "type": "from-projects",       # informational only
         "theme_key": theme_key,
         "theme_label": theme_label,
-        "projectname": "projectname"
+        "projectname": projectname
     }
 
 def main():
