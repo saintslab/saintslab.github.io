@@ -58,6 +58,7 @@ permalink: /publications/
 </section>
 
 <section class="section container">
+  {%- capture member_index -%}{%- include member-index.html -%}{%- endcapture -%}
   {% assign theme_order = site.data.project_themes.order %}
   {% assign labels = site.data.project_themes.labels %}
   {% for key in theme_order %}
@@ -92,11 +93,7 @@ permalink: /publications/
             <h3 class="pub-title">
               {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
             </h3>
-            {% if p.authors_html %}
-              <p class="pub-authors">{{ p.authors_html | strip_newlines }}</p>
-            {% else %}
-              <p class="pub-authors">{{ p.authors | join: ', ' }}</p>
-            {% endif %}
+            <p class="pub-authors">{% include author-list.html authors=p.authors member_index=member_index %}</p>
             <p class="pub-venue">{{ p.venue }}{% if p.venue and p.year %}, {% endif %}{{ p.year }}</p>
             {% if p.resources %}
               <div class="pub-links">
@@ -124,11 +121,7 @@ permalink: /publications/
           <h3 class="pub-title">
             {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
           </h3>
-          {% if p.authors_html %}
-            <p class="pub-authors">{{ p.authors_html | strip_newlines }}</p>
-          {% else %}
-            <p class="pub-authors">{{ p.authors | join: ', ' }}</p>
-          {% endif %}
+          <p class="pub-authors">{% include author-list.html authors=p.authors member_index=member_index %}</p>
           <p class="pub-venue">{{ p.venue }}{% if p.venue and p.year %}, {% endif %}{{ p.year }}</p>
           {% if p.resources %}
             <div class="pub-links">

@@ -51,6 +51,7 @@ layout: default
   {%- comment -%} Sort newest → oldest; we’ll de-dup on the fly while rendering {%- endcomment -%}
   {% assign candidates = candidates | sort: "date" | reverse %}
 
+  {%- capture member_index -%}{%- include member-index.html -%}{%- endcapture -%}
   {%- assign seen = "" -%}
   <div class="pub-list">
     {% for p in candidates %}
@@ -65,11 +66,7 @@ layout: default
           <h3 class="pub-title">
             {% if p.link %}<a class="pub-link" href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
           </h3>
-          {% if p.authors_html %}
-            <p class="pub-authors">{{ p.authors_html | strip_newlines }}</p>
-          {% else %}
-            <p class="pub-authors">{{ p.authors | join: ', ' }}</p>
-          {% endif %}
+          <p class="pub-authors">{% include author-list.html authors=p.authors member_index=member_index %}</p>
           <p class="pub-venue">{{ p.venue }}{% if p.venue and p.year %}, {% endif %}{{ p.year }}</p>
           {% if p.resources %}
             <div class="pub-links">

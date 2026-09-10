@@ -83,7 +83,7 @@ layout: default
       {% if page.project_slug %}
         {% assign all_pubs = site.data.publications %}
 
-        {%- capture member_index -%}|{%- for person in site.people -%}{{ person.name | strip | downcase }}|{%- for a in person.pub_aliases -%}{{ a | strip | downcase }}|{%- endfor -%}{%- endfor -%}{%- endcapture -%}
+        {%- capture member_index -%}{%- include member-index.html -%}{%- endcapture -%}
 
         {% assign project_pubs = "" | split: "" %}
         {% for pub in all_pubs %}
@@ -107,17 +107,7 @@ layout: default
                   </strong>
                   <br>
                   <span style="font-size: 0.95rem; color: var(--muted-color, #586069);">
-                    {% if pub.authors %}
-                      {% for author in pub.authors %}
-                        {% assign author_needle = author | strip | downcase | prepend: "|" | append: "|" %}
-                        {% if member_index contains author_needle %}
-                          <strong>{{ author }}</strong>
-                        {% else %}
-                          {{ author }}
-                        {% endif %}
-                        {% unless forloop.last %}, {% endunless %}
-                      {% endfor %}
-                    {% endif %}
+                    {% if pub.authors %}{% include author-list.html authors=pub.authors member_index=member_index %}{% endif %}
                   </span>
                   <br>
                   <span style="font-size: 0.9rem; font-style: italic; color: #444;">
