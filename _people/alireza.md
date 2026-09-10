@@ -1,6 +1,6 @@
 ---
 name: Alireza Nik 
-role: Visiting PhD Student
+role: Visiting PhD Candidate
 pub_aliases:
   - Alirezah Nik
 email: 

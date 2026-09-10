@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: sustainml
 title: "SustainML"
 status: completed
 description: "SustainML"

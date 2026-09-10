@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: scheduling
 title: "Green Scheduling"
 status: collab
 description: "Carbon footprint aware scheduling of compute jobs using advanced reinforcement learning algorithms."

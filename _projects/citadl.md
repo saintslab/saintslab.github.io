@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: citadl
 title: "CITADL"
 status: active
 description: "Complexity Informed Theory for Accelerated Deep Learning"
@@ -22,3 +23,6 @@ You can read more about the project and the grant [here](https://dff.dk/en/our-f
 ### Team Members
 - Raghavendra Selvan (PI)
 - Project is expected to begin in Spring 2027
+
+### Publications
+

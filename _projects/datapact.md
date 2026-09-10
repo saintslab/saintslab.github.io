@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: datapact
 title: "DataPACT"
 status: active
 description: "DataPACT envisions a future where compliance, ethics, and environmental sustainability are integral to data and AI operations."

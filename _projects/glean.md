@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: glean
 title: "GLEAN"
 status: active
 description: "Green Lean Data in the Era of Frontier AI"

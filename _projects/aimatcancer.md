@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: aimatcancer
 title: "Aim@Cancer"
 status: collab
 description: "AI-driven trustworthy foundation Models for personalized and effective CANCER radiotherapy"

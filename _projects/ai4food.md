@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: ai4food
 title: "AI4NaturalFood"
 status: collab
 description: "Sustainable Food Processing using Artificial Intelligence"

@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: sustainable-ai
 title: "Sustainable AI"
 status: active
 description: "Methods and tools for improving the overall sustainability of frontier AI methods."

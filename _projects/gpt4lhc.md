@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: gpt4lhc
 title: "GPT4LHC"
 status: collab
 description: "GPT-style models for unsupervised event detection from particle accelerators."

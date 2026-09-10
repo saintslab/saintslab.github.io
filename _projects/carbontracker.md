@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: carbontracker
 title: "Carbontracker"
 status: active
 description: "Seamlessly measure the carbon footprint of your machine learning models."

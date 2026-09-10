@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: aura-ai
 title: "AURA-AI"
 status: collab
 description: "Acoustic Understanding from Recordings of Arctic marine mammals using Artificial Intelligence"

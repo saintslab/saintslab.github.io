@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: aichemy
 title: "AIChemy"
 status: completed
 description: "Generative Machine Learning for Characterising Atomic Structure of Nanomaterials"

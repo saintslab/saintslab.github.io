@@ -1,5 +1,6 @@
 ---
 layout: project
+project_slug: emd
 title: "EnrichMyData"
 status: completed
 description: "Delivers an open software toolbox comprising practical, robust and scalable components to support organizations in enriching their data"
