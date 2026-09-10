@@ -32,6 +32,12 @@ body{
   line-height: 1.6;
 }
 
+/* Default links use the theme accent (matches the heading blue) instead of the browser blue.
+   Class-based rules below (.menu a, .links a, .toc-item, .chip, .brand, …) are more
+   specific and keep their own colors. */
+a{color:var(--accentA)}
+a:hover{color:var(--accentB)}
+
 .container{max-width:1100px;margin:0 auto;padding:0 20px}
 .site-header{
   position: sticky; top:0; z-index: 1000;
