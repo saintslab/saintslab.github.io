@@ -376,6 +376,31 @@
     "projectname": null
   },
   {
+    "title": "A Discrepancy-Based Perspective on Dataset Condensation",
+    "authors": [
+      "Tong Chen",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Transactions on Machine Learning Research (TMLR)",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://arxiv.org/pdf/2509.10367",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2509.10367"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2509.10367"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI",
+    "projectname": null
+  },
+  {
     "title": "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research",
     "authors": [
       "Nanna Inie",
@@ -709,31 +734,6 @@
       {
         "label": "pdf",
         "url": "https://arxiv.org/pdf/2512.12981"
-      }
-    ],
-    "type": "from-projects",
-    "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI",
-    "projectname": null
-  },
-  {
-    "title": "A Discrepancy-Based Perspective on Dataset Condensation",
-    "authors": [
-      "Tong Chen",
-      "Raghavendra Selvan"
-    ],
-    "venue": "Arxiv",
-    "year": "2025",
-    "date": "2025-01-01",
-    "link": "https://arxiv.org/pdf/2509.10367",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/abs/2509.10367"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2509.10367"
       }
     ],
     "type": "from-projects",
