@@ -29,6 +29,32 @@
     "projectname": "aichemy"
   },
   {
+    "title": "ToSCA: Total Scattering Conditioned Variational Autoencoder for Atomic Structure Prediction from Pair Distribution Function Data",
+    "authors": [
+      "Ulrik Friis-Jensen",
+      "Frederik Lizak Johansen",
+      "Erik Bjørnager Dam Raghavendra Selvan Kirsten Marie Ørnsbjerg Jensen"
+    ],
+    "venue": "Arxiv",
+    "year": "2026",
+    "date": "2026-03-01",
+    "link": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15009767",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15009767"
+      },
+      {
+        "label": "pdf",
+        "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15009767"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "ai-for-sciences",
+    "theme_label": "AI for Sciences",
+    "projectname": "aichemy"
+  },
+  {
     "title": "Sustainable AI in medicine: balancing benefits and environmental costs",
     "authors": [
       "Nikolas E. J. Schmitz",
@@ -98,8 +124,13 @@
     "venue": "Nordic Conference on Human-Computer Interaction (NordCHI)",
     "year": "2026",
     "date": "2026-01-01",
-    "link": null,
-    "resources": [],
+    "link": "https://dl.acm.org/doi/full/10.1145/3821402.3830115",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://dl.acm.org/doi/full/10.1145/3821402.3830115"
+      }
+    ],
     "type": "from-projects",
     "theme_key": "sustainability-of-ai",
     "theme_label": "Sustainability of AI",
@@ -301,7 +332,7 @@
       "Jonathan Wenshøj",
       "Raghavendra Selvan"
     ],
-    "venue": "Preprint",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
     "year": "2026",
     "date": "2026-01-01",
     "link": "https://arxiv.org/pdf/2605.15551",
@@ -373,6 +404,31 @@
     "type": "from-projects",
     "theme_key": "ai-for-sciences",
     "theme_label": "AI for Sciences",
+    "projectname": null
+  },
+  {
+    "title": "A Discrepancy-Based Perspective on Dataset Condensation",
+    "authors": [
+      "Tong Chen",
+      "Raghavendra Selvan"
+    ],
+    "venue": "Transactions on Machine Learning Research (TMLR)",
+    "year": "2026",
+    "date": "2026-01-01",
+    "link": "https://arxiv.org/pdf/2509.10367",
+    "resources": [
+      {
+        "label": "link",
+        "url": "https://arxiv.org/abs/2509.10367"
+      },
+      {
+        "label": "pdf",
+        "url": "https://arxiv.org/pdf/2509.10367"
+      }
+    ],
+    "type": "from-projects",
+    "theme_key": "sustainability-of-ai",
+    "theme_label": "Sustainability of AI",
     "projectname": null
   },
   {
@@ -709,31 +765,6 @@
       {
         "label": "pdf",
         "url": "https://arxiv.org/pdf/2512.12981"
-      }
-    ],
-    "type": "from-projects",
-    "theme_key": "sustainability-of-ai",
-    "theme_label": "Sustainability of AI",
-    "projectname": null
-  },
-  {
-    "title": "A Discrepancy-Based Perspective on Dataset Condensation",
-    "authors": [
-      "Tong Chen",
-      "Raghavendra Selvan"
-    ],
-    "venue": "Arxiv",
-    "year": "2025",
-    "date": "2025-01-01",
-    "link": "https://arxiv.org/pdf/2509.10367",
-    "resources": [
-      {
-        "label": "link",
-        "url": "https://arxiv.org/abs/2509.10367"
-      },
-      {
-        "label": "pdf",
-        "url": "https://arxiv.org/pdf/2509.10367"
       }
     ],
     "type": "from-projects",
