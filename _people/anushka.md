@@ -6,7 +6,7 @@ pub_aliases:
 email: 
 photo: /assets/img/anushka.jpg
 scholar: 
-website: 
+website: https://liu.se/en/employee/anuku23
 github: https://github.com/anushkahk/
 order: 1
 from: 2026
