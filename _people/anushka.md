@@ -14,3 +14,4 @@ to:
 visitor: true
 ---
 
+Anushka Kulkarni is enrolled at Linkoping University, supervised by Sebastian Mair and Raghavendra Selvan. Her project will be about sustainable machine learning.
