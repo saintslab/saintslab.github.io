@@ -14,4 +14,4 @@ to:
 visitor: true
 ---
 
-Anushka Kulkarni is enrolled at Linköping University, supervised by Sebastian Mair and Raghavendra Selvan. Her project will be about sustainable machine learning.
+Anushka Kulkarni is enrolled at Linköping University, supervised by Sebastian Mair and co-supervised by Raghavendra Selvan. Her project will be about sustainable machine learning.
