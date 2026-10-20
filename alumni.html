@@ -38,11 +38,6 @@ permalink: /alumni/
           {% endif %}
           {% if years != "" %}<p class="muted">{{ years }}</p>{% endif %}
           {% if person.placement %}<p class="muted">Now: {{ person.placement }}</p>{% endif %}
-          {% assign raw = person.blurb | default: person.content %}
-          {% assign teaser = raw | markdownify | strip_html | replace: '&nbsp;', ' ' | strip %}
-          {% if teaser != "" %}
-            <p class="teaser">{{ teaser | truncatewords: 22 }}</p>
-          {% endif %}
         </div>
       </a>
     {% endfor %}

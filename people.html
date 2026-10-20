@@ -25,8 +25,6 @@ permalink: /people/
         <div class="card-body">
           <h3>{{ person.name }}</h3>
           {% if person.role %}<p class="muted">{{ person.role }}</p>{% endif %}
-          {% assign raw = person.blurb | default: person.content %}
-          {% assign teaser = raw | markdownify | strip_html | replace: '&nbsp;', ' ' | strip %}
         </div>
       </a>
     {% endunless %}
@@ -64,11 +62,6 @@ permalink: /people/
           {% endif %}
           {% if years != "" %}<p class="muted">{{ years }}</p>{% endif %}
           {% if person.placement %}<p class="muted">Now: {{ person.placement }}</p>{% endif %}
-          {% assign raw = person.blurb | default: person.content %}
-          {% assign teaser = raw | markdownify | strip_html | replace: '&nbsp;', ' ' | strip %}
-          {% if teaser != "" %}
-            <p class="teaser">{{ teaser | truncatewords: 22 }}</p>
-          {% endif %}
         </div>
       </a>
     {% endfor %}
