@@ -5,7 +5,7 @@ This is a lightweight Jekyll site for **SAINTS Lab**. It is static, fast, and ea
 ## Deploy
 1. Create a GitHub repository named `saintslab.github.io` under your `saintslab` account or org.
 2. Upload these files to the repo root and push to the `main` branch.
-3. GitHub Pages will publish automatically at https://saintslab.github.io.
+3. GitHub Pages will publish automatically at https://saintslab.org (custom domain set via the `CNAME` file).
 
 ## Content
 - Add, edit, or remove people under `_people/`. The filename becomes the URL slug.

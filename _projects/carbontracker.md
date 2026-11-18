@@ -21,4 +21,4 @@ Carbontracker tracks hardware power consumption and local energy carbon intensit
 
 ### Team Members
 - Raghavendra Selvan (PI)
-- [Mikkel Dahl](https://saintslab.github.io/people/mikkel/) (Current Maintainer)
+- [Mikkel Dahl](https://saintslab.org/people/mikkel/) (Current Maintainer)

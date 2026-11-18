@@ -20,5 +20,5 @@ Improving the data efficiency and overall sustainability of data in frontier AI.
 
 ### Team Members
 - Raghavendra Selvan (PI)
-- [Sophia N. Wilson](https://saintslab.github.io/people/sophia/) (PhD Candidate)
+- [Sophia N. Wilson](https://saintslab.org/people/sophia/) (PhD Candidate)
 

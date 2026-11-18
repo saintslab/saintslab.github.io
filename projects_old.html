@@ -1,0 +1,29 @@
+---
+layout: default
+title: Projects
+description: Research projects from SAINTS Lab
+permalink: /projects/
+---
+<section class="page-hero">
+  <div class="container">
+    <h1 class="gradient-text">Projects</h1>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="grid project-grid">
+    {% for proj in site.data.projects %}
+      <div class="card project">
+        <div class="card-body">
+          <h3>{% if proj.link %}<a href="{{ proj.link }}" target="_blank" rel="noopener">{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %}</h3>
+          <p class="muted">{{ proj.summary }}</p>
+        </div>
+        {% if proj.tags %}
+        <div class="tags">
+          {% for t in proj.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
