@@ -538,15 +538,15 @@
     "venue": "Book",
     "year": "2025",
     "date": "2025-01-01",
-    "link": "https://raghavian.github.io/sustainable-ai/",
+    "link": "https://raghavian.saintslab.org/sustainable-ai/",
     "resources": [
       {
         "label": "link",
-        "url": "https://raghavian.github.io/sustainable-ai/"
+        "url": "https://raghavian.saintslab.org/sustainable-ai/"
       },
       {
         "label": "pdf",
-        "url": "https://raghavian.github.io/sustainable-ai/"
+        "url": "https://raghavian.saintslab.org/sustainable-ai/"
       }
     ],
     "type": "from-projects",
