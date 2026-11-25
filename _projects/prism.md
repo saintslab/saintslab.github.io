@@ -3,7 +3,7 @@ layout: project
 project_slug: prism
 title: "PRISM"
 status: active
-description: "From "Can we deploy AI?" to "Should we, under which conditions, and at what cost to planet and people?""
+description: 'From "Can we deploy AI?" to "Should we, under which conditions, and at what cost to planet and people?"'
 image: /assets/img/projects/prism.png
 start_year: 2026
 end_year: ongoing
