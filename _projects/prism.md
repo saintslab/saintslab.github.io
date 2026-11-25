@@ -12,7 +12,7 @@ order: 2
 funding_body: "Erasmus+"
 funding_url: 
 funding_logo: "/assets/img/funding/EU.jpg" # Path to your sponsor's logo file
-grant_number: ""
+grant_number: "2026-1-DE01-KA220-HED-000464612"
 ---
 
 ### Project Overview
